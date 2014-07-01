@@ -12,6 +12,8 @@
 #content {
     position: relative;
     padding: 0 0 0 11em;
+    font-family: verdana;
+    color: #40494d;
 }
 
 ul {
@@ -29,4 +31,9 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+p {
+    margin: .4em 0 .5em 0;
+    line-height: 1.5em;
 }
