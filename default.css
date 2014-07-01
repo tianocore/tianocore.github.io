@@ -1,17 +1,23 @@
 
+#mainbody {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+}
+
 #sidebar {
-    position: absolute;
+    float: left;
     z-index: 1;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 2em 0.5em 0 0.5em;
-    width: 11em;
+    width: 9em;
 }
 
 #content {
-    position: relative;
-    padding: 0 0 0 11em;
+    float: left;
+    padding-top: 1em;
     font-family: verdana;
     color: #40494d;
     max-width: 60em;
