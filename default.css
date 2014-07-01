@@ -21,3 +21,12 @@ ul {
     padding: 0 0 0 0;
     margin: 0.3em 0 0 1.5em;
 }
+
+a {
+    color: #4048c0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
