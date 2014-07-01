@@ -2,7 +2,7 @@
 #mainbody {
     margin-left: auto;
     margin-right: auto;
-    width: 70em;
+    width: 60em;
 }
 
 #sidebar {
@@ -20,7 +20,7 @@
     padding-top: 1em;
     font-family: verdana;
     color: #40494d;
-    max-width: 60em;
+    max-width: 50em;
 }
 
 ul {
