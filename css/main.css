@@ -1,4 +1,3 @@
-
 #mainbody {
     margin-left: auto;
     margin-right: auto;
@@ -63,3 +62,7 @@ h3 {
     font-size: 90%
 }
 
+/* TODO: Consider css for
+ *
+ * .posts .site .header .title .meta .footer .contact .rss .post
+ */
