@@ -1,7 +1,16 @@
 #mainbody {
     margin-left: auto;
     margin-right: auto;
-    width: 60em;
+    width: 50em;
+}
+
+#topbar {
+    float: left;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50em;
 }
 
 #sidebar {
@@ -47,7 +56,9 @@ p {
 h1 {
     color: #1c72b4;
     font-weight: bold;
-    font-size: 110%
+    font-size: 110%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
