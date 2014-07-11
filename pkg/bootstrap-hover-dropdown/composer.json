@@ -1,0 +1,32 @@
+{
+  "name": "cwspear/bootstrap-hover-dropdown",
+  "version": "2.0.10",
+  "type": "component",
+  "description": "An unofficial Bootstrap plugin to enable Bootstrap dropdowns to activate on hover and provide a nice user experience.",
+  "keywords": [
+    "twitter",
+    "bootstrap",
+    "hover",
+    "dropdowns"
+  ],
+  "license": "MIT",
+  "authors": [{
+    "name": "Cameron Spear",
+    "email": "cam@cameronspear.com",
+    "homepage": "http://cameronspear.com",
+    "role": "Developer"
+  }],
+  "require": {
+    "components/jquery": "dev-master",
+    "components/bootstrap": "dev-master"
+  },
+  "extra": {
+    "component": {
+      "name": "bootstrap-hover-dropdown",
+      "files": [
+        "bootstrap-hover-dropdown.js"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
