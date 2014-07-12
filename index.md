@@ -3,7 +3,7 @@ layout: default
 title: Welcome
 ---
 
-[<img src="images/IntroducingUDK2014.png"/>](https://github.com/tianocore/tianocore.github.io/wiki/UDK2014)
+[<img src="images/IntroducingUDK2014.png"/>](udk2014.html)
 
 <br/>
 
@@ -32,7 +32,7 @@ page.
 ### March 20, 2014
 
 Announcing the new UDK2014 Release. Goto the
-[UDK2014](https://github.com/tianocore/tianocore.github.io/wiki/UDK2014)
+[UDK2014](udk2014.html)
 page to download the release and documentation.  The UDK2014 release
 will deliver the UEFI 2.4 and PI 1.3 support.  Specific details on
 features and on what is new is contained in the UDK2014
