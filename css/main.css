@@ -73,6 +73,15 @@ h3 {
     font-size: 90%
 }
 
+.t_projects th {
+    background-color: #DBEBFF;
+}
+
+.t_projects table, th, td {
+    border: 1px solid #ccc;
+}
+
+
 /* TODO: Consider css for
  *
  * .posts .site .header .title .meta .footer .contact .rss .post
