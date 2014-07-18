@@ -3,5 +3,5 @@ description: Tianocore UEFI related projects
 
 url: http://tianocore.github.io
 
-markdown: redcarpet
+markdown: kramdown
 pygments: true
