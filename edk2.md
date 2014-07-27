@@ -2,6 +2,7 @@
 layout: default
 title: EDK II
 ---
+{% include site-links.md %}
 
 EDK II is a modern, feature-rich, cross-platform firmware development
 environment for the UEFI and PI specifications.
@@ -28,9 +29,7 @@ Bug/feature tracking: [http://sourceforge.net/apps/trac/edk2]()
 
 EDK II Summary page: [http://sourceforge.net/projects/edk2]()
 
-Stable releases:
-[UDK2010](https://github.com/tianocore/tianocore.github.io/wiki/UDK2010 "UEFI Development Kit 2010"),
-[UDK2014](udk2014.html "UEFI Development Kit 2014")
+Stable releases: [UDK2010], [UDK2014]
 
 ### <span class="mw-headline" id="Important_Information">Important Information</span>
 
