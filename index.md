@@ -40,7 +40,7 @@ and on what is new is contained in the UDK2014
 
 ### Feb 11, 2014
 
-Upcomming soon UDK2014 See a sneak pre-view:
+Upcoming soon UDK2014 See a sneak preview:
 [UDK2014 Features](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap2014)
 
 ### [Archived News](https://github.com/tianocore/tianocore.github.io/wiki/Archived-News) from 2009-2013
