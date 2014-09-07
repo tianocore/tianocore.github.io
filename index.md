@@ -17,7 +17,7 @@ page.
 
 To learn more about getting involved in the community see our
 [how to contribute](https://github.com/tianocore/tianocore.github.io/wiki/How-To-Contribute)
-page. [EDK II](edk2.html) is a modern, feature-rich, cross-platform
+page. [EDK II] is a modern, feature-rich, cross-platform
 firmware development environment for the UEFI and PI specifications.
 
 If you have any comments for this site please see the

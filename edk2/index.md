@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EDK II
+redirect_from: "/edk2.html"
 ---
 {% include site-links.md %}
 

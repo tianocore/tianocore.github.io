@@ -5,3 +5,6 @@ url: http://tianocore.github.io
 
 markdown: kramdown
 pygments: true
+
+gems:
+  - jekyll-redirect-from
