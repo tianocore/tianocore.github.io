@@ -4,7 +4,7 @@ title: Welcome
 ---
 {% include site-links.md %}
 
-[<img src="images/IntroducingUDK2014.png"/>](udk2014.html)
+[<img src="images/IntroducingUDK2014.png"/>](udk2014/)
 
 <br/>
 

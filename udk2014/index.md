@@ -1,6 +1,7 @@
 ---
 layout: default
 title: UDK2014
+redirect_from: "/udk2014.html"
 ---
 {% include site-links.md %}
 
