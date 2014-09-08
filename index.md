@@ -10,22 +10,22 @@ title: Welcome
 
 This is the community site surrounding the open source components of
 Intel's implementation of
-[UEFI](https://github.com/tianocore/tianocore.github.io/wiki/UEFI).
+[UEFI]({{wiki}}/UEFI).
 To learn how to use UEFI see our
-[start using UEFI](https://github.com/tianocore/tianocore.github.io/wiki/start-using-UEFI)
+[start using UEFI]({{wiki}}/start-using-UEFI)
 page.
 
 To learn more about getting involved in the community see our
-[how to contribute](https://github.com/tianocore/tianocore.github.io/wiki/How-To-Contribute)
+[how to contribute]({{wiki}}/How-To-Contribute)
 page. [EDK II] is a modern, feature-rich, cross-platform
 firmware development environment for the UEFI and PI specifications.
 
 If you have any comments for this site please see the
-[community admins](https://github.com/tianocore/tianocore.github.io/wiki/Community_Admins)
+[community admins]({{wiki}}/Community_Admins)
 page.
 
 For the full list of our community projects, visit the
-[Projects](https://github.com/tianocore/tianocore.github.io/wiki/Projects)
+[Projects]({{wiki}}/Projects)
 page.
 
 ## New Announcements
@@ -41,6 +41,6 @@ and on what is new is contained in the UDK2014
 ### Feb 11, 2014
 
 Upcoming soon UDK2014 See a sneak preview:
-[UDK2014 Features](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap2014)
+[UDK2014 Features]({{wiki}}/RoadMap2014)
 
-### [Archived News](https://github.com/tianocore/tianocore.github.io/wiki/Archived-News) from 2009-2013
+### [Archived News]({{wiki}}/Archived-News) from 2009-2013

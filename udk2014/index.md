@@ -6,7 +6,7 @@ redirect_from: "/udk2014.html"
 {% include site-links.md %}
 
 UDK2014 is a stable release of portions of the [EDK II] project.
-Link for [Previous UDK2010 Releases](https://github.com/tianocore/tianocore.github.io/wiki/Previous_UDK2010_Releases)
+Link for [Previous UDK2010 Releases]({{wiki}}/Previous_UDK2010_Releases)
 
 If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
@@ -44,16 +44,16 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
       <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014:">https://svn.code.sf.net/p/edk2/code/branches/UDK2014:</a> r15322<br/>
       <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r84<br/></p>
       <p><b>How to Build</b><br/>
-      <a href="https://github.com/tianocore/tianocore.github.io/wiki/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
+      <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
       See <a class="externallink" href="http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-Features.txt/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-Features.txt/download">Release Notes Features</a><br/></p>
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
-        <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Using_EDK_II_with_Native_GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
-        <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Windows_systems" title="Windows systems">Windows systems</a></li>
-        <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Xcode" title="Xcode">Xcode Mac OS X</a></li>
-        <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
+        <li><a href="{{wiki}}/Using_EDK_II_with_Native_GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
+        <li><a href="{{wiki}}/Windows_systems" title="Windows systems">Windows systems</a></li>
+        <li><a href="{{wiki}}/Xcode" title="Xcode">Xcode Mac OS X</a></li>
+        <li><a href="{{wiki}}/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
     <td>
       <p>(UDK2014)<br/></p>
@@ -87,7 +87,7 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
       </ul>
     </td>
     <td>
-      <p><a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK_II_Specifications" title="EDK_II_Specifications">UDK2014 EDK II v1.22 Errata D specifications</a></p>
+      <p><a href="{{wiki}}/EDK_II_Specifications" title="EDK_II_Specifications">UDK2014 EDK II v1.22 Errata D specifications</a></p>
       <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata D) that are available with the UDK2014 release. (Except DEC did not change from Errata C) See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update January, 2014 </li>
@@ -125,7 +125,7 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download">CryptoPkg .pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/CryptoPkg" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
+      <p>The <a href="{{wiki}}/CryptoPkg" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
     </td>
     <td>
       <p>.chm file<br/>
@@ -141,7 +141,7 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
       <a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download">EdkCompatibilityPkgPkg .pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/EdkCompatibilityPkg" title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide documentation on header files and libraries that enable you to build the EDK module
+      <p>The <a href="{{wiki}}/EdkCompatibilityPkg" title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide documentation on header files and libraries that enable you to build the EDK module
 in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file </p></td>
@@ -154,7 +154,7 @@ in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download">IntelFrameworkModulePkg .pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/IntelFrameworkModulePkg" title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document Package Helper file. This Package contains the definitions and module implementation
+      <p>The <a href="{{wiki}}/IntelFrameworkModulePkg" title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document Package Helper file. This Package contains the definitions and module implementation
 which follows Intel EFI Framework Specification.</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file </p></td>
@@ -167,7 +167,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download">IntelFrameworkPkg .pdf</a></p>
     </td>
     <td>
-      The <a href="https://github.com/tianocore/tianocore.github.io/wiki/IntelFrameworkPkg" title="IntelFrameworkPkg">IntelFrameworkPkg</a> Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
+      The <a href="{{wiki}}/IntelFrameworkPkg" title="IntelFrameworkPkg">IntelFrameworkPkg</a> Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file </p></td>
   </tr>
@@ -179,7 +179,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download">MdeModulePkg .pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/MdeModulePkg" title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
+      <p>The <a href="{{wiki}}/MdeModulePkg" title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
       It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
       and libraries instances, which are used for those modules</p>
     </td>
@@ -196,7 +196,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download">MdePkg  .pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
+      <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
       and libraries instances, which are defined in MDE Specification.
       It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
       EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.</p>
@@ -211,7 +211,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download">NetworkPkg.pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
+      <p>The <a href="{{wiki}}/NetworkPkg" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file</p></td>
   </tr>
@@ -223,7 +223,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download">SecurityPkg.pdf</a></p>
     </td>
     <td>
-      <p>The <a href="https://github.com/tianocore/tianocore.github.io/wiki/SecurityPkg" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
+      <p>The <a href="{{wiki}}/SecurityPkg" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
       and library classes) and libraries instances</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file</p></td>
@@ -243,7 +243,7 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a href="https://github.com/tianocore/tianocore.github.io/wiki/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">Previous UDK2010 Releases</a></p><hr/>
+      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">Previous UDK2010 Releases</a></p><hr/>
       <p><a class="externallink" href="http://sourceforge.net/projects/edk2/files/" rel="nofollow" title="http://sourceforge.net/projects/edk2/files/">EDK II Project Files</a> </p>
     </td>
     <td>
@@ -260,8 +260,8 @@ which follows Intel EFI Framework Specification.</p>
 ## <span class="mw-headline" id="More_Info">More Info</span>
 
 EDK II More info: 
-<a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
-<a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
+<a href="{{wiki}}/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
+<a href="{{wiki}}/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
 
 UEFI Developers Kit 2010 (UDK2014).  The UDK2014 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2010.SR1 currently supports UEFI 2.4 and PI 1.3 level of specifications.
 
