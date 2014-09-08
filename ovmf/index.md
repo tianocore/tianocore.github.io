@@ -19,8 +19,8 @@ More information:
   [edk2-devel]
 
 Release r15214:
-  [X64 (zip)](http://sourceforge.net/projects/edk2/files/OVMF/OVMF-X64-r15214.zip/download),
-  [IA32 (zip)](http://sourceforge.net/projects/edk2/files/OVMF/OVMF-IA32-r15214.zip/download),
+  [X64 (zip)]({{edk2files}}/OVMF/OVMF-X64-r15214.zip/download),
+  [IA32 (zip)]({{edk2files}}/OVMF/OVMF-IA32-r15214.zip/download),
   [How to run]({{wiki}}/How to run OVMF),
   [README](https://sourceforge.net/p/edk2/code/15214/tree/trunk/edk2/OvmfPkg/README)
 

@@ -36,7 +36,7 @@ Announcing the new UDK2014 Release. Goto the [UDK2014] page to
 download the release and documentation. The UDK2014 release will
 deliver the UEFI 2.4 and PI 1.3 support. Specific details on features
 and on what is new is contained in the UDK2014
-[Release Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download).
+[Release Notes]({{edk2files}}/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download).
 
 ### Feb 11, 2014
 
