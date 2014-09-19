@@ -30,6 +30,10 @@ page.
 
 ## New Announcements
 
+### September 19, 2014
+Upcoming soon UDK2014 See a sneak preview:
+[UDK2014 SP1 Features]({{wiki}}/RoadMap2014SP1)
+
 ### March 20, 2014
 
 Announcing the new UDK2014 Release. Goto the [UDK2014] page to
