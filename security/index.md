@@ -41,11 +41,10 @@ If you wish to describe a security issue regarding the code on tianocore.org, pl
 			</ul>
 
 
-<ul>
 <li><b>Common practice in the software community when managing a 
 security issue is:</b> 
 </li>
-</ul>
+
 <ol>
 <li>Receive or discover an issue. </li>
 <li>Rank the issue using DREAD or CVSS or ... </li>
@@ -64,22 +63,22 @@ described on the site. </li>
 
 We are aware that BIOS/Boot firmware is rarely updated by consumers or by enterprise IT departments. This makes the embargo generally impractical. It also makes the complete vulnerability description counterproductive. So, this site operates under the following modified version:
 
-<ul>
+
 <li><b>Modified Steps: </b>
 </li>
-</ul>
+
 <ol>
-<li><i>same as above</i> </li>
-<li><i>same as above</i> </li>
+<li><i>same as Step 1 above</i> </li>
+<li><i>same as Step 2 above</i> </li>
 				
-<li><i>same as above</i> </li>
+<li><i>same as Step 3 above</i> </li>
 				
 <li>Describe the issue, its vulernabilities, and the fix to the 
 				site's trusted users. The users have 1 week to provide comments 
 				and request an embargo. </li>
 				
 <li>If reasonable rationale is provided for an embargo, the 
-				embargo occurs (as in 5 above). </li>
+				embargo occurs (as in <i>step 5</i> above). </li>
 				
 <li>The issue is fixed in the public tree, but only the normal 
 				bug description is provided. </li>
@@ -87,10 +86,10 @@ We are aware that BIOS/Boot firmware is rarely updated by consumers or by enterp
 <li>A list of all issues fixed in designated files are provided 
 				via a pdf on this page. </li>
 </ol>
-(As noted above, the embargo in step 5 may also be requested as a part of the initial issue report.)
+(As noted above, the embargo in <i>step 5</i> may also be requested as a part of the initial issue report.)
 
 Designated files (<i>step 7</i>) are indicated by a comment in the header that the file may process untrusted input. These files are so designated because they protect the assets in the tianocore.org threat model. See (http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf) for information on the assets. If you believe other files should be so designated, please use the report button to provide the path. The "untrusted input" header comment is also used to indicate that the files so marked have had focused security reviews and may require security reviews when changes are made.
 
-As implied in step 4 above, tianocore.org maintains a list of trusted users who receive early notification of vulnerabilities so that implementations using tianocore.org code may be upgraded and distributed prior to open notification. By joining the list, you agree to limit disclosure of any issues reported by the reflector to those necessary to fix and manage the issue. Failure to effectively manage this confidential information may result in your removal from the reflector. The list is managed by the trusted users on the list itself. Those managing the list reserve the right to limit the size and membership of the list.
+As implied in (<i>step 4</i>) above, http://tianocore.org maintains a list of trusted users who receive early notification of vulnerabilities so that implementations using tianocore.org code may be upgraded and distributed prior to open notification. By joining the list, you agree to limit disclosure of any issues reported by the reflector to those necessary to fix and manage the issue. Failure to effectively manage this confidential information may result in your removal from the reflector. The list is managed by the trusted users on the list itself. Those managing the list reserve the right to limit the size and membership of the list.
 
 To request to join the list, use the REPORT button with "<b>JOIN</b>" as the first word in the mail subject title. To remove yourself from the list, use the REPORT button with "<b>LEAVE</b>" as the first word in the mail subject title.
