@@ -236,8 +236,8 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td></td>
-    <td> <p>Currently no Previous UDK2014 Releases </p></td>
+    <td> <a href="http://tianocore.github.io/udk2014/Archive/">UDK2014 Archive</a>  </td>
+    <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
   </tr>
 
