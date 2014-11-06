@@ -1,11 +1,13 @@
 ---
 layout: default
-title: UDK2014
-redirect_from: "/udk2014.html"
+title: UDK2014 Archive
 ---
 {% include site-links.md %}
 
 UDK2014 is a stable release of portions of the [EDK II] project.
+<br>
+See [UDK2014] for the current  Releases
+<br>
 Link for [Previous UDK2010 Releases]({{wiki}}/Previous_UDK2010_Releases)
 
 If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
