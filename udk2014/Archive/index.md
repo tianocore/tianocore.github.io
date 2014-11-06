@@ -3,8 +3,7 @@ layout: default
 title: UDK2014 Archive
 ---
 {% include site-links.md %}
-
-UDK2014 is a stable release of portions of the [EDK II] project.
+This Page contains previous releases of the UDK2014 <br>
 <br>
 See [UDK2014] for the current  Releases
 <br>
