@@ -238,9 +238,9 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td></td>
-    <td> <p>Currently no Previous UDK2014 Releases </p></td>
-    <td> <p>N/A </p></td>
+    <td> Previous UDK2014 releases</td>
+    <td> This Menu</td>
+    <td> </td>
   </tr>
 
   <tr>
