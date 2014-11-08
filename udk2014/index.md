@@ -80,20 +80,21 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
   </tr>
 
   <tr>
-    <td><p>Version 1.22 Errata D</p>
+    <td><p>Version 1.22 Errata D and Version 1.24 </p>
       <ul>
         <li><a class="externallink" href="{{edk2files}}/Specifications/Build_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/Build_Spec_v1.22_Errata_D.pdf/download">BUILD PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/Build_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/Build_Spec_v1.22_Errata_D.zip/download">ZIP</a> </li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download">DEC PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_v1.22_Errata_C.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_v1.22_Errata_C.zip/download">ZIP</a></li>
+        <li><a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_1.24.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_1.24.pdf/download">DEC PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_1.24.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_1.24.zip/download">ZIP</a></li>
         <li><a class="externallink" href="{{edk2files}}/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download">DSC PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/DSC_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/DSC_Spec_v1.22_Errata_D.zip/download">ZIP</a></li>
         <li><a class="externallink" href="{{edk2files}}/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download">FDF PDF</a>  <a class="externallink" href="{{edk2files}}/Specifications/FDF_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/FDF_Spec_v1.22_Errata_D.zip/download">ZIP</a></li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_v1.22_Errata_D.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_v1.22_Errata_D.pdf/download">INF PDF</a>  <a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_v1.22_Errata_D.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_v1.22_Errata_D.zip/download">ZIP</a></li>
+        <li><a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_1.24.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_1.24.pdf/download">INF PDF</a>  <a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_1.24.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_1.24.zip/download">ZIP</a></li>
       </ul>
     </td>
     <td>
-      <p><a href="{{wiki}}/EDK_II_Specifications" title="EDK_II_Specifications">UDK2014 EDK II v1.22 Errata D specifications</a></p>
-      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata D) that are available with the UDK2014 release. (Except DEC did not change from Errata C) See details in the Revision History in each of the individual documents for more details.</p>
+      <p><a href="{{wiki}}/EDK_II_Specifications" title="EDK_II_Specifications">UDK2014.SP1 EDK II v1.22 Errata D and V1.24 specifications</a></p>
+      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata D and 1.24) that are available with the UDK2014.SP1 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
-        <li>Update January, 2014 </li>
+        <li>Update January, 2014 V 1.22 Errata D </li>
+        <li>Update Aug, 2014 V 1.24 </li>
       </ul>
     </td>
     <td><p>Each document is a .PDF of each of the specifications</p></td>
@@ -242,7 +243,7 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">Previous UDK2010 Releases</a></p><hr/>
+      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">UDK2010 Archive</a></p><hr/>
       <p><a class="externallink" href="{{edk2files}}/" rel="nofollow" title="{{edk2files}}/">EDK II Project Files</a> </p>
     </td>
     <td>
