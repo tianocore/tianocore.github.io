@@ -30,6 +30,11 @@ page.
 
 ## New Announcements
 
+### October 31, 2014
+Announcing the new UDK2014.SP1 Release. Goto the [UDK2014] page to
+download the release and documentation.
+[Release  Notes]({{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download)
+
 ### September 19, 2014
 Upcoming soon UDK2014 Service Pack 1 See a sneak preview:
 [UDK2014 SP1 Features]({{wiki}}/RoadMap2014SP1)
