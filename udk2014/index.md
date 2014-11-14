@@ -15,6 +15,8 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
 
 
 UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure to include  <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>  with the UDK2014.SP1 WorkSpace
+See  <a href="http://sourceforge.net/p/edk2/mailman/message/33035580/">edk2 message </a>
+
 
 ## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
 
