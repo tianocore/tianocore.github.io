@@ -11,11 +11,7 @@ Link for  Previous UDK2014 releases <a href="http://tianocore.github.io/udk2014/
 
 If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
-### <font color="#FF0000"> <span class="mw-headline" id="NOTE-ISSUE"><b>NOTE ISSUE</b></span> </font>
-
-
-UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure to include  <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>  with the UDK2014.SP1 WorkSpace
-See  <a href="http://sourceforge.net/p/edk2/mailman/message/33035580/">edk2 message </a>
+### <font color="#FF0000"> <span class="mw-headline" id="NOTE-ISSUE"><b>NOTE ISSUE</b></span> </font> UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure to include  <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>  with the UDK2014.SP1 WorkSpace.  See  <a href="http://sourceforge.net/p/edk2/mailman/message/33035580/">edk2 message </a>
 
 
 ## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
