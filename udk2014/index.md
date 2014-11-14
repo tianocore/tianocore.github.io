@@ -11,6 +11,11 @@ Link for  Previous UDK2014 releases <a href="http://tianocore.github.io/udk2014/
 
 If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
+### <font color="#FF0000"> <span class="mw-headline" id="NOTE-ISSUE"><b>NOTE ISSUE</b></span> </font>
+
+
+UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure to include  <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>  with the UDK2014.SP1 WorkSpace
+
 ## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
 
 <table width="100%" class="t_projects">
@@ -38,7 +43,10 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
     <td>
       w/ WorkSpace Expanded .zip<br/>
       Release <b>Oct 31, 2014</b><br/>
-      <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> 
+      <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
+      
+      <b>Nov 13, 2014</b><br/>
+      Make sure to include fatal crash fix : <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>
     </td>
     <td>
       <p>UEFI development Kit 2014 SP1 Specification Release #1 (UDK2014.SP1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
