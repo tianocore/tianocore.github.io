@@ -24,7 +24,13 @@ Release r15214:
   [How to run]({{wiki}}/How to run OVMF),
   [README](https://sourceforge.net/p/edk2/code/15214/tree/trunk/edk2/OvmfPkg/README)
 
-Source Repository: [https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg]()
+Source repositories: git
+{[github](https://github.com/tianocore/edk2/tree/master/OvmfPkg),
+ [bitbucket](https://bitbucket.org/tianocore/edk2/src/master/OvmfPkg),
+ [sourceforge](https://sourceforge.net/p/tianocore/edk2/ci/master/tree/OvmfPkg),
+ [more info]({{wiki}}/EDK2_git)},
+svn
+{[sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg)}
 
 ### See Also
 * [http://www.linux-kvm.org/page/OVMF](http://www.linux-kvm.org/page/OVMF)
