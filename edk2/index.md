@@ -10,8 +10,6 @@ environment for the UEFI and PI specifications.
 
 License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
-Project owner(s): jljusten, michaelkrau
-
 Source repositories: git
 {[github](https://github.com/tianocore/edk2),
  [bitbucket](https://bitbucket.org/tianocore/edk2),
