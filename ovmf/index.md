@@ -27,5 +27,5 @@ Release r15214:
 Source Repository: [https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg]()
 
 ### See Also
-* [http://www.linux-kvm.org/page/OVMF]()
-* [http://wiki.xen.org/wiki/OVMF]()
+* [http://www.linux-kvm.org/page/OVMF](http://www.linux-kvm.org/page/OVMF)
+* [http://wiki.xen.org/wiki/OVMF](http://wiki.xen.org/wiki/OVMF)
