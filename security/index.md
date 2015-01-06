@@ -14,6 +14,11 @@ If you wish to describe a security issue regarding the code on tianocore.org, pl
 <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Report-button2.jpg" /></a>
 
 
+----
+List of current EDK II Security Advisory logs: <a href="{{edk2files}}/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20001.pdf/download"> PDF</a>
+
+----
+
 <ul>
 				
 <li><b>IMPORTANT:</b> All mail sent via this reflector are 
