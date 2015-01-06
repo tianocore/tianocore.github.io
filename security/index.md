@@ -15,7 +15,7 @@ If you wish to describe a security issue regarding the code on tianocore.org, pl
 
 
 ----
-List of current EDK II Security Advisory logs: <a href="{{edk2files}}/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20001.pdf/download"> PDF</a>
+<b>List of current EDK II Security Advisory logs: <a href="{{edk2files}}/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20001.pdf/download"> Download PDF</a></b>
 
 ----
 
