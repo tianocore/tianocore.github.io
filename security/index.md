@@ -22,4 +22,3 @@ If you wish to describe a security issue regarding the code on tianocore.org, pl
 
 To request to join the list, use the REPORT button with "<b>JOIN</b>" as the first word in the mail subject title. To remove yourself from the list, use the REPORT button with "<b>LEAVE</b>" as the first word in the mail subject title.
 
-The following link has the  <a href="{{wiki}}/Security_Advisory_Process" title="Security Advisory Process "> Security Advisory Process </a>
