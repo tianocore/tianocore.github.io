@@ -11,8 +11,6 @@ Link for  Previous UDK2014 releases <a href="http://tianocore.github.io/udk2014/
 
 If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
 
-### <font color="#FF0000"> <span class="mw-headline" id="NOTE-ISSUE"><b>NOTE ISSUE</b></span> </font> 
-UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure to include  <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>  with the UDK2014.SP1 WorkSpace.  See  <a href="http://sourceforge.net/p/edk2/mailman/message/33035580/">edk2 message </a>
 
 
 ## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
@@ -30,8 +28,8 @@ UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure 
 
   <tr>
     <th>
-     <p><b>UDK2014.SP1</b></p>
-      <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">
+     <p><b>UDK2014.SP1.P1</b></p>
+      <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">
       <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/DownLoad-button.gif" /></a>
     </th>
     <th> What is it? </th>
@@ -41,21 +39,19 @@ UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure 
   <tr>
     <td>
       w/ WorkSpace Expanded .zip<br/>
-      Release <b>Oct 31, 2014</b><br/>
-      <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
+      Release <b>Dec 31, 2014</b><br/>
+      <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
       
-      <b>Nov 13, 2014</b><br/>
-      Make sure to <font color="#FF0000">INCLUDE </font>fatal crash fix : <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>
     </td>
     <td>
-      <p>UEFI development Kit 2014 SP1 Specification Release #1 (UDK2014.SP1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
+      <p>UEFI development Kit 2014 SP1 Specification Release #1 (UDK2014.SP1.P1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
       <p>Based on svn version:<br/></p>
-      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:</a> r16182<br/>
+      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:</a> r16557<br/>
       <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r92<br/></p>
       <p><b>How to Build</b><br/>
       <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
-      See <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-Features.txt/download">Release Notes Features</a><br/></p>
+      See <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.P1-Features.txt/download">Release Notes Features</a><br/></p>
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
@@ -65,15 +61,15 @@ UDK2014.SP1 issue with DHCP6 Driver causes fatal boot crash.  For FIX Make sure 
         <li><a href="{{wiki}}/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
     <td>
-      <p>(UDK2014.SP1)<br/></p>
-      <p><a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-FilesList.txt/download">File List</a>
+      <p>(UDK2014.SP1.P1)<br/></p>
+      <p><a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download">File List</a>
       Of Entire Release .zip </p><hr/>
-      <p>Notes<br/>
+      <p>Notes UDK2014.SP1 <br/>
       Feature details : <br/>
       <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download">Download All</a></p><hr/>
       <p>Documents<br/>
-      <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Documents.zip/download">Download All</a><br/></p>
-      <p> UDK2014 only (not UDK2014.SP1)
+      <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download">Download All</a><br/></p>
+      <p> UDK2014 only 
       <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download All PDFs</a><br/></p>
     </td>
   </tr>
