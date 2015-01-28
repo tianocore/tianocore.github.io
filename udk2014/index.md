@@ -258,7 +258,190 @@ which follows Intel EFI Framework Specification.</p>
     </td>
     <td></td>
   </tr>
+<tr>
+    <th colspan="3">
+      <h2><span class="mw-headline" id="Other Releated UDK Releases">Other Releated UDK Releases</span></h2>
+    </th>
+  </tr>
+   <tr>
+    <th> Download </th>
+    <th> What is it? </th>
+    <th> What’s in the package? </th>
+  </tr>
 
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+<a href="{{wiki}}/Driver_Developer" title="Go to Driver Dev Page">Go to Driver Dev Page</a>
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+UEFI Driver Writer's Wizard and the 
+UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the 
+<a href="{{wiki}}/Driver_Developer" title="Driver_Developer">Driver Developer</a> page for more resources for UEFI Driver Writers Resources
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+<a class="externallink" href="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download" rel="nofollow" title="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download"> UEFI Packaging Tool.zip </a>
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+
+<a class="externallink" href="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download" rel="nofollow" title="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download"> Quick Start Guide</a>
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Intel® UEFI Packaging Tool is used to create, install or remove a UEFI Distribution Package.
+The .Zip includes bin UPT.exe from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32 
+and Manual Documentation from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals plus the Quick Start Guide
+
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+.zip
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+User PDF Guide only
+</p>
+
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download">EADK Release 1.02.zip</a> 
+
+<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download">Release Notes</a> 
+
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+EDK II Application Development Kit <a href="{{wiki}}/EDKII_EADK" title="EDKII_EADK">EADK</a>
+ Release 1.02 Package incorporates the Standard C Library, BSD Sockets Library, and other standards-based components. Include these into standard "C" applications. See the AppPkg for examples using the Standard Library components.  Further information is available in the ReadMe.txt files.
+<br/>
+* Based on  SVN  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
+
+</p>
+
+
+</td>
+<td>
+
+<P style="margin-top: 0; margin-bottom: 0">
+Packages Included in zip<br/>
+<a href="{{wiki}}/AppPkg" title="AppPkg"> AppPkg</a>
+<br/>
+<a href="{{wiki}}/StdLib" title="StdLib"> StdLib</a>
+<br/>
+
+<a href="{{wiki}}/StdLibPrivateInternalFiles" title="StdLibPrivateInternalFiles"> StdLibPrivateInternalFiles</a>
+
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+
+<a href="{{edk2files}}/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download">UEFI Shell 2.0 .zip</a> 
+
+<br/>
+<a href="{{wiki}}/ShellPkg#Shell_2.0_Engineering_Resource" title="Shell 2.0 Documentation"> Shell 2.0 Documentation</a>
+
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested SVN Rersion: 
+https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellPkg r11566
+<br/>
+This release is the implmentation sources for the UEFI Shell Specification 2.0. Please see http://www.uefi.org to download this specification
+<br/>
+See
+<a href="{{wiki}}/Shell_FAQ" title="Shell_FAQ"> Shell_FAQ</a> How to include UEFI Shell 2.0 into .DSC file
+
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+<a href="{{wiki}}/ShellPkg" title="ShellPkg"> ShellPkg</a> .zip Package
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+<!-- Row start --
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Col 1 Line 1
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Col 2 Line 1
+</p>
+
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+blank
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+
+
+  
 </table>
 
 ## <span class="mw-headline" id="More_Info">More Info</span>
