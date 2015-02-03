@@ -1,0 +1,31 @@
+{% include head.html %}
+
+    <div id="mainbody">
+
+    <div id="topbar">
+
+      <a href="{{baseurl}}/"><img src="{{baseurl}}/images/SidebarLogo.png" style="float: left;" /></a>
+
+      <h1 style="float: left; margin: 10px 1em 0 1em; font-size: 200%;">{{ page.title }}</h1>
+
+      <div class="dropdown pull-right" style="float: right; margin-top: 1em;">
+        <a href="#" data-toggle="dropdown"> Projects </a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="{{baseurl}}/udk2014/">UDK2014</a></li>
+          <li><a tabindex="-1" href="{{baseurl}}/edk2">EDK II</a></li>
+          <li class="divider"></li>
+          <li><a tabindex="-1" href="{{wiki}}/Projects">All Projects</a></li>
+          <li><a tabindex="-1" href="{{wiki}}/Information">Information</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="content">
+
+      <h3>{{ page.date | date: "%B %-d, %Y" }}</h3>
+
+      {{ content }}
+
+    </div>
+
+{% include foot.html %}
