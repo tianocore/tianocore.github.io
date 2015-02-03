@@ -32,7 +32,7 @@ page.
 
 <ul class="posts">
 {% for post in site.posts limit:3 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%B %-d, %Y" }}</li>
+  <li><a href="{{baseurl}}{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%B %-d, %Y" }}</li>
 {% endfor %}
   <li>Read older <a href="news/">news here</a>, or <a href="news/feed.xml">subscribe with rss</a></li>
 </ul>

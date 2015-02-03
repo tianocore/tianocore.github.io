@@ -8,6 +8,6 @@ title: News
 <a href="feed.xml">rss feed</a>
 
 {% for post in site.posts %}
-###[{{ post.date | date: "%B %-d, %Y" }}]({{ post.url }})
+###[{{ post.date | date: "%B %-d, %Y" }}]({{baseurl}}{{ post.url }})
 {{ post.content }}
 {% endfor %}
