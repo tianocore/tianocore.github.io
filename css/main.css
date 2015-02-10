@@ -38,6 +38,14 @@ ul {
     margin: 0.3em 0 0 1.5em;
 }
 
+.site-menu {
+    color: #a0a0a0;
+}
+
+a.site-menu:hover {
+    color: #4048c0;
+}
+
 a {
     color: #4048c0;
     text-decoration: none;
