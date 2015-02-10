@@ -3,7 +3,7 @@ layout: default
 title: Security
 ---
 {% include site-links.md %}
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/SecurityPix.JPG" >
+<img src="{{baseurl}}/images/SecurityPix.JPG" >
 
 Security advisory page:
 
@@ -11,7 +11,7 @@ If you wish to describe a security issue regarding the code on tianocore.org, pl
 
 
  <a href="mailto:tianocore-security@lists.sourceforge.net?subject=Tianocore%20Security%20Report%20Message">
-<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Report-button2.jpg" /></a>
+<img src="{{baseurl}}/images/Report-button2.jpg" /></a>
 
 
 ----
