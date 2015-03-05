@@ -352,7 +352,7 @@ User PDF Guide only
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
 
-EDK II Application Development Kit <a href="{{wiki}}/EDKII_EADK" title="EDKII_EADK">EADK</a>
+EDK II Application Development Kit <a href="{{wiki}}/EDKII-EADK" title="EDKII-EADK">EADK</a>
  Release 1.02 Package incorporates the Standard C Library, BSD Sockets Library, and other standards-based components. Include these into standard "C" applications. See the AppPkg for examples using the Standard Library components.  Further information is available in the ReadMe.txt files.
 <br/>
 * Based on  SVN  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
