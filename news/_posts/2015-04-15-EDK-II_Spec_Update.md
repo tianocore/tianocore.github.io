@@ -1,5 +1,6 @@
+---
 layout: news
-title: EDK II Specificaitons updates for V1.24
+title: EDK II Specificaitons updates V1.24
 ---
 {% include site-links.md %}
 
