@@ -8,7 +8,7 @@ title: Site Changes Under Construction
 </font>
 
 
-Announcing Changes Comming Soon:
+Announcing Changes Coming Soon:
 
 
 1. <b>Email list</b> 		-more responsive 
