@@ -110,11 +110,12 @@ a.site-menu:hover {
 }
 
 a {
-    color: #4048c0;
+    color: #ff6600;
     text-decoration: none;
 }
 
 a:hover {
+    color: #ff6600;
     text-decoration: underline;
 }
 
@@ -124,7 +125,7 @@ p {
 }
 
 h1 {
-    color: #1c72b4;
+    color: #ff6600;
     font-weight: bold;
     font-size: 110%;
     margin-top: 0;
@@ -132,13 +133,13 @@ h1 {
 }
 
 h2 {
-    color: #1c72b4;
+    color: #ff6600;
     font-weight: bold;
     font-size: 100%
 }
 
 h3 {
-    color: #1c72b4;
+    color: #ff6600;
     font-weight: bold;
     font-size: 90%
 }
