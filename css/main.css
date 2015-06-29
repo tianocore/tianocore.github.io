@@ -39,9 +39,38 @@ body {
     width: 9em;
 }
 
+div.main-page.content {
+    float: left;
+    width: 35em;
+}
+
+div.main-page.news {
+    float: right;
+    width: 20em;
+}
+
+div.main-page.news h2 {
+    border-top: 10px solid #ff6600;
+    border-bottom: 1px solid #333333;
+    color: #333333;
+    padding: 0.5em;
+    margin: 0;
+}
+
+div.main-page.news ul {
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
+}
+
+div.main-page.news ul li {
+    border-bottom: 1px solid #333333;
+    padding: 0.5em;
+}
+
 #content {
     margin: 0px;
-    padding: 1em;
+    padding: 2em 1em;
     font-family: verdana;
     color: #40494d;
     background-color: #fff;
@@ -49,6 +78,17 @@ body {
     max-width: 60em;
     display: block;
     float: left;
+}
+
+#content #buttons a {
+  background: #ff6600;
+  color: #333333;
+  font-family: "canada-type-gibson";
+  text-transform: uppercase;
+  font-size: 15px;
+  display: inline-block;
+  padding: 8px 25px;
+  margin: 10px 20px 10px 0;
 }
 
 #footer {
