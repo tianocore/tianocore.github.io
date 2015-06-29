@@ -17,8 +17,16 @@ body {
     left: 0;
     bottom: 0;
     width: 70em;
+    height: 15em;
+    background: url("../images/header-bg.jpg") no-repeat;
     border-top: 10px solid #ff6600;
     margin-top: -10px;
+}
+
+#topbar #logo {
+  position: relative;
+  top: 85px;
+  left: 20px;
 }
 
 #sidebar {
