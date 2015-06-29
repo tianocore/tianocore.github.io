@@ -66,6 +66,11 @@ div.main-page.news ul {
 div.main-page.news ul li {
     border-bottom: 1px solid #333333;
     padding: 0.5em;
+    color: #777777;
+}
+
+div.main-page.news ul li a {
+    font-weight: bold;
 }
 
 #content {
@@ -176,8 +181,8 @@ h1 {
 
 h2 {
     color: #ff6600;
-    font-weight: bold;
-    font-size: 100%
+    font-family: "canada-type-gibson";
+    font-size: 130%
 }
 
 h3 {
