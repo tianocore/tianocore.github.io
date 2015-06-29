@@ -166,8 +166,10 @@ p {
 
 h1 {
     color: #ff6600;
-    font-weight: bold;
-    font-size: 110%;
+    font-family: "canada-type-gibson";
+    font-weight: normal;
+    font-size: 190%;
+    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
 }
