@@ -1,9 +1,32 @@
-{% include head.html %}
-{% include page-top.html %}
-    <div id="content">
+<!DOCTYPE html>
+<html>
 
-      {{ content }}
+  {% include head.html %}
 
+  <body>
+
+    <div id="page-wrapper">
+      <div id="page">
+
+        {% include header.html %}
+
+        <div id="navigation">
+          {% include nav.html %}
+        </div>
+        <div id="content">
+          <div id="content-inner">
+            {% include content.html %}
+          </div>
+          <div id="news">
+            {% include news.html %}
+          </div>
+        </div>
+
+        {% include footer.html %}
+
+      </div>
     </div>
 
-{% include foot.html %}
+  </body>
+
+</html>
