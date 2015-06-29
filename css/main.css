@@ -2,20 +2,21 @@
 body {
     background: #f1f1f1;
     border-top: 10px solid #999999;
+    font-size: 12pt;
 }
 
 #mainbody {
     margin-left: auto;
     margin-right: auto;
-    width: 70em;
+    width: 60em;
 }
 
 #topbar {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 70em;
-    height: 15em;
+    width: 60em;
+    height: 13em;
     background: url("../images/header-bg.jpg") no-repeat;
     border-top: 10px solid #ff6600;
     margin-top: -10px;
@@ -45,7 +46,7 @@ body {
     color: #40494d;
     background-color: #fff;
     width: 100%;
-    max-width: 70em;
+    max-width: 60em;
     display: block;
     float: left;
 }
@@ -148,6 +149,7 @@ h3 {
 
 .t_projects table, th, td {
     border: 1px solid #ccc;
+    font-size: 80%;
 }
 
 
