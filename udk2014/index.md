@@ -76,7 +76,9 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
 
   <tr>
     <th width="220">
-      <h2><span class="mw-headline" id="EDK_II_Specifications">EDK II Specifications</span></h2>
+      <h2><span class="mw-headline" id="EDK_II_Specifications">EDK II Specifications</span>
+  
+      </h2>
     </th>
     <th width="220">What is it?</th>
     <th width="220"></th>
@@ -93,7 +95,7 @@ If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@
       </ul>
     </td>
     <td>
-      <p><a href="{{wiki}}/EDK_II_Specifications" title="EDK_II_Specifications">UDK2014.SP1.P1 EDK II v1.24 specifications</a></p>
+      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2014.SP1.P1 EDK II v1.24 specifications</a></p>
       <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24) that are available with the UDK2014.SP1.P1 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update January, 2015 V 1.24 </li>
@@ -350,7 +352,7 @@ User PDF Guide only
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
 
-EDK II Application Development Kit <a href="{{wiki}}/EDKII_EADK" title="EDKII_EADK">EADK</a>
+EDK II Application Development Kit <a href="{{wiki}}/EDKII-EADK" title="EDKII-EADK">EADK</a>
  Release 1.02 Package incorporates the Standard C Library, BSD Sockets Library, and other standards-based components. Include these into standard "C" applications. See the AppPkg for examples using the Standard Library components.  Further information is available in the ReadMe.txt files.
 <br/>
 * Based on  SVN  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
