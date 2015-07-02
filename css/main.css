@@ -7,7 +7,7 @@ body {
 #mainbody {
     margin-left: auto;
     margin-right: auto;
-    width: 50em;
+    width: 70em;
 }
 
 #topbar {
@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 50em;
+    width: 70em;
     border-top: 10px solid #ff6600;
     margin-top: -10px;
 }
@@ -36,7 +36,7 @@ body {
     padding-top: 1em;
     font-family: verdana;
     color: #40494d;
-    max-width: 50em;
+    max-width: 70em;
 }
 
 ul {
