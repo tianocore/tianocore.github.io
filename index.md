@@ -4,10 +4,6 @@ title: Welcome
 ---
 {% include site-links.md %}
 
-[<img src="images/IntroducingUDK2014.png"/>](udk2014/)
-
-<br/>
-
 This is the community site surrounding the open source components of
 Intel's implementation of
 [UEFI]({{wiki}}/UEFI).
