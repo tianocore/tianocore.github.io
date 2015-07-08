@@ -1,3 +1,4 @@
+---
 layout: news
 title: EDK II Specifications updates V1.25 and VFR 1.9
 ---
