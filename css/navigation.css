@@ -9,7 +9,23 @@
   padding: 0;
   margin: 0;
 }
-#navigation #main-nav .main-link {
+#navigation .dropdown {
+  border-right: 1px solid #999999;
+  background-color: #fff;
+}
+#navigation .dropdown.open {
+  background-color: #ff6600;
+}
+#navigation .dropdown-menu {
+  margin-top: 0px;
+  border-top: 0.75em solid #ff6600;
+  position: absolute;
+  left: -1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+}
+#navigation .main-link {
   position: relative;
   display: inline-block;
 }
@@ -25,8 +41,24 @@
 #navigation .middle .link-text {
 }
 
-#navigation .main-link .link-text {
-    color: #333333;
+#navigation a {
+  color: #333333;
+}
+
+#navigation a:hover .link-icon {
+  fill: white !important;
+}
+
+#navigation a:hover .link-text {
+  color: white;
+}
+
+#navigation div.main-link.pull-left.open {
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  color: white;
+  background: #ff6600;
 }
 
 div#navigation {
@@ -36,8 +68,14 @@ div#navigation {
 }
 #navigation div.main-link {
     padding: 0.5em 1em 0.5em;
-    border-right: 1px solid #999999;
-    background-color: #fff;
+}
+#navigation a:hover {
+  font-color: #444;
+  background: #eee;
+}
+#navigation .main-link.open {
+  color: white;
+  background: #ff6600;
 }
 @media (min-width: 0em) and (max-width: 63.9375em) {
   #navigation #main-nav .main-link.first svg {
@@ -120,14 +158,14 @@ div#navigation {
   padding: 8px 20px 0;
   border-right: 1px solid #999999;
 }
-#navigation #main-nav .main-link a:hover {
+#navigation .main-link a:hover {
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
   color: white;
   background: #ff6600;
 }
-#navigation #main-nav .main-link a:hover .link-icon {
+#navigation a:hover {
   fill: white !important;
 }
 @media (min-width: 0em) and (max-width: 63.9375em) {
