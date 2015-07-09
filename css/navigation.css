@@ -16,6 +16,9 @@
 #navigation .dropdown.open {
   background-color: #ff6600;
 }
+#navigation .dropdown.hovered {
+  background-color: #ff6600;
+}
 #navigation .dropdown-menu {
   margin-top: 0px;
   border-top: 0.75em solid #ff6600;
@@ -45,11 +48,13 @@
   color: #333333;
 }
 
-#navigation a:hover .link-icon {
+#navigation a.dropdown-toggle.open .link-icon {
   fill: white !important;
+  color: white;
+  background-color: #ff6600;
 }
 
-#navigation a:hover .link-text {
+#navigation a.dropdown-toggle.open .link-text {
   color: white;
 }
 
