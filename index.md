@@ -18,8 +18,8 @@ for the UEFI and PI specifications. We hope that you'll delve into our
 work, get excited to use Tianocore, and contribute to the community.
 
 <div id="buttons">
-  <a href="https://github.com/tianocore/tianocore.github.io/wiki/How_To_Contribute" target="_blank">How to Contribute</a>
-  <a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started" target="_blank">Getting Started</a>
+  <a href="https://github.com/tianocore/tianocore.github.io/wiki/How_To_Contribute">How to Contribute</a>
+  <a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started">Getting Started</a>
 </div>
 
 </div>
