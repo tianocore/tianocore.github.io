@@ -40,7 +40,7 @@ work, get excited to use Tianocore, and contribute to the community.
     {{ post.date | date: "%B %-d, %Y" }}
   </li>
 {% endfor %}
-  <li>
+  <li style="border-bottom: none;">
     Read more <a href="news/">community news »</a><br>
   </li>
 </ul>
