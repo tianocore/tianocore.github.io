@@ -8,6 +8,8 @@ title: News
 <a href="feed.xml">rss feed</a>
 
 {% for post in site.posts %}
+<div class="news-page news-item"></div>
+
 ###[{{ post.date | date: "%B %-d, %Y" }}]({{baseurl}}{{ post.url }})
 {{ post.content }}
 {% endfor %}
