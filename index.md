@@ -26,7 +26,12 @@ work, get excited to use Tianocore, and contribute to the community.
 
 <div class="main-page news">
 
-## Community News
+<h2>
+  Community News
+  <a href="news/feed.xml" style="float: right;">
+    <img src="{{baseurl}}/images/feed-icon-28x28.png" style="width: 1em; height: 1em;">
+  </a>
+</h2>
 
 <ul class="posts">
 {% for post in site.posts limit:3 %}
@@ -37,7 +42,6 @@ work, get excited to use Tianocore, and contribute to the community.
 {% endfor %}
   <li>
     Read more <a href="news/">community news »</a><br>
-    Subscribe with <a href="news/feed.xml">rss</a>
   </li>
 </ul>
 
