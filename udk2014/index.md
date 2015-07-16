@@ -9,8 +9,7 @@ UDK2014 is a stable release of portions of the [EDK II] project.
 <br>
 Link for  Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  
 
-If you have questions please email the [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question) - To join the email list goto: [Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
-
+If you have questions please email the [edk2-devel] email list.
 
 
 ## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
