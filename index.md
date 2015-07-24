@@ -4,35 +4,45 @@ title: Welcome
 ---
 {% include site-links.md %}
 
-[<img src="images/IntroducingUDK2014.png"/>](udk2014/)
+<!-- parse_block_html causes the markdown to be processed inside <div> -->
+{::options parse_block_html="true" /}
 
-<br/>
+<div class="main-page content">
+
+# Welcome to the open source community of UEFI
 
 This is the community site surrounding the open source components of
-Intel's implementation of
-[UEFI]({{wiki}}/UEFI).
-To learn how to use UEFI see our
-[start using UEFI]({{wiki}}/start-using-UEFI)
-page.
+Intel's implementation of [UEFI]({{wiki}}/UEFI). Our [EDK II] is a
+modern, feature-rich, cross-platform firmware development environment
+for the UEFI and PI specifications. We hope that you'll delve into our
+work, get excited to use Tianocore, and contribute to the community.
 
-To learn more about getting involved in the community see our
-[how to contribute]({{wiki}}/How-To-Contribute)
-page. [EDK II] is a modern, feature-rich, cross-platform
-firmware development environment for the UEFI and PI specifications.
+<div id="buttons">
+  <a href="https://github.com/tianocore/tianocore.github.io/wiki/How_To_Contribute">How to Contribute</a>
+  <a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started">Getting Started</a>
+</div>
 
-If you have any comments for this site please see the
-[community admins]({{wiki}}/Community_Admins)
-page.
+</div>
 
-For the full list of our community projects, visit the
-[Projects]({{wiki}}/Projects)
-page.
+<div class="main-page news">
 
-## News
+<h2>
+  Community News
+  <a href="news/feed.xml" style="float: right;">
+    <img src="{{baseurl}}/images/feed-icon-28x28.png" style="width: 1em; height: 1em;">
+  </a>
+</h2>
 
 <ul class="posts">
 {% for post in site.posts limit:3 %}
-  <li><a href="{{baseurl}}{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%B %-d, %Y" }}</li>
+  <li>
+    <a href="{{baseurl}}{{ post.url }}">{{ post.title }}</a><br>
+    {{ post.date | date: "%B %-d, %Y" }}
+  </li>
 {% endfor %}
-  <li>Read older <a href="news/">news here</a>, or <a href="news/feed.xml">subscribe with rss</a></li>
+  <li style="border-bottom: none;">
+    Read more <a href="news/">community news »</a><br>
+  </li>
 </ul>
+
+</div>
