@@ -11,5 +11,5 @@ title: Training
     and to aid you in performing UEFI and EDK II related tasks.
 
 * Request for training material: [Material
-  Request](mailto:laurie0131@users.sourceforge.net?Subject=UEFI%20Training%20Material&body=UEFI%20Training%20Material)
+  Request](mailto:Laurie0131@users.noreply.github.com?Subject=UEFI%20Training%20Material&body=UEFI%20Training%20Material)
 
