@@ -29,4 +29,4 @@ email the [edk2-devel] list.
 
 You can also search for question and answers already asked in the
 [email list
-search](https://sourceforge.net/p/edk2/mailman/edk2-devel/)
+search](http://gmane.org/info.php?group=gmane.comp.bios.edk2.devel)
