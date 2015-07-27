@@ -35,7 +35,7 @@ Stable releases: [UDK2010], [UDK2014]
 * [Getting Started for Developers]({{wiki}}/Getting_Started_with_EDK_II)
 * [Packages]({{wiki}}/EDKII_Packages)
 * [Open Tasks]({{wiki}}/Tasks)
-* [Code Style]({{wiki}}/Code_Style)
+* [Code Style]({{wiki}}/Code-Style)
 * [EDK II Documents]({{wiki}}/EDK_II_Documents)
 
 ### <span class="mw-headline" id="Related_Information">Related Information</span>
