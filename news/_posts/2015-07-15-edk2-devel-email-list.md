@@ -1,10 +1,10 @@
 ---
 layout: news
-title: Email list transition
+title: EDK II email list (edk2-devel) has moved
 ---
 {% include site-links.md %}
 
-The EDK II development email list edk2-devel has transitioned. To subscribe to the new list: 
+The EDK II development email list (edk2-devel) has moved.
 
 To subscribe to the new list:
 
