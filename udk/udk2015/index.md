@@ -87,7 +87,7 @@ If you have questions please email the [edk2-devel] email list.
        </td>
     <td>
       <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications</a></p>
-      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
+      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24 and 1.25) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update July-Aug, 2015 V 1.24 & 1.25 </li>
         
@@ -107,14 +107,14 @@ If you have questions please email the [edk2-devel] email list.
   <tr>
     <td>
       <p><a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All CHM/HTMLs</a></p>
-      <p> UDK2015 only  <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download">Download All PDFs</a></p>
+      
     </td>
     <td>
-      <p>This download contains all .chm and .html documents for UDK2015.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  Optionally, Download all the CHMs converted to PDF Format in the second .zip</p>
+      <p>This download contains all .chm and .html documents for UDK2015.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  </p>
     </td>
     <td>
       <p>Contains both .chm file and .html files in this .zip for all UDK2015  documents<br/>
-      Contains zip of all the .chm converted to PDF</p>
+      </p>
     </td>
   </tr>
 
