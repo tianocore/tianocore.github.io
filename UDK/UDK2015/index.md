@@ -143,20 +143,6 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.chm/download">EdkCompatibilityPkgPkg .chm </a><br/>
-      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg .zip</a><br/>
-      </p>
-    </td>
-    <td>
-      <p>NOTE: Only for UDK2015 release. <br/>
-      The <a href="{{wiki}}/EdkCompatibilityPkg" title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide documentation on header files and libraries that enable you to build the EDK module
-in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
-    </td>
-    <td> <p>.chm file<br/> .html file<br/> </p></td>
-  </tr>
-
-  <tr>
-    <td>
       <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg .chm</a></p>
       <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg .zip</a></p>
       <p></p>
