@@ -45,8 +45,8 @@ If you have questions please email the [edk2-devel] email list.
     <td>
       <p>UEFI development Kit 2015 Specification Release #1 (UDK2015) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
       <p>Based on svn version:<br/></p>
-      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:">https://svn.code.sf.net/p/edk2/code/branches/UDK2015:</a> r16557<br/>
-      <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r92<br/></p>
+      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:">https://svn.code.sf.net/p/edk2/code/branches/UDK2015:</a> r18552<br/>
+      <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r96<br/></p>
       <p><b>How to Build</b><br/>
       <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
@@ -68,8 +68,7 @@ If you have questions please email the [edk2-devel] email list.
       <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download">Download All</a></p><hr/>
       <p>Documents<br/>
       <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All</a><br/></p>
-      <p> UDK2015 only 
-      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download">Download All PDFs</a><br/></p>
+      
     </td>
   </tr>
 
@@ -84,20 +83,13 @@ If you have questions please email the [edk2-devel] email list.
   </tr>
 
   <tr>
-    <td><p>Version 1.24 </p>
-      <ul>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/Build_Spec_1.24.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/Build_Spec_1.24.pdf/download">BUILD PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/Build_Spec_1.24.zip/download/download" rel="nofollow" title="{{edk2files}}/Specifications/Build_Spec_1.24.zip/download/download">ZIP</a> </li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_1.24A.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_1.24A.pdf/download">DEC PDF A</a> <a class="externallink" href="{{edk2files}}/Specifications/DEC_Spec_1.24A.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/DEC_Spec_1.24A.zip/download">ZIP</a></li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/DSC_Spec_1.24.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/DSC_Spec_1.24.pdf/download">DSC PDF</a> <a class="externallink" href="{{edk2files}}/Specifications/DSC_Spec_1.24.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/DSC_Spec_1.24.zip/download">ZIP</a></li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/FDF_Spec_1.24.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/FDF_Spec_1.24.pdf/download">FDF PDF</a>  <a class="externallink" href="{{edk2files}}/Specifications/FDF_Spec_1.24.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/FDF_Spec_1.24.zip/download">ZIP</a></li>
-        <li><a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_1.24A.pdf/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_1.24A.pdf/download">INF PDF A</a>  <a class="externallink" href="{{edk2files}}/Specifications/INF_Spec_1.24A.zip/download" rel="nofollow" title="{{edk2files}}/Specifications/INF_Spec_1.24A.zip/download">ZIP</a></li>
-      </ul>
-    </td>
+    <td><p>Version 1.24 and 1.25 </p>
+       </td>
     <td>
-      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24 specifications</a></p>
+      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications</a></p>
       <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
-        <li>Update January, 2015 V 1.24 </li>
+        <li>Update July-Aug, 2015 V 1.24 & 1.25 </li>
         
       </ul>
     </td>
