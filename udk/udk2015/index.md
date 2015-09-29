@@ -429,7 +429,7 @@ EDK II More info:
 <a href="{{wiki}}/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
 <a href="{{wiki}}/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
 
-UEFI Developers Kit 2010 (UDK2014).  The UDK2014 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2010.SR1 currently supports UEFI 2.4 and PI 1.3 level of specifications.
+UEFI Developers Kit 2010 (UDK2015).  The UDK2015 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2015 currently supports UEFI 2.5 and PI 1.4 level of specifications.
 
 For quick reference, here are the links to the latest packages:
 
