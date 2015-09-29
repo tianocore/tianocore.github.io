@@ -1,22 +1,22 @@
 ---
 layout: default
-title: UDK2014
-redirect_from: "/udk2014.html"
+title: UDK2015
+redirect_from: "/UDK/UDK2015.html"
 ---
 {% include site-links.md %}
 
-UDK2014 is a stable release of portions of the [EDK II] project.
+UDK2015 is a stable release of portions of the [EDK II] project.
 <br>
 Link for  Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  
 
 If you have questions please email the [edk2-devel] email list.
 
 
-## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
+## <span class="mw-headline" id="UDK2015"><b>UDK2015</b></span>
 
 <table width="100%" class="t_projects">
   <tr>
-    <th colspan="3" style="background-color:#a9c6dd"> <b>UDK2014 Releases</b> </th>
+    <th colspan="3" style="background-color:#a9c6dd"> <b>UDK2015 Releases</b> </th>
   </tr>
 
   <tr>
@@ -27,8 +27,8 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <th>
-     <p><b>UDK2014.SP1.P1</b></p>
-      <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">
+     <p><b>UDK2015</b></p>
+      <a href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Complete.MyWorkSpace.zip/download">
       <img src="{{baseurl}}/images/DownLoad-button.gif" /></a>
     </th>
     <th> What is it? </th>
@@ -38,19 +38,19 @@ If you have questions please email the [edk2-devel] email list.
   <tr>
     <td>
       w/ WorkSpace Expanded .zip<br/>
-      Release <b>Dec 31, 2014</b><br/>
-      <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
+      Release <b>Sept 29, 2015</b><br/>
+      <a href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
       
     </td>
     <td>
-      <p>UEFI development Kit 2014 SP1 Specification Release #1 (UDK2014.SP1.P1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
+      <p>UEFI development Kit 2015 Specification Release #1 (UDK2015) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
       <p>Based on svn version:<br/></p>
-      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:">https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1:</a> r16557<br/>
+      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:">https://svn.code.sf.net/p/edk2/code/branches/UDK2015:</a> r16557<br/>
       <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r92<br/></p>
       <p><b>How to Build</b><br/>
       <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
-      See <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-Features.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.P1-Features.txt/download">Release Notes Features</a><br/></p>
+      See <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-Features.txt/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-Features.txt/download">Release Notes Features</a><br/></p>
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
@@ -60,16 +60,16 @@ If you have questions please email the [edk2-devel] email list.
         <li><a href="{{wiki}}/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
     <td>
-      <p>(UDK2014.SP1.P1)<br/></p>
-      <p><a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1-FilesList.txt/download">File List</a>
+      <p>(UDK2015)<br/></p>
+      <p><a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-FilesList.txt/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-FilesList.txt/download">File List</a>
       Of Entire Release .zip </p><hr/>
-      <p>Notes UDK2014.SP1 <br/>
+      <p>Notes UDK2015 <br/>
       Feature details : <br/>
-      <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Notes.zip/download">Download All</a></p><hr/>
+      <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download">Download All</a></p><hr/>
       <p>Documents<br/>
-      <a class="externallink" href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download">Download All</a><br/></p>
-      <p> UDK2014 only 
-      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download All PDFs</a><br/></p>
+      <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All</a><br/></p>
+      <p> UDK2015 only 
+      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download">Download All PDFs</a><br/></p>
     </td>
   </tr>
 
@@ -94,8 +94,8 @@ If you have questions please email the [edk2-devel] email list.
       </ul>
     </td>
     <td>
-      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2014.SP1.P1 EDK II v1.24 specifications</a></p>
-      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24) that are available with the UDK2014.SP1.P1 release.  See details in the Revision History in each of the individual documents for more details.</p>
+      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24 specifications</a></p>
+      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update January, 2015 V 1.24 </li>
         
@@ -114,22 +114,22 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Documents.zip/download">Download All CHM/HTMLs</a></p>
-      <p> UDK2014 only  <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download">Download All PDFs</a></p>
+      <p><a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All CHM/HTMLs</a></p>
+      <p> UDK2015 only  <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/UDK2015_Documents_PDF.zip/download">Download All PDFs</a></p>
     </td>
     <td>
-      <p>This download contains all .chm and .html documents for UDK2014.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  Optionally, Download all the CHMs converted to PDF Format in the second .zip</p>
+      <p>This download contains all .chm and .html documents for UDK2015.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  Optionally, Download all the CHMs converted to PDF Format in the second .zip</p>
     </td>
     <td>
-      <p>Contains both .chm file and .html files in this .zip for all UDK2014  documents<br/>
+      <p>Contains both .chm file and .html files in this .zip for all UDK2015  documents<br/>
       Contains zip of all the .chm converted to PDF</p>
     </td>
   </tr>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.chm/download">CryptoPkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/CryptoPkg%20Document.zip/download">CryptoPkg .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.chm/download">CryptoPkg .chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.zip/download">CryptoPkg .zip</a></p>
     </td>
     <td>
       <p>The <a href="{{wiki}}/CryptoPkg" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
@@ -143,12 +143,12 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm/download">EdkCompatibilityPkgPkg .chm </a><br/>
-      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg .zip</a><br/>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.chm/download">EdkCompatibilityPkgPkg .chm </a><br/>
+      <a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/EdkCompatibilityPkg%20Document.zip/download">EdkCompatibilityPkgPkg .zip</a><br/>
       </p>
     </td>
     <td>
-      <p>NOTE: Only for UDK2014 release. <br/>
+      <p>NOTE: Only for UDK2015 release. <br/>
       The <a href="{{wiki}}/EdkCompatibilityPkg" title="EdkCompatibilityPkg">EdkCompatibilityPkg</a> documents provide documentation on header files and libraries that enable you to build the EDK module
 in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
     </td>
@@ -157,8 +157,8 @@ in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg .chm</a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg .chm</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg .zip</a></p>
       <p></p>
     </td>
     <td>
@@ -170,8 +170,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.chm/download">IntelFrameworkPkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.chm/download">IntelFrameworkPkg .chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg .zip</a></p>
     
     </td>
     <td>
@@ -182,8 +182,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.chm/download">MdeModulePkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdeModulePkg%20Document.zip/download">MdeModulePkg .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.chm/download">MdeModulePkg .chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.zip/download">MdeModulePkg .zip</a></p>
       
     </td>
     <td>
@@ -196,11 +196,11 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.chm/download">MdePkg w/ Libraries .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg w/ Libraries .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.chm/download">MdePkg w/ Libraries .chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg w/ Libraries .zip</a></p>
       
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.chm/download">MdePkg .chm</a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/MdePkg%20Document.zip/download">MdePkg  .zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.chm/download">MdePkg .chm</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.zip/download">MdePkg  .zip</a></p>
          </td>
     <td>
       <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
@@ -213,8 +213,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download">NetworkPkg.chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.chm/download">NetworkPkg.chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a></p>
        </td>
     <td>
       <p>The <a href="{{wiki}}/NetworkPkg" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
@@ -224,8 +224,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download">SecurityPkg.chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2014.SP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm/download">SecurityPkg.chm </a></p>
+      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a></p>
           </td>
     <td>
       <p>The <a href="{{wiki}}/SecurityPkg" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
@@ -241,7 +241,7 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td> <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  </td>
+    <td> <a href="{{baseurl}}/UDK2014/Archive/">UDK2014 Archive</a>  </td>
     <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
   </tr>
