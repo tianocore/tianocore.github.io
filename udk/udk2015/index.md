@@ -439,4 +439,4 @@ For quick reference, here are the links to the latest packages:
 
 * <a class="externallink" href="{{edk2files}}/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download" rel="nofollow" title="{{edk2files}}/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download">EDKII User Manual</a>
 
-* The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from <a class="externallink" href="http://www.intel.com/udk" rel="nofollow" title="http://www.intel.com/udk">http://www.intel.com/udk</a>
+* The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from <a class="externallink" href="http://firmware.intel.com" rel="nofollow" title="http://firmware.intel.com">http://firmware.intel.com</a>
