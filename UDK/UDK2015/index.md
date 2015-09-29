@@ -1,8 +1,8 @@
 ---
 layout: default
 title: UDK2015
-redirect_from: "/UDK/UDK2015.html"
 ---
+
 {% include site-links.md %}
 
 UDK2015 is a stable release of portions of the [EDK II] project.
