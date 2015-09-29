@@ -7,7 +7,7 @@ redirect_from: "/udk2014.html"
 
 UDK2014 is a stable release of portions of the [EDK II] project.
 <br>
-Link for  Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  
+Link for  Previous UDK2014 releases <a href="{{baseurl}}/UDK/udk2014/Archive/">UDK2014 Archive</a>  
 
 If you have questions please email the [edk2-devel] email list.
 
@@ -241,7 +241,7 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td> <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  </td>
+    <td> <a href="{{baseurl}}/UDK/udk2014/Archive/">UDK2014 Archive</a>  </td>
     <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
   </tr>
