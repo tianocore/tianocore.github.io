@@ -219,7 +219,7 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td> <a href="{{baseurl}}/UDK2014/Archive/">UDK2014 Archive</a>  </td>
+    <td> <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  </td>
     <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
   </tr>
