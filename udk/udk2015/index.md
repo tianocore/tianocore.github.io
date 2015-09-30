@@ -45,8 +45,8 @@ If you have questions please email the [edk2-devel] email list.
     <td>
       <p>UEFI development Kit 2015 Specification Release #1 (UDK2015) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
       <p>Based on svn version:<br/></p>
-      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015:">https://svn.code.sf.net/p/edk2/code/branches/UDK2015:</a> r18552<br/>
-      <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg:</a> r96<br/></p>
+      <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015">https://svn.code.sf.net/p/edk2/code/branches/UDK2015</a> : r18552<br/>
+      <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg</a>: r96<br/></p>
       <p><b>How to Build</b><br/>
       <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
