@@ -43,7 +43,7 @@ If you have questions please email the [edk2-devel] email list.
       
     </td>
     <td>
-      <p>UEFI development Kit 2015 Specification Release #1 (UDK2015) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
+      <p>UEFI development Kit (UDK) 2015 (UDK2015) Release (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
       <p>Based on svn version:<br/></p>
       <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015">https://svn.code.sf.net/p/edk2/code/branches/UDK2015</a> : r18552<br/>
       <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg</a>: r96<br/></p>
