@@ -12,7 +12,7 @@ Link for currnent UDK releases <a href="{{baseurl}}/udk/udk2014/">UDK2015</a>
 
 Link for Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  
 
-Link for Previous UDK2010 releases <a href="{{wiki}}/Previous_UDK2010_Releases" title="UDK2010 Archive ">UDK2010 Archive</a>
+Link for Previous UDK2010 releases <a href="{{wiki}}/Previous-UDK2010-Releases" title="UDK2010 Archive ">UDK2010 Archive</a>
 
 Link to EDK II project files <a class="externallink" href="{{edk2files}}/" rel="nofollow" title="{{edk2files}}/">EDK II Project Files</a> 
 
