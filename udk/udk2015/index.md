@@ -89,14 +89,16 @@ If you have questions please email the [edk2-devel] email list.
     <td><p>Version 1.24 and 1.25 </p>
        </td>
     <td>
-      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications</a></p>
-      <p>These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24 and 1.25) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
+      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications </a></p>
+      Link to EDK II Specifications page 
+      <p>
+      These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24 and 1.25) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update July-Aug, 2015 V 1.24 & 1.25 </li>
         
       </ul>
     </td>
-    <td><p>Each document is a .PDF of each of the specifications</p></td>
+    <td></td>
   </tr>
 
   <tr>
