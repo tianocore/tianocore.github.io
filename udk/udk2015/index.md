@@ -71,7 +71,7 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <th width="220">
-      <h2><span class="mw-headline" id="EDK_II_Specifications">EDK II Specifications</span>
+      <h2>EDK II Specifications
   
       </h2>
     </th>
@@ -97,7 +97,8 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <th width="220">
-      <h2><span class="mw-headline" id="Documents">Documents</span></h2>
+      
+      <h2> Documents</h2>
     </th>
     <th width="220"> What is it? </th>
     <th width="220"> What’s in the Download? </th>
@@ -213,7 +214,7 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <th colspan="3">
-      <h2><span class="mw-headline" id="Previous_UDK_Releases">Previous UDK Releases</span></h2>
+      <h2>Previous UDK Releases</h2>
     </th>
   </tr>
 
@@ -422,8 +423,8 @@ blank
   
 </table>
 
-## <span class="mw-headline" id="More_Info">More Info</span>
 
+<h2><b>More Info</b></h2>
 EDK II More info: 
 <a href="{{wiki}}/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
 <a href="{{wiki}}/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
