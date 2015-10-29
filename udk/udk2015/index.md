@@ -21,12 +21,6 @@ If you have questions please email the [edk2-devel] email list.
   </tr>
 
   <tr>
-    <th width="20%" style="background-color:#fdbb13"> Download </th>
-    <th width="55%" style="background-color:#fdbb13"> What </th>
-    <th width="25%" style="background-color:#fdbb13"> Contents </th>
-  </tr>
-
-  <tr>
     <th>
      
      
