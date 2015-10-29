@@ -11,8 +11,6 @@ Link for [Previous UDK2010 Releases]({{wiki}}/Previous-UDK2010-Releases)
 
 If you have questions please email the [edk2-devel] email list.
 
-## <span class="mw-headline" id="UDK2014"><b>UDK2014</b></span>
-
 
 <table width="100%" class="t_projects">
   <tr>
@@ -29,7 +27,8 @@ If you have questions please email the [edk2-devel] email list.
     <th>
      <p><b>UDK2014.SP1.P1</b></p>
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">
-      <img src="{{baseurl}}/images/DownLoad-button.gif" /></a>
+      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
+     
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
@@ -238,7 +237,8 @@ which follows Intel EFI Framework Specification.</p>
     <th>
      <p><b>UDK2014.SP1</b></p>
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">
-      <img src="{{baseurl}}/images/DownLoad-button.gif" /></a>
+      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
+      
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
@@ -447,7 +447,8 @@ which follows Intel EFI Framework Specification.</p>
     <th>
     UDK2014
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download">
-      <img src="{{baseurl}}/images/DownLoad-button.gif" /></a>
+      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
+   
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
