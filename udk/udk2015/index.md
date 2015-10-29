@@ -13,7 +13,7 @@ If you have questions please email the [edk2-devel] email list.
 
 
 
-<b> UDK2015</b>
+
 
 <table width="100%" class="t_projects">
   <tr>
