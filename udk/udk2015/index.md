@@ -12,7 +12,7 @@ Link for  Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK20
 If you have questions please email the [edk2-devel] email list.
 
 
-## <span class="mw-headline" id="UDK2015"><b>UDK2015</b></span>
+
 <b> UDK2015</b>
 
 <table width="100%" class="t_projects">
@@ -29,9 +29,7 @@ If you have questions please email the [edk2-devel] email list.
   <tr>
     <th>
      <p><b>UDK2015</b></p>
-      <a href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Complete.MyWorkSpace.zip/download">
-      <img src="{{baseurl}}/images/DownLoad-button.gif" /></a>
-    
+     
     <a href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Complete.MyWorkSpace.zip/download">
       <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
       
