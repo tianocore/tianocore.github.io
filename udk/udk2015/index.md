@@ -25,7 +25,7 @@ If you have questions please email the [edk2-devel] email list.
      
      
     <a href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Complete.MyWorkSpace.zip/download">
-      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
+      <img src="{{baseurl}}/images/Download-button2.gif"  /></a>
       
     </th>
     <th> What is it? </th>
