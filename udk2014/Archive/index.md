@@ -27,8 +27,7 @@ If you have questions please email the [edk2-devel] email list.
     <th>
      <p><b>UDK2014.SP1.P1</b></p>
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1.P1/UDK2014.SP1.P1.Complete.MyWorkSpace.zip/download">
-      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
-     
+      <img src="{{baseurl}}/images/Download-button2.gif"  /></a>
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
@@ -237,8 +236,7 @@ which follows Intel EFI Framework Specification.</p>
     <th>
      <p><b>UDK2014.SP1</b></p>
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1.Complete.MyWorkSpace.zip/download">
-      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
-      
+     <img src="{{baseurl}}/images/Download-button2.gif"  /></a>  
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
@@ -447,8 +445,7 @@ which follows Intel EFI Framework Specification.</p>
     <th>
     UDK2014
       <a href="https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download">
-      <img src="https://firmware.intel.com/sites/default/files/button6.gif"  /></a>
-   
+      <img src="{{baseurl}}/images/Download-button2.gif"  /></a>
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
