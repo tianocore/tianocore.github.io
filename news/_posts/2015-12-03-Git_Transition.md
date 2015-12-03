@@ -16,7 +16,7 @@ in reviewing larger changes and the addition of new features.
 
 As part of this change a number of process changes will be adopted to support better use of git.  
 This includes the method for sending out patches for review and other minor changes.  
-Information regarding these changes will be found on  <a href="{{baseurl}}/tianocore.org">tianocore.org</a> in the following weeks.  In addition to the process changes documentation for users new to git will also be provided.
+Information regarding these changes will be found on  <a href="http://tianocore.org">tianocore.org</a> in the following weeks.  In addition to the process changes documentation for users new to git will also be provided.
 
 Please post any comments or questions related to this transition to the [Edk2-devel ]({{wiki}}/Edk2-devel) mailing list.
 
