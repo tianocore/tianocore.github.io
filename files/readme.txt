@@ -1,1 +1,1 @@
-test for the Files dir
+Migration of files from Sourceforge to GitHub
