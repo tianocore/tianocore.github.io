@@ -52,7 +52,7 @@ If you have questions please email the [edk2-devel] email list.
 
       <ul>
         <li><a href="{{wiki}}/Using_EDK_II_with_Native_GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
-        <li><a href="{{wiki}}/Windows_systems" title="Windows systems">Windows systems</a></li>
+        <li><a href="{{wiki}}/Windows-systems" title="Windows systems">Windows systems</a></li>
         <li><a href="{{wiki}}/Xcode" title="Xcode">Xcode Mac OS X</a></li>
         <li><a href="{{wiki}}/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
