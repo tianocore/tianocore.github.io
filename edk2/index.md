@@ -28,14 +28,14 @@ irc {\#edk2 on [www.oftc.net](http://www.oftc.net/),
 
 EDK II Summary page: [http://sourceforge.net/projects/edk2](http://sourceforge.net/projects/edk2)
 
-Stable releases: [UDK2010], [UDK2014]
+Stable releases: [UDK2010], [UDK2014], [UDK2015]
 
 ### <span class="mw-headline" id="Important_Information">Important Information</span>
 
 * [Getting Started for Developers]({{wiki}}/Getting_Started_with_EDK_II)
 * [Packages]({{wiki}}/EDKII_Packages)
 * [Open Tasks]({{wiki}}/Tasks)
-* [Code Style]({{wiki}}/Code_Style)
+* [Code Style]({{wiki}}/Code-Style)
 * [EDK II Documents]({{wiki}}/EDK_II_Documents)
 
 ### <span class="mw-headline" id="Related_Information">Related Information</span>

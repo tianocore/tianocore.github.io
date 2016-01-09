@@ -10,7 +10,7 @@ the Intel&reg; Platform Innovation Framework for UEFI (AKA Tiano).
 If you are interested in being involved with our community, we suggest:
 
 * Downloading and using our open source code
-  * Look over our [Projects]({{wiki}}/Projects) section
+  * Look over our [Projects]({{wiki}}/Additional-Projects) section 
   * For [EDK II], checkout the [Getting Started with EDK
     II]({{wiki}}/Getting%20Started%20with%20EDK%20II) page
 * Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of our projects
