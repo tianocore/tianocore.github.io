@@ -4,7 +4,8 @@ description: Tianocore UEFI related projects
 url: http://www.tianocore.org
 
 markdown: kramdown
-pygments: true
+
+highlighter: pygments
 
 gems:
   - jekyll-redirect-from
