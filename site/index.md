@@ -61,12 +61,12 @@ your web browser to view your website changes.
 ### Wiki changes
 
 If you want to modify tianocore wiki pages, you can also use your
-forked repo. Each project's wiki is actually also a git repository.
-Therefore, you can clone the tianocore wiki with this command:
+tianocore (website) repository. Each repository on github has a wiki
+that is also a git repository. Therefore, you can copy the tianocore
+wiki to your tianocore project's wiki by cloning the main wiki, and
+then pushing it to your wiki:
 
 `$`**`git clone https://github.com/tianocore/tianocore.github.io.wiki`**
-
-Then, push the master branch to the wiki for your forked repo:
 
 `$`**`cd tianocore.github.io.wiki`**
 
