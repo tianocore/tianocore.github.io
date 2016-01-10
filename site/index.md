@@ -57,3 +57,27 @@ Once everything it installed, you can run this command:
 
 When you run jekyll, it will tell you the local test url to open in
 your web browser to view your website changes.
+
+### Wiki changes
+
+If you want to modify tianocore wiki pages, you can also use your
+forked repo. Each project's wiki is actually also a git repository.
+Therefore, you can clone the tianocore wiki with this command:
+
+`$`**`git clone http://github.com/tianocore/tianocore.github.io.wiki`**
+
+Then, push the master branch to the wiki for your forked repo:
+
+`$`**`cd tianocore.github.io.wiki`**
+
+`$`**`git remote add your_username git@github.com:your_username/tianocore.wiki.git`**
+
+`$`**`git push your_username master`**
+
+Now you can make changes to your own fork of the wiki, and view them
+at <https://github.com/your_username/tianocore/wiki>.
+
+Note: If you have trouble pushing to your wiki repo, you may have to
+visit the wiki page, create one page, and then force push the master
+branch. (It seems that github might not create the wiki git repo until
+you start using the wiki.)
