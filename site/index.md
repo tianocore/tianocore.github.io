@@ -11,6 +11,9 @@ License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
 Source repository: <https://github.com/tianocore/tianocore.github.io>
 
+Note: In links and commands below, replace 'your_username' with your
+github username.
+
 ### How to fork and test website changes
 
 1. Visit [website repository page](https://github.com/tianocore/tianocore.github.io)
