@@ -26,15 +26,15 @@ github username.
 
 4. Clone your forked repo. For example:
 
-   `$ git clone git@github.com:your_username/tianocore.git`
+   `$`**`git clone git@github.com:your_username/tianocore.git`**
 
 5. Checkout the gh-pages branch in your repo
 
-   `$ git checkout gh-pages`
+   `$`**`git checkout gh-pages`**
 
 6. Make your changes, and then push the gh-pages branch
 
-   `$ git push origin gh-pages`
+   `$`**`git push origin gh-pages`**
 
 3. Reload the forked website at <http://your_username.github.io/tianocore>
 
@@ -53,7 +53,7 @@ jekyll-redirect-from.
 
 Once everything it installed, you can run this command:
 
-`$ jekyll serve -w .`
+`$`**`jekyll serve -w .`**
 
 When you run jekyll, it will tell you the local test url to open in
 your web browser to view your website changes.
