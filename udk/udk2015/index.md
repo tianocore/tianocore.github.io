@@ -22,11 +22,11 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <th>
-     
-     
-    <a href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Complete.MyWorkSpace.zip/download">
+    
+    <a href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Complete.MyWorkSpace.zip">
       <img src="{{baseurl}}/images/Download-button2.gif"  /></a>
-      
+       
+        
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
