@@ -32,13 +32,16 @@ github username.
 
    `$`**`git checkout gh-pages`**
 
-6. Make your changes, and then push the gh-pages branch
+6. Create an empty commit for the the gh-pages branch to be pushed <br/>
+
+     `$`**`git commit --allow-empty -m "Empty commit so github will build forked site"`**
+7. Make your changes, and then push the gh-pages branch
 
    `$`**`git push origin gh-pages`**
 
-3. Reload the forked website at <http://your_username.github.io/tianocore>
+8. Reload the forked website at <http://your_username.github.io/tianocore>
 
-7. Let us know about your changes on [edk2-devel]({{wiki}}/Edk2-devel)
+9. Let us know about your changes on [edk2-devel]({{wiki}}/Edk2-devel)
    and we'll take a look to see if we can use them on the main site
 
 ### Local testing of website changes
