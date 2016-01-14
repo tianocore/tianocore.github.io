@@ -32,9 +32,14 @@ github username.
 
    `$`**`git checkout gh-pages`**
 
-6. Create an empty commit for the the gh-pages branch to be pushed <br/>
+6. (Optional) Create an empty commit for the the gh-pages to push
 
-     `$`**`git commit --allow-empty -m "Empty commit so github will build forked site"`**
+   If you want to test the website before making any changes, you need
+   to create an empty commit and push your gh-pages branch. You can
+   skip this step, make some actual changes, and push those instead.
+
+   `$`**`git commit --allow-empty -m "Empty commit so github will build site"`**
+
 7. Make your changes, and then push the gh-pages branch
 
    `$`**`git push origin gh-pages`**
