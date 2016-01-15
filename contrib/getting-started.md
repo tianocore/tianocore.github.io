@@ -11,17 +11,22 @@ If you are interested in being involved with our community, we suggest:
 
 * Downloading and using our open source code
   * Look over our [Projects]({{wiki}}/Additional-Projects) section 
-  * For [EDK II], checkout the [Getting Started with EDK
-    II]({{wiki}}/Getting%20Started%20with%20EDK%20II) page
+  * For [EDK II] projects, checkout the  [Github Quick Start]({{wiki}}/SourceForge-to-Github-Quick-Start)
 * Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of our projects
 
 You may be required to create an account to participate in certain
-areas of our community. The [Tianocore User
-Help]({{wiki}}/Tianocore%20User%20Help) page be helpful in this case.
+areas of our community. <BR>
+The GitHub page ( [https://help.github.com/index.html](https://help.github.com/index.html) ) provides step-by-step instructions for user registration and basic features supported by GitHub. 
 
-*Join Us Today!*
+<BR>
+<MTMarkdownOptions output='html4'>
+<font size="4"><i>Join Us Today!</i></font>
+<br>
+<br>
+<Br>
+<b><font size="3" >FYI for Add-in Hardware Developers</font></b>
+</MTMarkdownOptions>
 
-## FYI for Add-in Hardware Developers
 
 * See [UEFI Driver Developer Resources with EDK
   II]({{wiki}}/Driver_Developer) Support UEFI driver development by
