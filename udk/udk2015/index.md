@@ -17,7 +17,13 @@ If you have questions please email the [edk2-devel] email list.
 
 <table width="100%" class="t_projects">
   <tr>
-    <th colspan="3" style="background-color:#a9c6dd"> <b>UDK2015 Releases</b> </th>
+  <MTMarkdownOptions output='html4'>
+    <th colspan="3" style="background-color:#a9c6dd"> 
+     
+      <font color="#0066FF" size="4" > UDK2015 Releases </font>
+     
+     </th>
+       </MTMarkdownOptions>
   </tr>
 
   <tr>
@@ -36,7 +42,7 @@ If you have questions please email the [edk2-devel] email list.
     <td>
       w/ WorkSpace Expanded .zip<br/>
       Release <b>Sept 29, 2015</b><br/>
-      <a href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
+      <a href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-ReleaseNotes-MyWorkSpace.txt">Release Notes</a> <br/>
       
     </td>
     <td>
@@ -47,7 +53,7 @@ If you have questions please email the [edk2-devel] email list.
       <p><b>How to Build</b><br/>
       <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
-      See <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-Features.txt/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-Features.txt/download">Release Notes Features</a><br/></p>
+      See <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-features.txt" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-features.txt">Release Notes Features</a><br/></p>
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
@@ -58,22 +64,24 @@ If you have questions please email the [edk2-devel] email list.
     </td>
     <td>
       <p>(UDK2015)<br/></p>
-      <p><a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-FilesList.txt/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015-FilesList.txt/download">File List</a>
+      
+      <p><a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-Fileslist.txt" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-Fileslist.txt">File List</a>
       Of Entire Release .zip </p><hr/>
       <p>Notes UDK2015 <br/>
       Feature details : <br/>
-      <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Notes.zip/download">Download All</a></p><hr/>
+      <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Notes.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Notes.zip">Download All</a></p><hr/>
       <p>Documents<br/>
-      <a class="externallink" href="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="{{edk2files}}/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All</a><br/></p>
+      
+      <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip">Download All</a><br/></p>
       
     </td>
   </tr>
 
   <tr>
     <th width="220">
-      <h2>EDK II Specifications
-  
-      </h2>
+      <MTMarkdownOptions output='html4'>
+      <font color="#0066FF">EDK II Specifications</font>
+      </MTMarkdownOptions>
     </th>
     <th width="220">What is it?</th>
     <th width="220"></th>
@@ -97,8 +105,10 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <th width="220">
+    <MTMarkdownOptions output='html4'>
+      <font color="#0066FF">Documents</font>
+      </MTMarkdownOptions>
       
-      <h2> Documents</h2>
     </th>
     <th width="220"> What is it? </th>
     <th width="220"> What’s in the Download? </th>
@@ -106,7 +116,8 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download" rel="nofollow" title="https://sourceforge.net/projects/edk2/files/UDK2015_Releases/UDK2015/UDK2015.Documents.zip/download">Download All CHM/HTMLs</a></p>
+   BRANCH
+      <p><a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip">Download All CHM/HTMLs</a></p>
       
     </td>
     <td>
@@ -120,8 +131,8 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.chm/download">CryptoPkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/CryptoPkg%20Document.zip/download">CryptoPkg .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.chm">CryptoPkg .chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.zip">CryptoPkg .zip</a></p>
     </td>
     <td>
       <p>The <a href="{{wiki}}/CryptoPkg" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
@@ -135,8 +146,8 @@ If you have questions please email the [edk2-devel] email list.
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.chm/download">IntelFrameworkModulePkg .chm</a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkModulePkg%20Document.zip/download">IntelFrameworkModulePkg .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkModulePkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkModulePkg%20Document.chm">IntelFrameworkModulePkg .chm</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkModulePkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkModulePkg%20Document.zip">IntelFrameworkModulePkg .zip</a></p>
       <p></p>
     </td>
     <td>
@@ -148,8 +159,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.chm/download">IntelFrameworkPkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/IntelFrameworkPkg%20Document.zip/download">IntelFrameworkPkg .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.chm">IntelFrameworkPkg .chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.zip">IntelFrameworkPkg .zip</a></p>
     
     </td>
     <td>
@@ -160,8 +171,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.chm/download">MdeModulePkg .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdeModulePkg%20Document.zip/download">MdeModulePkg .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.chm">MdeModulePkg .chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.zip">MdeModulePkg .zip</a></p>
       
     </td>
     <td>
@@ -174,11 +185,11 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.chm/download">MdePkg w/ Libraries .chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document%20With%20Libraries.zip/download">MdePkg w/ Libraries .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.chm">MdePkg w/ Libraries .chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.zip">MdePkg w/ Libraries .zip</a></p>
       
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.chm/download">MdePkg .chm</a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/MdePkg%20Document.zip/download">MdePkg  .zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.chm">MdePkg .chm</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.zip">MdePkg  .zip</a></p>
          </td>
     <td>
       <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
@@ -191,8 +202,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.chm/download">NetworkPkg.chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/NetworkPkg%20Document%20With%20Modules.zip/download">NetworkPkg.zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.chm">NetworkPkg.chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.zip">NetworkPkg.zip</a></p>
        </td>
     <td>
       <p>The <a href="{{wiki}}/NetworkPkg" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
@@ -202,8 +213,8 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm/download">SecurityPkg.chm </a></p>
-      <p><a class="externallink" href="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip/download" rel="nofollow" title="{{edk2files}}/EDK_II_Libraries/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip/download">SecurityPkg.zip</a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.chm">SecurityPkg.chm </a></p>
+      <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip">SecurityPkg.zip</a></p>
           </td>
     <td>
       <p>The <a href="{{wiki}}/SecurityPkg" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
@@ -214,8 +225,10 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <th colspan="3">
-      <h2>Previous UDK Releases</h2>
-    </th>
+      <MTMarkdownOptions output='html4'>
+      <font color="#0066FF"> Previous UDK Releases</font>
+      </MTMarkdownOptions>
+     </th>
   </tr>
 
   <tr>
@@ -226,21 +239,19 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">UDK2010 Archive</a></p><hr/>
-      <p><a class="externallink" href="{{edk2files}}/" rel="nofollow" title="{{edk2files}}/">EDK II Project Files</a> </p>
+      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">UDK2010 Archive</a></p>
     </td>
     <td>
-      <p>Menu for downloading Previous UDK2010 releases </p><hr/>
-      <p>SourceForge style explorer: 
-      Several files and packages are available on the EDK II project (Docs and Files, under &#34;UDK2010 Releases&#34;: UDK2010.UP3.P1, etc.)
-      Or for UDK2014_Releases Directory</p>
+      <p>Menu for downloading Previous UDK2010 releases </p>
     </td>
     <td></td>
   </tr>
 <tr>
     <th colspan="3">
-      <h2><span class="mw-headline" id="Other Releated UDK Releases">Other Releated UDK Releases</span></h2>
-    </th>
+        <MTMarkdownOptions output='html4'>
+      <font color="#0066FF"> Other Releated UDK Releases</font>
+      </MTMarkdownOptions>
+     </th>
   </tr>
    <tr>
     <th> Download </th>
@@ -253,7 +264,7 @@ which follows Intel EFI Framework Specification.</p>
 
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
-<a href="{{wiki}}/Driver_Developer" title="Go to Driver Dev Page">Go to Driver Dev Page</a>
+<a href="{{wiki}}/Driver-Developer" title="Go to Driver Dev Page">Go to Driver Dev Page</a>
 </p>
 
 
@@ -262,7 +273,7 @@ which follows Intel EFI Framework Specification.</p>
 <P style="margin-top: 0; margin-bottom: 0">
 UEFI Driver Writer's Wizard and the 
 UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the 
-<a href="{{wiki}}/Driver_Developer" title="Driver_Developer">Driver Developer</a> page for more resources for UEFI Driver Writers Resources
+<a href="{{wiki}}/Driver-Developer" title="Driver Developer">Driver Developer</a> page for more resources for UEFI Driver Writers Resources
 </p>
 
 
@@ -422,9 +433,15 @@ blank
 
   
 </table>
+<Br>
+<BR>
+<MTMarkdownOptions output='html4'>
+<font color="#0066FF" size="5">
+More Info
+</font>
+</MTMarkdownOptions>
 
 
-<h2><b>More Info</b></h2>
 EDK II More info: 
 <a href="{{wiki}}/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
 <a href="{{wiki}}/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
