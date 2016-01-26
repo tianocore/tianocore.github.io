@@ -9,7 +9,7 @@ other member contributions are listed here.
 
 ## [EDK II] Documents
 
-* [EDK II Documents]({{wiki}}/EDK II Documents)
+* <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a>  
 
 ## [EDK]({{wiki}}/EDK) Documents
 
