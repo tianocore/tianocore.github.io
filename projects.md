@@ -30,17 +30,6 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * [Coreboot_UEFI_payload]({{wiki}}/Coreboot_UEFI_payload) open community project for Coreboot Payload Package.
 * [EDK II Build Data Viewer ](https://github.com/01org/edkiibuilddataviewer) open project for EDK II Build Data viewer
 
-
-License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
-
-Source repositories: git {[github](https://github.com/tianocore/edk2), [bitbucket](https://bitbucket.org/tianocore/edk2), [sourceforge](https://sourceforge.net/p/tianocore/edk2), [more info](https://github.com/tianocore/tianocore.github.io/wiki/EDK2_git)}, svn {[sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2)}
-
-Community: email {[edk2-devel](https://github.com/tianocore/tianocore.github.io/wiki/Edk2-devel)}, irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
-
-
-Stable releases: [UDK2010](https://github.com/tianocore/tianocore.github.io/wiki/UDK2010 "UEFI Development Kit 2010"), [UDK2014](http://www.tianocore.org/udk2014/ "UEFI Development Kit 2014"), [UDK2015]({{baseurl}}/udk/udk2015/ "UEFI Development Kit 2015")
-
-
 <MTMarkdownOptions output='html4'>
 <font color="#0066FF" size="4">
 Other Projects (Non EDK II Projects)
