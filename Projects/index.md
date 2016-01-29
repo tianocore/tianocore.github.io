@@ -5,12 +5,10 @@ title: Additional Projects
 {% include site-links.md %}
 
 <MTMarkdownOptions output='html4'>
-<font color="#0066FF" size="5">
+<font color="#0066FF" size="4">
 EDK II Projects
 </font>
 </MTMarkdownOptions>
-
-<HR>
 
 A modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a>   and [EDK II Specifications]({{wiki}}/EDK II Specifications)
 
