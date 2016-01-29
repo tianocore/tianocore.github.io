@@ -29,7 +29,7 @@ The GitHub page ( [https://help.github.com/index.html](https://help.github.com/i
 
 
 * See [UEFI Driver Developer Resources with EDK
-  II]({{wiki}}/Driver_Developer) Support UEFI driver development by
+  II]({{wiki}}/Driver-Developer) Support UEFI driver development by
   independent hardware vendors (IHV), including the UEFI Driver Wizard
   and UEFI Driver Writers Guide (DWG).
 

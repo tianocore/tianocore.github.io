@@ -36,7 +36,8 @@ Stable releases: [UDK2010], [UDK2014], [UDK2015]
 * [Packages]({{wiki}}/EDKII_Packages)
 * [Open Tasks]({{wiki}}/Tasks)
 * [Code Style]({{wiki}}/Code-Style)
-* [EDK II Documents]({{wiki}}/EDK_II_Documents)
+* <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a>  
+
 
 ### <span class="mw-headline" id="Related_Information">Related Information</span>
 
