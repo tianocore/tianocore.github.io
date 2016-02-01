@@ -10,13 +10,9 @@ environment for the UEFI and PI specifications.
 
 License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
-Source repositories: git
-{[github](https://github.com/tianocore/edk2),
- [bitbucket](https://bitbucket.org/tianocore/edk2),
- [sourceforge](https://sourceforge.net/p/tianocore/edk2),
- [more info]({{wiki}}/EDK2_git)},
-svn
-{[sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2)}
+Source repositories:
+ {[https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)},
+ [more »](source.html)
 
 Community:
 email {[edk2-devel]({{wiki}}/Edk2-devel)},
