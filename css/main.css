@@ -16,17 +16,27 @@ body {
     left: 0;
     bottom: 0;
     width: 60em;
-    height: 13em;
     background: url("../images/header-bg.jpg") no-repeat;
     border-top: 10px solid #ff6600;
     margin-top: -10px;
     float: left;
 }
 
+#topbar.front-page {
+    height: 13em;
+}
+
 #topbar #logo {
   position: relative;
   top: 85px;
   left: 20px;
+}
+
+#topbar #small-logo {
+    position: relative;
+    left: 20px;
+    padding: 0.1em 0 0.1em 0;
+    height: 3em;
 }
 
 #sidebar {

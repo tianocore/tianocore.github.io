@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: front-page
 title: Welcome
 ---
 {% include site-links.md %}
