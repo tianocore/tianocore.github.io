@@ -10,6 +10,6 @@ title: News
 {% for post in site.posts %}
 <div class="news-page news-item"></div>
 
-###[{{ post.date | date: "%B %-d, %Y" }}]({{baseurl}}{{ post.url }})
+### [{{ post.date | date: "%B %-d, %Y" }}]({{baseurl}}{{ post.url }})
 {{ post.content }}
 {% endfor %}
