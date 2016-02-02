@@ -5,7 +5,7 @@ url: http://www.tianocore.org
 
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 gems:
   - jekyll-redirect-from
