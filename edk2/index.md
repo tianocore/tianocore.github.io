@@ -28,7 +28,7 @@ Stable releases: [UDK2010], [UDK2014], [UDK2015]
 
 ### <span class="mw-headline" id="Important_Information">Important Information</span>
 
-* [Getting Started for Developers]({{wiki}}/Getting_Started_with_EDK_II)
+* [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
 * [Packages]({{wiki}}/EDKII_Packages)
 * [Open Tasks]({{wiki}}/Tasks)
 * [Code Style]({{wiki}}/Code-Style)
