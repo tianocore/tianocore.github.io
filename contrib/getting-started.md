@@ -11,7 +11,7 @@ If you are interested in being involved with our community, we suggest:
 
 * Downloading and using our open source code
   * Look over our [Projects]({{wiki}}/Additional-Projects) section 
-  * For [EDK II] projects, checkout the  [Github Quick Start]({{wiki}}/SourceForge-to-Github-Quick-Start)
+  * For [EDK II] projects, checkout the  [Github Quick Start]({{wiki}}/SourceForge-to-Github-Quick-Start) and [Getting Started for Developers]({{wiki}}/Getting Started with EDK II) pages
 * Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of our projects
 
 You may be required to create an account to participate in certain
