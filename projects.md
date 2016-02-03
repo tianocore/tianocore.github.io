@@ -42,11 +42,12 @@ Other Projects (Non EDK II Projects)
 Important Information
 </font>
 </MTMarkdownOptions>
--   [Getting Started for Developers](https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started_with_EDK_II)
--   [Packages](https://github.com/tianocore/tianocore.github.io/wiki/EDKII_Packages)
--   [Open Tasks](https://github.com/tianocore/tianocore.github.io/wiki/Tasks)
--   [Code Style](https://github.com/tianocore/tianocore.github.io/wiki/Code_Style)
--   [EDK II Documents](https://github.com/tianocore/tianocore.github.io/wiki/EDK_II_Documents)
+-   [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
+-   [Packages]({{wiki}}/EDKII_Packages)
+-   [Open Tasks]({{wiki}}/Tasks)
+-   [Code Style]({{wiki}}/Code_Style)
+-   [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
+
 
 <MTMarkdownOptions output='html4'>
 <font color="#0066FF" size="4">
