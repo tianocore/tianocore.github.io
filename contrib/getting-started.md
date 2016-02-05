@@ -11,12 +11,20 @@ If you are interested in being involved with our community, we suggest:
 
 * Downloading and using our open source code
   * Look over our [Projects]({{wiki}}/Additional-Projects) section 
-  * For [EDK II] projects, checkout the  [Github Quick Start]({{wiki}}/SourceForge-to-Github-Quick-Start) and [Getting Started for Developers]({{wiki}}/Getting Started with EDK II) pages
-* Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of our projects
+  * For [EDK II] projects, checkout the
+    [Github Quick Start]({{wiki}}/SourceForge-to-Github-Quick-Start) and
+    [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
+    pages
+* Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of
+  our projects
 
 You may be required to create an account to participate in certain
-areas of our community. <BR>
-The GitHub page ( [https://help.github.com/index.html](https://help.github.com/index.html) ) provides step-by-step instructions for user registration and basic features supported by GitHub. 
+areas of our community.
+
+The GitHub page
+([https://help.github.com/index.html](https://help.github.com/index.html))
+provides step-by-step instructions for user registration and basic
+features supported by GitHub.
 
 <BR>
 <MTMarkdownOptions output='html4'>
