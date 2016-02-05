@@ -21,10 +21,9 @@ If you are interested in being involved with our community, we suggest:
 You may be required to create an account to participate in certain
 areas of our community.
 
-The GitHub page
-([https://help.github.com/index.html](https://help.github.com/index.html))
-provides step-by-step instructions for user registration and basic
-features supported by GitHub.
+The [GitHub Help](https://help.github.com/) page provides step-by-step
+instructions for user registration and basic features supported by
+GitHub.
 
 <BR>
 <MTMarkdownOptions output='html4'>
