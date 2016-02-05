@@ -25,15 +25,10 @@ The [GitHub Help](https://help.github.com/) page provides step-by-step
 instructions for user registration and basic features supported by
 GitHub.
 
-<BR>
-<MTMarkdownOptions output='html4'>
-<font size="4"><i>Join Us Today!</i></font>
 <br>
-<br>
-<Br>
-<b><font size="3" >FYI for Add-in Hardware Developers</font></b>
-</MTMarkdownOptions>
+<span style="font-size: 125%">_Join Us Today!_</span>
 
+## Add-in Hardware Developers
 
 * See [UEFI Driver Developer Resources with EDK
   II]({{wiki}}/Driver-Developer) Support UEFI driver development by
