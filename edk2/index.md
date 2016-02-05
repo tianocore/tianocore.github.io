@@ -22,8 +22,6 @@ irc {\#edk2 on [www.oftc.net](http://www.oftc.net/),
 
 <!-- Bug/feature tracking: [http://sourceforge.net/apps/trac/edk2](http://sourceforge.net/apps/trac/edk2) -->
 
-EDK II Summary page: [http://sourceforge.net/projects/edk2](http://sourceforge.net/projects/edk2)
-
 Stable releases: [UDK2010], [UDK2014], [UDK2015]
 
 ### <span class="mw-headline" id="Important_Information">Important Information</span>
