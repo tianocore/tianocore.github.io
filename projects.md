@@ -45,7 +45,7 @@ Important Information
 -   [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
 -   [Packages]({{wiki}}/EDKII_Packages)
 -   [Open Tasks]({{wiki}}/Tasks)
--   [Code Style]({{wiki}}/Code_Style)
+-   [Code Style]({{wiki}}/Code-Style)
 -   [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
 
 
