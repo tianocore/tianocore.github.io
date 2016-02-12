@@ -22,17 +22,15 @@ github username.
 2. Go to the settings for your forked repo and rename it from
    tianocore.github.io to tianocore
 
-3. Test the forked website at <http://your_username.github.io/tianocore>
-
-4. Clone your forked repo. For example:
+3. Clone your forked repo. For example:
 
    `$`**`git clone git@github.com:your_username/tianocore.git`**
 
-5. Checkout the gh-pages branch in your repo
+4. Checkout the gh-pages branch in your repo
 
    `$`**`git checkout gh-pages`**
 
-6. (Optional) Create an empty commit for the the gh-pages to push
+5. (Optional) Create an empty commit for the the gh-pages to push
 
    If you want to test the website before making any changes, you need
    to create an empty commit and push your gh-pages branch. You can
@@ -40,9 +38,15 @@ github username.
 
    `$`**`git commit --allow-empty -m "Empty commit so github will build site"`**
 
-7. Make your changes, and then push the gh-pages branch
+   `$`**`git push origin gh-pages`**
+
+   Test the website at <http://your_username.github.io/tianocore>
+
+6. Make your changes, and then push the gh-pages branch
 
    `$`**`git push origin gh-pages`**
+
+7. Test the forked website at <http://your_username.github.io/tianocore>
 
 8. Reload the forked website at <http://your_username.github.io/tianocore>
 
