@@ -27,7 +27,7 @@ environment for the UEFI and PI specifications.
 #### Stable releases: 
 [UDK2010], [UDK2014], [UDK2015]
 
-### Important Information
+#### Important Information
 
 * [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
 * [Packages]({{wiki}}/EDKII_Packages)
@@ -35,7 +35,7 @@ environment for the UEFI and PI specifications.
 * [Code Style]({{wiki}}/Code-Style)
 * [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
 
-### Related Information
+#### Related Information
 
 * [Start using UEFI]({{wiki}}/Start_using_UEFI)
 * [Overview]({{wiki}}/EDK_II_Overview)
