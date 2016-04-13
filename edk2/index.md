@@ -10,7 +10,10 @@ environment for the UEFI and PI specifications.
 
 License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
-Source repositories: {edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)}, {staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)}, {[more » ](source.html)}
+Source repositories:  
+     edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)  
+     staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)  
+     [more » ](source.html)  
 
 Community:
 email {[edk2-devel]({{wiki}}/Edk2-devel)},
