@@ -6,7 +6,7 @@ title: EDK II Source Code
 
 ### [EDK II] Source Code (git)
 
-Main repository:
+#### Main repository:
  [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 
    `$`**`git clone https://github.com/tianocore/edk2`**
@@ -14,6 +14,11 @@ Main repository:
 Backup repositories:
  [bitbucket](https://bitbucket.org/tianocore/edk2),
  [sourceforge](https://sourceforge.net/p/tianocore/edk2)
+
+#### Staging repository:
+ [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
+ 
+   `$`**`git clone https://github.com/tianocore/edk2-staging`**
 
 ### Subversion (deprecated)
 
