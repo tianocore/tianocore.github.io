@@ -18,15 +18,14 @@ environment for the UEFI and PI specifications.
 * [more » ](source.html)  
 
 #### Community:    
-email {[edk2-devel]({{wiki}}/Edk2-devel)},
+* email {[edk2-devel]({{wiki}}/Edk2-devel)}
+* irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
 
-irc {\#edk2 on [www.oftc.net](http://www.oftc.net/),
-     [setup](http://www.oftc.net/NickServ/CertFP/),
-     [web client](http://webchat.oftc.net/?channels=edk2)}
+#### Bug/feature tracking:  
+[GitHub](https://github.com/tianocore/edk2/issues)
 
-Bug/feature tracking: [GitHub](https://github.com/tianocore/edk2/issues)
-
-Stable releases: [UDK2010], [UDK2014], [UDK2015]
+#### Stable releases: 
+[UDK2010], [UDK2014], [UDK2015]
 
 ### Important Information
 
