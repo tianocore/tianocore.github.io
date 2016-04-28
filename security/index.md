@@ -3,8 +3,6 @@ layout: default
 title: Security
 ---
 {% include site-links.md %}
-<img src="{{baseurl}}/images/SecurityPix.JPG">
-
 Security advisory page:
 =======================
 
