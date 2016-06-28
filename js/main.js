@@ -38,10 +38,7 @@ $(document).ready(function(){
 
   function should_accept_dropdown_event(o, ts) {
     var old_ts = o.data('last_dropdown_event_ts');
-    if (!old_ts) {
-      old_ts = 0;
-    }
-    if ((ts - old_ts) > 100) {
+    if (!old_ts || (ts - old_ts) > 100) {
       o.data('last_dropdown_event_ts', ts);
       return true;
     } else {
