@@ -7,7 +7,7 @@ title: UEFI Plugfest 2016
 UEFI Plugfest Sep. 20-22,2016
 Embassy Suites Seattle - Tacoma, Washington
 
-http://uefi.org/2016FallUEFIPlugfest
+[uefi.org/2016FallUEFIPlugfest](http://uefi.org/2016FallUEFIPlugfest)
 
 * Test latest platforms, devices and firmwares
 * Attend technical sessions on firmware topics
