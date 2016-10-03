@@ -9,8 +9,6 @@ Machines.  OVMF contains a sample UEFI firmware for [QEMU] and [KVM].
 
 License information:
  [BSD](http://www.opensource.org/licenses/bsd-license.php)
- (May contain an additional exception if bundled with the
- [FAT driver]({{wiki}}/Edk2-fat-driver).)
 
 More information:
   [OVMF FAQ]({{wiki}}/OVMF FAQ),
