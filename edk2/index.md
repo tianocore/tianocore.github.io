@@ -25,17 +25,17 @@ environment for the UEFI and PI specifications.
 Bug/feature tracking: [Tianocore Bugzilla](https://bugzilla.tianocore.org/)
 
 #### Stable releases: 
-[UDK2010], [UDK2014], [UDK2015]
+[UDK2010]({{wiki}}/UDK2010), [UDK2014]({{wiki}}/UDK2014), [UDK2015]({{wiki}}/UDK2015)
 
 #### Important Information
 
 * [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
-* [Packages]({{wiki}}/EDKII_Packages)
+* [Packages]({{wiki}}/EDKII-Packages)
 * [Open Tasks]({{wiki}}/Tasks)
 * [Code Style]({{wiki}}/Code-Style)
 * [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
 
 #### Related Information
 
-* [Start using UEFI]({{wiki}}/Start_using_UEFI)
-* [Overview]({{wiki}}/EDK_II_Overview)
+* [Start using UEFI]({{wiki}}/Start-using-UEFI)
+* [Overview]({{wiki}}/EDK-II-Overview)
