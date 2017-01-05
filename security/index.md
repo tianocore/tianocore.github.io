@@ -10,4 +10,4 @@ If you wish to report a security issue to the community, please refer to the pro
 
 ----
 
-<b>The list of EDK II Security Advisories can be found at the bottom of [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues).</b>
+<b>The list of EDK II Security Advisories can be found at this Gitbook: [Security Advisory Log]( https://www.gitbook.com/book/edk2-docs/security-advisory/details)
