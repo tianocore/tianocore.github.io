@@ -11,7 +11,7 @@ Types]({{wiki}}/Member%20Types) pages.
 
 ## Licenses
 
-The following licenses our used by our community:
+The following licenses are used by our community:
 
 * [BSD License]({{wiki}}/BSD License)
 * [NetBSD License]({{wiki}}/NetBSD License)
