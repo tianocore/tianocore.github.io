@@ -193,7 +193,7 @@ which follows Intel EFI Framework Specification.</p>
          </td>
     <td>
       <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
-      and libraries instances, which are defined in MDE Specification.
+      and libraries instances, which are defined in MdePkg's .chm files.
       It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
       EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.</p>
     </td>
