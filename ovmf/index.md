@@ -9,20 +9,12 @@ Machines.  OVMF contains a sample UEFI firmware for [QEMU] and [KVM].
 
 License information:
  [BSD](http://www.opensource.org/licenses/bsd-license.php)
- (May contain an additional exception if bundled with the
- [FAT driver]({{wiki}}/Edk2-fat-driver).)
 
 More information:
   [OVMF FAQ]({{wiki}}/OVMF FAQ),
   [How to build]({{wiki}}/How to build OVMF),
   [Boot Overview]({{wiki}}/OVMF-Boot Overview),
   [edk2-devel]
-
-Release r15214:
-  [X64 (zip)]({{edk2files}}/OVMF/OVMF-X64-r15214.zip/download),
-  [IA32 (zip)]({{edk2files}}/OVMF/OVMF-IA32-r15214.zip/download),
-  [How to run]({{wiki}}/How to run OVMF),
-  [README](https://sourceforge.net/p/edk2/code/15214/tree/trunk/edk2/OvmfPkg/README)
 
 Source repositories: git
 {[github](https://github.com/tianocore/edk2/tree/master/OvmfPkg),
@@ -35,3 +27,12 @@ svn
 ### See Also
 * [http://www.linux-kvm.org/page/OVMF](http://www.linux-kvm.org/page/OVMF)
 * [http://wiki.xen.org/wiki/OVMF](http://wiki.xen.org/wiki/OVMF)
+* Gerd Hoffmann's OVMF builds: [https://www.kraxel.org/repos/](https://www.kraxel.org/repos/)
+  * These images are automatically built and track the latest OVMF code in the
+    EDK II tree.
+  * Some of these builds include a seabios CSM and can boot non-UEFI "legacy"
+    operating systems. (Note: seabios is
+    [GPLv3](https://opensource.org/licenses/GPL-3.0) licensed.)
+  * If your OS doesn't work with RPM repositories, then you can
+    manually download and decompress the RPM files under
+    [jenkins/edk2](https://www.kraxel.org/repos/jenkins/edk2/)

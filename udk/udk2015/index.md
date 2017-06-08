@@ -7,9 +7,9 @@ title: UDK2015
 
 UDK2015 is a stable release of portions of the [EDK II] project.
 <br>
-Link for  Previous UDK2014 releases <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  
+Link for  UDK2014 previous releases <a href="{{wiki}}/udk2014-Releases">UDK2014 releases -Archive</a>  
 
-If you have questions please email the [edk2-devel] email list.
+If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk2-devel">edk2-devel</a> email list.
 
 
 
@@ -57,10 +57,10 @@ If you have questions please email the [edk2-devel] email list.
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
-        <li><a href="{{wiki}}/Using_EDK_II_with_Native_GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
+        <li><a href="{{wiki}}/Using-EDK-II-with-Native-GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
         <li><a href="{{wiki}}/Windows-systems" title="Windows systems">Windows systems</a></li>
         <li><a href="{{wiki}}/Xcode" title="Xcode">Xcode Mac OS X</a></li>
-        <li><a href="{{wiki}}/Unix-like_systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
+        <li><a href="{{wiki}}/Unix-like-systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
     <td>
       <p>(UDK2015)<br/></p>
@@ -193,7 +193,7 @@ which follows Intel EFI Framework Specification.</p>
          </td>
     <td>
       <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
-      and libraries instances, which are defined in MDE Specification.
+      and libraries instances, which are defined in MdePkg's .chm files.
       It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
       EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.</p>
     </td>
@@ -232,14 +232,16 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td> <a href="{{baseurl}}/udk2014/Archive/">UDK2014 Archive</a>  </td>
+    <td> 
+      <p><a href="{{wiki}}/UDK2014-Releases" title="UDK2014 Releases">UDK2014 Archive</a></p>
+     </td>
     <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
   </tr>
 
   <tr>
     <td>
-      <p><a href="{{wiki}}/Previous_UDK2010_Releases" title="Previous UDK2010 Releases">UDK2010 Archive</a></p>
+      <p><a href="{{wiki}}/UDK2010-Releases" title="UDK2010 Releases">UDK2010 Archive</a></p>
     </td>
     <td>
       <p>Menu for downloading Previous UDK2010 releases </p>
@@ -448,12 +450,4 @@ EDK II More info:
 
 UEFI Developers Kit 2015 (UDK2015).  The UDK2015 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2015 currently supports UEFI 2.5 and PI 1.4 level of specifications.
 
-For quick reference, here are the links to the latest packages:
-
-* <a class="externallink" href="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download" rel="nofollow" title="{{edk2files}}/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download">UEFI Packing Tool</a>
-
-* <a class="externallink" href="{{edk2files}}/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download" rel="nofollow" title="{{edk2files}}/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download">UEFI Shell 2.0 Spec package Sources</a>
-
-* <a class="externallink" href="{{edk2files}}/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download" rel="nofollow" title="{{edk2files}}/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download">EDKII User Manual</a>
-
-* The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from <a class="externallink" href="http://firmware.intel.com" rel="nofollow" title="http://firmware.intel.com">http://firmware.intel.com</a>
+The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from <a class="externallink" href="http://firmware.intel.com" rel="nofollow" title="http://firmware.intel.com">http://firmware.intel.com</a>

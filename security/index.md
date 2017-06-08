@@ -3,22 +3,12 @@ layout: default
 title: Security
 ---
 {% include site-links.md %}
-<img src="{{baseurl}}/images/SecurityPix.JPG" >
-
 Security advisory page:
+=======================
 
-If you wish to describe a security issue regarding the code on tianocore.org, please use the "<b>Report</b>" button below. Please include the paths of the modules you believe are involved and a detailed description of the issue. The mail is reflected to the relevant tianocore module owners and architects, who will reply with confirmation and may also continue the thread if they have follow up questions or information. 
-
-
- <a href="mailto:tianocore-security@lists.sourceforge.net?subject=Tianocore%20Security%20Report%20Message">
-<img src="{{baseurl}}/images/Report-button2.jpg" /></a>
-
-
-----
-<b>List of current EDK II Security Advisory logs:  V .002 <a href="{{edk2files}}/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20002.pdf/download"> Download PDF</a></b>
+If you wish to report a security issue to the community, please refer to the process on the <b> [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues) </b> page.
 
 ----
 
-
-To request to join the list, use the REPORT button with "<b>JOIN</b>" as the first word in the mail subject title. To remove yourself from the list, use the REPORT button with "<b>LEAVE</b>" as the first word in the mail subject title.
-
+The list of EDK II Security Advisories can be found at this Gitbook: <b> [Security Advisory Log]( https://www.gitbook.com/book/edk2-docs/security-advisory/details)
+</b>

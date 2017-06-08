@@ -8,31 +8,34 @@ redirect_from: "/edk2.html"
 EDK II is a modern, feature-rich, cross-platform firmware development
 environment for the UEFI and PI specifications.
 
-License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
+#### License information:  
+[BSD](http://www.opensource.org/licenses/bsd-license.php)
 
-Source repositories:
- {[https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)},
- [more »](source.html)
 
-Community:
-email {[edk2-devel]({{wiki}}/Edk2-devel)},
-irc {\#edk2 on [www.oftc.net](http://www.oftc.net/),
-     [setup](http://www.oftc.net/NickServ/CertFP/),
-     [web client](http://webchat.oftc.net/?channels=edk2)}
+#### Source repositories:  
+* edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)  
+* staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)  
+* [more » ](source.html)  
 
-Bug/feature tracking: [GitHub](https://github.com/tianocore/edk2/issues)
+#### Community:    
+* email {[edk2-devel]({{wiki}}/Edk2-devel)}
+* irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
 
-Stable releases: [UDK2010], [UDK2014], [UDK2015]
+#### Bug/feature tracking:  
+Bug/feature tracking: [Tianocore Bugzilla](https://bugzilla.tianocore.org/)
 
-### Important Information
+#### Stable releases: 
+[UDK2010]({{wiki}}/UDK2010), [UDK2014]({{wiki}}/UDK2014), [UDK2015]({{wiki}}/UDK2015)
+
+#### Important Information
 
 * [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
-* [Packages]({{wiki}}/EDKII_Packages)
+* [Packages]({{wiki}}/EDKII-Packages)
 * [Open Tasks]({{wiki}}/Tasks)
 * [Code Style]({{wiki}}/Code-Style)
 * [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
 
-### Related Information
+#### Related Information
 
-* [Start using UEFI]({{wiki}}/Start_using_UEFI)
-* [Overview]({{wiki}}/EDK_II_Overview)
+* [Start using UEFI]({{wiki}}/Start-using-UEFI)
+* [Overview]({{wiki}}/EDK-II-Overview)

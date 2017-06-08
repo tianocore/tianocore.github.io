@@ -17,6 +17,9 @@ If you are interested in being involved with our community, we suggest:
     pages
 * Join the [Mailing Lists]({{wiki}}/Mailing Lists) for one or more of
   our projects
+* Join [Tianocore Bugzilla](https://bugzilla.tianocore.org/) and review
+  the [Reporting Issues]({{wiki}}/Reporting-Issues) and 
+  [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues) pages.
 
 You may be required to create an account to participate in certain
 areas of our community.
