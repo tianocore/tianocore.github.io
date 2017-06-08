@@ -4,7 +4,7 @@ title: About the Community
 ---
 {% include site-links.md %}
 
-There is a lot to learn about the the EFI and Framework open source community. Without actually joining the community, you still have access to the documentation, source and binaries available on the EFI and Framework Open Source Community Website. However, your involvement will be limited to read-only access to the tools provided by the community. The real magic of any community is when you join and have full access to the tools that the community drivers use to evolve and make their application and its accompanying documentation and tooling. As a community member, you will have access to the following:
+jThere is a lot to learn about the the EFI and Framework open source community. Without actually joining the community, you still have access to the documentation, source and binaries available on the EFI and Framework Open Source Community Website. However, your involvement will be limited to read-only access to the tools provided by the community. The real magic of any community is when you join and have full access to the tools that the community drivers use to evolve and make their application and its accompanying documentation and tooling. As a community member, you will have access to the following:
 
 * Forums - Used for a traceable dialog between community members.
 * Issue Tracking - This helps keep track of feature requests, tasks and issues with the respective project.
