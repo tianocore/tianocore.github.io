@@ -13,7 +13,7 @@ EDK II Projects
 A modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a>   and [EDK II Specifications]({{wiki}}/EDK II Specifications)
 
 
-* [UDK2015]({{baseurl}}/udk/udk2015/ "UEFI Development Kit 2015") is a stable release of portions of our [EDK II]({{baseurl}}/edk2) project.
+* [UDK2017]({{wiki}}/UDK2017) is a stable release of portions of our [EDK II]({{baseurl}}/edk2) project.
 * [edk2-buildtools]({{wiki}}/edk2-buildtools) is the primary set of tools for processing EDK II content. 
 * [OVMF]({{baseurl}}/ovmf/) is a project to enable UEFI support for Virtual Machines.
 * [Shellpkg]({{wiki}}/Shellpkg) UEFI Shell is a project to create a UEFI 2.0 Shell implementation.
