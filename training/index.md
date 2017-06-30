@@ -12,4 +12,4 @@ title: Training
     and to aid you in performing UEFI and EDK II related tasks.
 
 * Request for training material: [Material
-  Request](mailto:{{laurieadminemail}}?Subject=UEFI%20Training%20Material&body=UEFI%20Training%20Material)
+  Request](mailto:{{adminemail}}?Subject=UEFI%20Training%20Material&body=UEFI%20Training%20Material)
