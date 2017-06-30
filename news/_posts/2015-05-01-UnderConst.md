@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: Site Changes Under Construction
 ---
 {% include site-links.md %}

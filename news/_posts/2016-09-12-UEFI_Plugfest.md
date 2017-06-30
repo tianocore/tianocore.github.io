@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: UEFI Plugfest 2016
 ---
 {% include site-links.md %}

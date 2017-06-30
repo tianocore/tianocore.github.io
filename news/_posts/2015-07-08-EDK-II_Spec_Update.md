@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: EDK II Specifications updates V1.25 and VFR 1.9
 ---
 {% include site-links.md %}

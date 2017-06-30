@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: acgRedirect
+acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/
 title: EDK II
-redirect_from: "/edk2.html"
+# redirect_from: "/edk2.html"
 ---
 {% include site-links.md %}
 
@@ -13,8 +14,8 @@ environment for the UEFI and PI specifications.
 
 
 #### Source repositories:  
-* edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)  
-* staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)  
+* edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
+* staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
 * [more » ](source.html)  
 
 #### Community:    
@@ -22,7 +23,7 @@ environment for the UEFI and PI specifications.
 * irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
 
 #### Bug/feature tracking:  
-Bug/feature tracking: [Tianocore Bugzilla](https://bugzilla.tianocore.org/)
+Bug/feature tracking: [TianoCore Bugzilla](https://bugzilla.tianocore.org/)
 
 #### Stable releases: 
 [UDK2010]({{wiki}}/UDK2010), [UDK2014]({{wiki}}/UDK2014), [UDK2015]({{wiki}}/UDK2015)

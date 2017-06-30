@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: EDK II Spec FDF 1.27 Review Draft 
 ---
 {% include site-links.md %}

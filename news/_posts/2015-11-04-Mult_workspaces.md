@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: How To use Multiple Workspaces
 ---
 {% include site-links.md %}

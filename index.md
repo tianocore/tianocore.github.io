@@ -1,48 +1,23 @@
 ---
-layout: front-page
-title: Welcome
+layout: default
+title: What is TianoCore?
+id: home2
+redirect_from:
+  - /site/
 ---
 {% include site-links.md %}
 
-<!-- parse_block_html causes the markdown to be processed inside <div> -->
-{::options parse_block_html="true" /}
+Welcome to TianoCore, the community supporting an open source implementation of the Unified Extensible Firmware Interface ([UEFI]({{wiki}}/UEFI){:target="_blank"}). [EDK II]({{wiki}}/EDK-II){:target="_blank"} is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization ([PI]({{wiki}}/PI){:target="_blank"}) specifications. We hope that you’ll review our [wiki]({{wiki}}){:target="_blank"} documentation, use TianoCore for platform firmware, [report any issues]({{wiki}}/Reporting-Issues){:target="_blank"} you find, and contribute to the community.
 
-<div class="main-page content">
+## Projects and Downloads
+If you want to compile firmware or utilities, we recommend the [Getting Started]({{baseurl}}/getting-started.html) page. This provides an overview of downloading [EDK II from github](https://github.com/tianocore/edk2){:target="_blank"}, building a platform or sample application, and [reporting issues in Bugzilla]({{wiki}}/Reporting-Issues){:target="_blank"}.
 
-# Welcome to the open source community of UEFI
+## Background
+In June of 2004, Intel announced that it would release the “Foundation Code” of its Extensible Firmware Interface (EFI), a successor to the 16-bit x86 “legacy” PC BIOS, under an open source license. This Foundation Code, developed by Intel as part of a project code named Tiano, was Intel’s “preferred implementation” of EFI. This evolved into EDK, EDK II, and other open source projects under the TianoCore community.
 
-This is the community site surrounding the open source components of
-Intel's implementation of [UEFI]({{wiki}}/UEFI). Our [EDK II] is a
-modern, feature-rich, cross-platform firmware development environment
-for the UEFI and PI specifications. We hope that you'll delve into our
-work, get excited to use Tianocore, and contribute to the community.
+The EFI Specifications were contributed to the United EFI Forum as part of the original UEFI Specifications, which has been adopted by over 200 companies and shipped on millions of compute devices. The UEFI Forum does not endorse any particular implementation, but TianoCore is designed to implement the UEFI and UEFI PI specifications.
 
-<div id="buttons">
-  <a href="{{baseurl}}/contrib/">How to Contribute</a>
-  <a href="{{baseurl}}/contrib/getting-started.html">Getting Started</a>
-</div>
-
-</div>
-
-<div class="main-page news">
-
-<h2>
-  Community News
-  <a href="news/feed.xml" style="float: right;">
-    <img src="{{baseurl}}/images/feed-icon-28x28.png" style="width: 1em; height: 1em;">
-  </a>
-</h2>
-
-<ul class="posts">
-{% for post in site.posts limit:3 %}
-  <li>
-    <a href="{{baseurl}}{{ post.url }}">{{ post.title }}</a><br>
-    {{ post.date | date: "%B %-d, %Y" }}
-  </li>
-{% endfor %}
-  <li style="border-bottom: none;">
-    Read more <a href="news/">community news »</a><br>
-  </li>
-</ul>
-
+<div class="tcFrontPageButtons">
+<a href="https://youtu.be/NAJ5Iwxzx_Y" target="_blank"><div class="tcButton">Watch Video</div></a>
+<a href="{{baseurl}}/getting-started.html"><div class="tcButton">Getting Started</div></a>
 </div>

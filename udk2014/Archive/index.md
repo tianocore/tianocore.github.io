@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: acgRedirect
+acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/UDK2014-Releases
 title: UDK2014 Archive
 ---
 {% include site-links.md %}

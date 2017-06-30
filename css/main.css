@@ -1,87 +1,106 @@
-
-body {
-    background: #f1f1f1;
-    border-top: 10px solid #999999;
-    font-size: 12pt;
+/*
+// Basic Reset
+*/
+html, body, div, object, iframe, jh1, jh2, jh3, jh4, jh5, jh6, jp, blockquote, jol, jul, li, form, fieldset, legend, label, table, header, footer, nav, section, tr, td
+{ 
+	margin: 0; 
+	padding: 0;
+	border: 0;
 }
 
-#mainbody {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60em;
+/*
+// Element Overrides
+*/
+
+*
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
 }
 
-#topbar {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 60em;
-    background: url("../images/header-bg.jpg") no-repeat;
-    border-top: 10px solid #ff6600;
-    margin-top: -10px;
-    float: left;
+html, body
+{
+	height:100%;
+	font-family:Arial;
+	font-size:12pt;
+    background:#ffffff;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+/*	overflow:hidden; */ /* Use this if you want to make the content scrollable, but the menu fixed */
+	line-height:1.42857143; /* matches the setting in bootstrap */
 }
 
-#topbar.front-page {
-    height: 13em;
+h1
+{
+	font-size:245%;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:left;
+	text-shadow:4px 4px 4px rgba(0,0,0,0.5);
 }
 
-#topbar #logo {
-  position: relative;
-  top: 85px;
-  left: 20px;
+h2
+{
+	font-size:130%;
+	color:#000000;
+	font-weight:bold;
+	text-align:left;
+	jfont-family:"canada-type-gibson";
 }
 
-#topbar #small-logo {
-    position: relative;
-    left: 20px;
-    padding: 0.1em 0 0.1em 0;
-    height: 3em;
+h3
+{
+	font-size:110%;
+	font-weight:bold;
+	color:#000000;
+	text-align:left;
 }
 
-#sidebar {
-    float: left;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 2em 0.5em 0 0.5em;
-    width: 9em;
+/* matches the setting in bootstrap */
+h1, h2, h3
+{
+	margin-top:20px;
+	margin-bottom:10px;
+	line-height:1.1;
 }
 
-div.main-page.content {
-    float: left;
-    width: 35em;
+/* matches the setting in bootstrap */
+ol, ul
+{
+	margin-top:0;
+	margin-bottom:10px;
 }
 
-div.main-page.news {
-    float: right;
-    width: 20em;
+a
+{
+	color:#bf5122;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
 }
 
-div.main-page.news h2 {
-    border-top: 10px solid #ff6600;
-    border-bottom: 1px solid #333333;
-    color: #333333;
-    padding: 0.5em;
-    margin: 0;
+a:hover
+{
+	color:#000000;
 }
 
-div.main-page.news ul {
-    margin: 0;
-    list-style: none;
-    list-style-image: none;
+ul {
+    list-style-type: square;
 }
 
-div.main-page.news ul li {
-    border-bottom: 1px solid #333333;
-    padding: 0.5em;
-    color: #777777;
+p {
+    margin: .4em 0 .5em 0;
+    line-height: 1.5em;
 }
 
-div.main-page.news ul li a {
-    font-weight: bold;
+pre code, .w, .nc
+{
+	color:#ffffff !important;
 }
+
+/*
+// Custom Classes
+*/
 
 div.news-page.news-item {
     border-top: 1px solid #777777;
@@ -90,124 +109,15 @@ div.news-page.news-item {
     margin: 0;
 }
 
-#content {
-    margin: 0px;
-    padding: 2em 1em;
-    font-family: verdana;
-    color: #40494d;
-    background-color: #fff;
-    width: 100%;
-    max-width: 60em;
-    display: block;
-    float: left;
-}
-
-#content #buttons a {
-  background: #ff6600;
-  color: #333333;
-  font-family: "canada-type-gibson";
-  text-transform: uppercase;
-  font-size: 15px;
-  display: inline-block;
-  padding: 8px 25px;
-  margin: 10px 20px 10px 0;
-}
-
-#footer {
-  background: #999999;
-  margin-bottom: 60px;
-  width: 100%;
-  float: left;
-  padding: 0.5em 1em;
-}
-#footer #footer-inner {
-  height: 2em;
-  background: url("../images/footer-icon.svg") no-repeat right center;
-}
-#footer #footer-inner a {
-  color: white;
-  font-size: 14px;
-}
-@media (min-width: 0em) and (max-width: 63.9375em) {
-  #footer #footer-inner {
-    padding: 10px 20px;
-    background-position: right 20px center;
-  }
-}
-@media (min-width: 64em) {
-  #page-wrapper #page #footer-inner {
-    -sgs-span-settings: ("span": 3, "location": 2, "grid": 20px 630px 20px 310px 20px, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": true, "split gutter": false, "gutter property": "padding", "options": (("both": null)));
-    width: 96%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 2%;
-    clear: none;
-    padding-right: 0.25;
-  }
-}
-@media (min-width: 0em) and (max-width: 63.9375em) {
-  #page-wrapper #page #footer-inner {
-    -sgs-span-settings: ("span": 1, "location": 1, "grid": 1, "gutter": 0.25, "style": "opposite", "start row": true, "end row": true, "fixed gutter": false, "split gutter": false, "gutter property": "margin", "options": ((null: null)));
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
-
-ul {
-    font-family: sans-serif;
-    list-style-type: square;
-    padding: 0 0 0 0;
-    margin: 0.3em 0 0 1.5em;
-}
-
-.site-menu {
-    color: #a0a0a0;
-}
-
-a.site-menu:hover {
-    color: #4048c0;
-}
-
-a {
-    color: #ff6600;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #ff6600;
-    text-decoration: underline;
-}
-
-p {
-    margin: .4em 0 .5em 0;
-    line-height: 1.5em;
-}
-
-h1 {
-    color: #ff6600;
-    font-family: "canada-type-gibson";
-    font-weight: normal;
-    font-size: 190%;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h2 {
-    color: #ff6600;
-    font-family: "canada-type-gibson";
-    font-size: 130%
-}
-
+/*
 h3 {
     color: #ff6600;
     font-weight: bold;
     font-size: 90%
 }
+*/
 
+/*
 .t_projects th {
     background-color: #DBEBFF;
 }
@@ -216,9 +126,326 @@ h3 {
     border: 1px solid #ccc;
     font-size: 80%;
 }
+*/
 
 
-/* TODO: Consider css for
- *
- * .posts .site .header .title .meta .footer .contact .rss .post
- */
+/*
+// Required for _isEnhanced()
+*/
+#cssCheck
+{
+	font-weight:800;
+}
+
+.tcOuter
+{
+	jmin-height:100%;
+	height:100%;
+}
+
+.tcInner
+{
+	height:100%;
+}
+
+.tcMain
+{
+	height:100%;
+	width:100%;
+	display:table;
+}
+
+.tcMenuPanel
+{
+	jdisplay:table-cell;
+	jjfloat:left;
+	width:368px;
+	jborder-right:1px solid #c29993;
+	jheight:100%;
+	jbox-shadow:0px 0 10px rgba(0, 0, 0, 1);	/* doesn't work with table-cell */
+	jdisplay:inline-block;
+	vertical-align:top;
+	position:relative;
+	display:none;
+}
+
+.tcMenuPanel ol, .tcMenuPanel ul, #tcNarrowModeMenu ul
+{ 
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+
+.tcMenu
+{
+	jdisplay:none;
+	width:100%;
+}
+
+/*
+.tcMenu a
+{
+	font-style:normal;
+	font-weight:normal;
+	color:#000000;
+}
+.tcMenu a:hover
+{
+	color:#bf5122;
+}
+*/
+
+.tcContentPanel
+{
+	display:table-cell;
+	width:100%;
+	jjmargin-left:368px;
+	jdisplay:inline-block;
+	vertical-align:top;
+	padding:1em;
+	padding-top:0;
+	jheight:100%;		/* if you use this, the height will always be exactly the browser height */
+	min-height:100%;	/* ensures that background continues to the full height of the browser */
+	joverflow:auto;
+	jbackground-color:#d8604c;
+	background-color:#bf5122;
+	border-left:1px solid #c29993;
+	box-shadow:inset 12px 0px 12px -8px rgba(0,0,0,0.5);	/* inset shadow, left-side only */
+	text-align:center;
+	background-image: url( ../images/tianocore_v2_BG.png );
+	background-repeat:no-repeat;
+	background-origin:content-box;
+}
+
+.tcContent
+{
+	display:inline-block;
+}
+
+.tcContentHeader
+{
+	jdisplay:inline-block;
+	jpadding-top:1em;
+	jpadding-bottom:0.5em;
+	jfont-size:3em;
+	background-color:#bf5122;
+}
+
+.tcFrontPage.tcContentMain
+{
+	background-color:inherit;
+	padding:0;
+}
+
+.tcContentMain
+{
+	display:inline-block;
+	background-color:#ffffff;
+	border-radius:18px;
+	width:100%;
+	max-width:1140px;
+	text-align:left;
+	jmargin:0 2em;
+	padding:1em 1em;
+	box-shadow:4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tcFrontPage .tcContentMain
+{
+	background:none;
+	color:#ffffff;
+	font-size:1.5em;
+	padding:0;
+	box-shadow:none;
+}
+.tcContentHeader.tcFrontPage
+{
+	font-size:1em;
+}
+
+.tcLogoArea
+{
+	height:245px;
+	padding-left:25px;
+}
+
+.tcMenuItem
+{
+	border-bottom:1px solid #b9b9b9;
+	padding:0.2em;
+	font-size:1.6em;
+	padding-left:2em;
+	list-style-type:none;
+	list-style-position:inside;
+}
+.tcMenuItem a
+{
+	color:#ffffff !important;
+	font-weight:normal !important;
+	font-style:normal !important;
+}
+.tcMenuItem a:hover
+{
+	color:#000000 !important;
+}
+
+.tcMenuItemSelected a
+{
+}
+
+
+
+.tcMenuItemSelected .tcMenuMarker:before
+{
+    content: "▪";	
+	position:absolute;
+	left:1em;
+	color:#bf5122 !important;
+}
+
+.tcButton
+{
+	display:inline-block;
+	border-radius:8px;
+	border:3px solid #ff7012;
+	background-color:#ffffff;
+	padding:0.25em;
+	box-shadow:2px 4px 4px rgba(0, 0, 0, 0.5);
+	margin-top:1em;
+	color:#bf5122 !important;
+	font-style:normal !important;
+	font-weight:bold !important;
+}
+.tcButton:hover
+{
+	background-color:#bf5122;
+	color:#ffffff !important;
+}
+.tcButton a
+{
+	jfont-weight:bold;
+	jfont-style:normal;
+	jcolor:#bf5122;
+}
+.tcButton a:hover
+{
+	jcolor:#ffffff !;
+}
+
+.tcFrontPageButtons
+{
+	text-align:left;
+	margin-top:1em;
+}
+
+.tcFooter
+{
+	display:inline-block;
+	jposition:absolute;
+	jbottom:0;
+	padding-top:2em;
+	color:#000000;
+	jbackground-color:#00ff00;
+	jmargin-left:368px;
+	jwidth:100%;
+}
+.tcFooter a
+{
+	font-weight:normal;
+	font-style:normal;
+	color:#000000;
+}
+.tcFooter a:hover
+{
+	color:#ffffff;
+}
+
+.tcNarrowModeHeader
+{
+	background-color:#ffffff;
+	padding:1em;
+	position:fixed;
+	width:100%;
+	box-shadow:4px 4px 8px rgba(0,0,0,0.5);
+}
+
+.tcNavBars
+{
+	font-size:1.5em;
+	color:#bf5122;
+	text-align:right;
+}
+
+.tcNavBarItem
+{
+	cursor:hand;
+	cursor:pointer;
+}
+
+.tcMenuBar
+{
+	font-size:1.2em;
+	margin-left:0.5em;
+}
+
+.tcNavBarArrowLeft
+{
+	position:relative;
+	top:-2px;
+}
+
+.tcNavBarArrowRight
+{
+	position:relative;
+	top:-2px;
+	margin-left:0.25em;
+}
+
+.tcWideOnly
+{
+	display:none;
+}
+
+#tcNarrowModeMenu
+{
+	background-color:#bf5122;
+	jmin-height:100%;
+	text-align:center;
+	display:table;
+	width:100%;
+	height:100%;
+}
+
+#tcNarrowModeMenu a
+{
+	color:#ffffff;
+}
+
+#tcNarrowModeMenu .tcMenuItem
+{
+	padding-left:0;
+}
+
+.tcNarrowMenuFooterItems
+{
+	font-size:0.8em;
+}
+.tcNarrowModeHeaderSpacer
+{
+	display:table-row;
+}
+
+.tcSocialIcons
+{
+	width:100%;
+	font-size:1.6em;
+	color:#d8604c;
+}
+.tcSocialIcons a
+{
+	color:#bf5122;
+}
+.tcSocialIcons a:hover
+{
+	color:#000000;
+}

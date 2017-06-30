@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Tianocore web site
+title: TianoCore web site
 ---
 {% include site-links.md %}
 
 Our website is open source. Let us know if you have site content or
 other website improvements!
 
-License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
+License information: [BSD](http://www.opensource.org/licenses/bsd-license.php){:target="_blank"}
 
-Source repository: <https://github.com/tianocore/tianocore.github.io>
+Source repository: <https://github.com/tianocore/tianocore.github.io>{:target="_blank"}
 
 Note: In links and commands below, replace 'your_username' with your
 github username.
 
 ### How to fork and test website changes
 
-1. Visit [website repository page](https://github.com/tianocore/tianocore.github.io)
+1. Visit [website repository page](https://github.com/tianocore/tianocore.github.io){:target="_blank"}
    and fork the repository
 
 2. Go to the settings for your forked repo and rename it from
@@ -50,7 +50,7 @@ github username.
 
 8. Reload the forked website at <http://your_username.github.io/tianocore>
 
-9. Let us know about your changes on [edk2-devel]({{wiki}}/Edk2-devel)
+9. Let us know about your changes on [edk2-devel]({{wiki}}/Edk2-devel){:target="_blank"}
    and we'll take a look to see if we can use them on the main site
 
 ### Local testing of website changes

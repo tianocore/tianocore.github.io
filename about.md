@@ -1,45 +1,21 @@
 ---
 layout: default
-title: About the Community
+title: About
+id: about
+redirect_from:
+  - /uefi/
 ---
 {% include site-links.md %}
 
-There is a lot to learn about the the EFI and Framework open source community. Without actually joining the community, you still have access to the documentation, source and binaries available on the EFI and Framework Open Source Community Website. However, your involvement will be limited to read-only access to the tools provided by the community. The real magic of any community is when you join and have full access to the tools that the community drivers use to evolve and make their application and its accompanying documentation and tooling. As a community member, you will have access to the following:
+Welcome to TianoCore, the community supporting an open source implementation of [UEFI]({{wiki}}/UEFI){:target="_blank"}. [EDK II]({{wiki}}/EDK-II){:target="_blank"} is a modern, feature-rich, cross-platform firmware development environment for the UEFI and [PI]({{wiki}}/PI){:target="_blank"} specifications. We hope that you’ll review our [documentation]({{baseurl}}/docs), use TianoCore for [platform firmware]({{wiki}}/EDK-II-Platforms){:target="_blank"}, [report any issues]({{wiki}}/Reporting-Issues){:target="_blank"} you find, and [contribute to the community]({{wiki}}/How-To-Contribute){:target="_blank"}.
 
-* Forums - Used for a traceable dialog between community members.
-* Issue Tracking - This helps keep track of feature requests, tasks and issues with the respective project.
-* Mailing Lists - Like forums but handled via email instead of web forms.
-* RSS Feeds - You can subscribe to RSS feeds for news, forums and mailing lists.
-* Source Control - All Projects use Subversion to keep track of different versions of software source code.
+## Downloads
+If you want to compile firmware or utilities, we recommend the [Getting Started with EDK II]({{wiki}}/Getting-Started-with-EDK-II){:target="_blank"} page. This provides an overview of downloading [EDK II from github]({{edk2github}}){:target="_blank"} and building a sample platform ([NT32]({{wiki}}/Nt32Pkg){:target="_blank"}, [OVMF]({{wiki}}/OVMF){:target="_blank"}, [ArmVirt]({{edk2github}}/tree/master/ArmVirtPkg){:target="_blank"}, [MdePkg]({{wiki}}/MdePkg){:target="_blank"}, ...). You can also use a UEFI Development Kit ([UDK]({{wiki}}/UDK){:target="_blank"}) release, which is a stable snapshot based on [EDK II]({{wiki}}/EDK-II){:target="_blank"}.
+	
+There are multiple [hardware platforms]({{wiki}}/EDK-II-Platforms){:target="_blank"} using EDK II open source UEFI firmware, including [MinnowBoard Max/Turbot]({{wiki}}/MinnowBoardMax){:target="_blank"}, [MinnowBoard 3]({{wiki}}/MinnowBoard-3){:target="_blank"}, and [Intel® Galileo Gen 2]({{wiki}}/Galileo){:target="_blank"}. This allows you to experiment and develop UEFI features on real hardware.
 
-As you can see, there is a lot at your disposal as a community member. Excited yet? If so, learn how to get involved here.
+## Contributing to TianoCore
+If you would like to contribute code or fix issues, please see [How To Contribute]({{baseurl}}/contrib). The [Tasks]({{wiki}}/Tasks){:target="_blank"} page has a list of priority work items.
 
-## Background
-
-
-In June of 2004 Intel announced that it would release the "Foundation Code" of its next generation firmware technology - a successor to the PC BIOS - under an open source license later in the year. The Foundation Code, developed by Intel as part of a project code named Tiano, is Intel's "preferred implementation" of the Extensible Firmware Interface (EFI) Specification. The code to be released includes the core of the Foundation Code as well as a driver development kit. To follow through with its intentions to release the code as open source, Intel partnered with Collabnet, an industry leader in providing tools and services to support an open source initiative, to create a community for this effort. The result of this partnership is this Open Source Website.
-
-Since there are more projects that are EFI-based working in parallel with the Foundation Code, it was decided to release the EFI Shell Application and the EFI Self Certification Test (SCT) project to the open source community.
-
-## Philosophy and Vision
-
-
-It is Intel's hope that the EFI and Framework Open Source Community website will promote collaboration and innovation around the open source code contained with it, as well as the EFI Specification in general. Intel is dedicated to fostering the growth of this community through shared governance with key individuals and companies involved in evolution of pre-boot firmware, with a goal to support the investment in innovation of all modern platform, silicon and systems vendors worldwide. As such the primary focus of the EFI community is to:
-
-* Foster collaboration around the projects on this website, which at present include:
-** EFI Developer Kit (EDK project) which includes the Foundation code
-** EFI Developer Kit II (EDK II project) which includes a new implementation of the Foundation code focusing on new build tools and responding to past feedback from the EFI community
-** EFI Shell Application (EFI-SHELL project)
-** EFI Self-certification Test (EFI-SCT project)
-** EFI Toolkit for application development (EFI-TOOLKIT project)
-* Provide an environment to stimulate innovation and evolution of the EDK and the other EFI-based projects contained on the site.
-* Provide a mechanism for the free exchange of thoughts, ideas, concerns etc surrounding this effort, EFI and the concept of next-generation firmware in general.
-* Encourage collaboration within the community on creation of other open-source firmware projects.
-
-As the EDK and other EFI-based projects constitute the primary focus of the EFI and Framework Open Source Community,  the key objectives for these projects are:
-
-* Strong emphasis on portability
-* Strong emphasis on stability
-* Strong emphasis on firmware security
-* Adherence to the EFI Specification
-* Adherence to quality C coding standards
+## Reporting Issues
+TianoCore uses Bugzilla to track issues and feature requests. Please review [Reporting Issues]({{wiki}}/Reporting-Issues){:target="_blank"} and [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues){:target="_blank"} for more information.

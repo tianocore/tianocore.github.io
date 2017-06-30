@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: Transition to Github Update
 ---
 {% include site-links.md %}
@@ -14,7 +14,7 @@ As part of this transition some documentation and process changes have been requ
 
 
 Please post any comments or questions related to this transition to 
-the [Edk2-devel](mailto:edk2-devel@lists.01.org?Subject=Github%20Question) mailing list.
+the [{{adminemail}}](mailto:{{adminemail}}?Subject=Github%20Question) mailing list.
 
 
 Thanks, Tianocore.org Administration

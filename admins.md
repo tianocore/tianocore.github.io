@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: acgRedirect
+acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/Community-Admins
 title: Community Admins
 ---
 {% include site-links.md %}
@@ -7,10 +8,10 @@ title: Community Admins
 You can contact the following community admins regarding any content
 on the tianocore.org web pages and site:
 
-* [Laurie0131](mailto:laurie0131@users.sourceforge.net?Subject=Site%20Question)
+* [{{adminemail}}](mailto:{{adminemail}}?Subject=Site%20Question)
 
 To become a community contributor (please see the [How to
-Contribute]({{wiki}}/How_To_Contribute) page) or contact the community
+Contribute]({{wiki}}/How_To_Contribute){:target="_blank"} page) or contact the community
 admins.
 
 If you do not get a response from the community admins, then feel feel

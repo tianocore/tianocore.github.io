@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: Transition to GitHub Dates
 ---
 {% include site-links.md %}
@@ -18,4 +18,4 @@ For status on the transition to GitHub see the Wiki page below.
 * [https://github.com/tianocore/tianocore.github.io/wiki/Transition-to-GitHub](https://github.com/tianocore/tianocore.github.io/wiki/Transition-to-GitHub)
 
 Please post any comments or questions related to this transition to 
-the [Edk2-devel](mailto:edk2-devel@lists.01.org?Subject=Github%20Question) mailing list.
+the [{{adminemail}}](mailto:{{adminemail}}?Subject=Github%20Question) mailing list.

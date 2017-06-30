@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: acgRedirect
+acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/OVMF
 title: OVMF
 ---
 {% include site-links.md %}

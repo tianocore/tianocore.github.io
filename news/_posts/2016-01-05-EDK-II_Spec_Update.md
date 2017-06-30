@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: EDK II Specifications updates V1.25 & 1.26
 ---
 {% include site-links.md %}

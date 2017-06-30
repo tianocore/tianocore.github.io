@@ -7,19 +7,19 @@ title: Member FAQs
 We have a lot of information accumulated over the years. It is now
 organized by topic.
 
-[Terms and Acronyms]({{wiki}}/Acronyms and Glossary)
+[Terms and Acronyms]({{wiki}}/Acronyms and Glossary){:target="_blank"}
 
 [Documents]({{baseurl}}/docs/) are for downloadable files (such as
 specs).
 
 ## FAQs
 
-* [FAQ]({{wiki}}/EFI and Framework Open Source Community FAQ) General
+* [FAQ]({{wiki}}/EFI and Framework Open Source Community FAQ){:target="_blank"} General
   community and EFI questions
-* [EDK II FAQ]({{wiki}}/EDK II FAQ) Frequently Asked Questions about
+* [EDK II FAQ]({{wiki}}/EDK II FAQ){:target="_blank"} Frequently Asked Questions about
   EDK II
-* [UEFI/PI FAQ]({{wiki}}/UEFI PI_FAQ) Frequently Asked Questions about UEFI/PI
-* [Shell FAQ]({{wiki}}/Shell FAQ) Frequently Asked Questions about
+* [UEFI/PI FAQ]({{wiki}}/UEFI PI_FAQ){:target="_blank"} Frequently Asked Questions about UEFI/PI
+* [Shell FAQ]({{wiki}}/Shell FAQ){:target="_blank"} Frequently Asked Questions about
   Shell
 
 ## Your Question Not Found?
@@ -29,4 +29,4 @@ email the [edk2-devel] list.
 
 You can also search for question and answers already asked in the
 [email list
-search](http://gmane.org/info.php?group=gmane.comp.bios.edk2.devel)
+search](http://gmane.org/info.php?group=gmane.comp.bios.edk2.devel){:target="_blank"}

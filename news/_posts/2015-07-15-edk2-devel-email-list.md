@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: EDK II email list (edk2-devel) has moved
 ---
 {% include site-links.md %}

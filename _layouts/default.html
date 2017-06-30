@@ -1,9 +1,70 @@
+{% include site-vars.liquid %}<!DOCTYPE html>
+<html>
+<head>
 {% include head.html %}
-{% include page-top.html %}
-    <div id="content">
+</head>
+<body>
 
-      {{ content }}
+<div class="tcOuter">
+	<div class="tcInner">
+		
+		<div class="tcNarrowOnly tcNarrowModeHeader">
+			<table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+				<tr>
+					<td><a href="{{baseurl}}/"><img src="{{baseurl}}/images/logo2.svg" style="width:160px;" /></a></td>
+					<td class="tcNavBars">
+						<a class="tcNavBarItem tcNavBarArrowLeft" href="javascript:_gotoPrevPage();"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+						<a class="tcNavBarItem tcNavBarArrowRight" href="javascript:_gotoNextPage();"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+						<a class="tcNavBarItem tcMenuBar" href="javascript:_toggleMenu();"><i class="fa fa-bars" aria-hidden="true"></i></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+			
+		<div class="tcMain">
+			
+			<div class="tcNarrowModeHeaderSpacer tcNarrowOnly"></div>
+		
+			<div class="tcMenuPanel">
+{% include mainmenu.html %}
+			</div>
+			<div class="tcContentPanel">
+{% if page.id == "home" %}
+				<div class="tcContent tcFrontPage">
+{% else %}
+				<div class="tcContent">
+{% endif %}
+					<div class="tcContentHeader">
+{% if page.sublayout == "news" %}
+						<h3>{{ page.date | date: "%B %-d, %Y" }}</h3>
+{% else %}
+						<h1>{{ page.title }}</h1>
+{% endif %}
+					</div>
+					<div class="tcContentMain">
+{{ content }}
+					</div>
+					<br/>
+					<div class="tcFooter">
+{% include footer.html %}
+					</div>
+				</div>
+			</div>
+			<div id="tcNarrowModeMenu" class="tcNarrowOnly" style="display:none;">
+{% include mainmenu.html %}
+			</div>
+		
+		</div>
+		
+	</div><!-- inner -->
+</div><!-- outer -->
 
-    </div>
+<!--
+// Required for run-time RWD mode check
+-->
+<div style="display:none;">
+	<div id="cssCheck">CSS Check</div>
+</div>
 
-{% include foot.html %}
+</body>
+</html>

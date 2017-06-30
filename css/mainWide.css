@@ -1,0 +1,66 @@
+/*
+// Note: We must set the breakpoint here because of an apparent bug in Chrome if you try to do:
+// <link type="text/css" rel="stylesheet" media="screen and (min-width: 800px)" href="{{baseurl}}/css/mainWide.css">
+// within the HTML.
+*/
+@media (min-width: 800px) {
+
+/*
+// _isEnhanced()
+*/
+#cssCheck
+{
+	font-weight:900;
+}
+
+.tcFrontPageButtons .tcButton:first-of-type
+{
+	margin-right:1em;
+}
+
+.tcMenu
+{
+	display:block;
+	width:368px;
+	border-top:1px solid #b9b9b9;
+}
+
+.tcMenuPanel
+{
+	display:table-cell;
+}
+
+.tcNarrowOnly
+{
+	display:none;
+}
+
+.tcWideOnly
+{
+	display:inherit;
+}
+
+.tcContentHeader
+{
+	padding-top:7em;
+}
+
+.tcContent.tcFrontPage
+{
+	max-width:750px;
+}
+
+.tcMenuItem a
+{
+	color:#bf5122 !important;
+	font-weight:normal !important;
+	font-style:normal !important;
+}
+
+.tcMenuItem a:hover
+{
+	color:#000000 !important;
+}
+
+
+}

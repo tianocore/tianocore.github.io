@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: default
 title: Linaro Connect -Las Vegas 2016
 ---
 {% include site-links.md %}

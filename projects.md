@@ -10,10 +10,10 @@ EDK II Projects
 </font>
 </MTMarkdownOptions>
 
-A modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a>   and [EDK II Specifications]({{wiki}}/EDK II Specifications)
+A modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org){:target="_blank"} and PI specifications. Click for a list of [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html) and [EDK II Specifications]({{wiki}}/EDK II Specifications)
 
 
-* [UDK2017]({{wiki}}/UDK2017) is a stable release of portions of our [EDK II]({{baseurl}}/edk2) project.
+* [UDK2015]({{baseurl}}/udk/udk2015/ "UEFI Development Kit 2015") is a stable release of portions of our [EDK II]({{baseurl}}/edk2) project.
 * [edk2-buildtools]({{wiki}}/edk2-buildtools) is the primary set of tools for processing EDK II content. 
 * [OVMF]({{baseurl}}/ovmf/) is a project to enable UEFI support for Virtual Machines.
 * [Shellpkg]({{wiki}}/Shellpkg) UEFI Shell is a project to create a UEFI 2.0 Shell implementation.
@@ -28,7 +28,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * [MinnowBoard]({{wiki}}/MinnowBoard) open community project with UEFI Developed firmware. 
 * [MinnowBoardMax]({{wiki}}/MinnowBoardMax) open community project with UEFI Developed firmware. 
 * [Coreboot_UEFI_payload]({{wiki}}/Coreboot_UEFI_payload) open community project for Coreboot Payload Package.
-* [EDK II Build Data Viewer ](https://github.com/01org/edkiibuilddataviewer) open project for EDK II Build Data viewer
+* [EDK II Build Data Viewer ](https://github.com/01org/edkiibuilddataviewer){:target="_blank"} open project for EDK II Build Data viewer
 
 <MTMarkdownOptions output='html4'>
 <font color="#0066FF" size="4">
@@ -55,5 +55,5 @@ Related Information
 </font>
 </MTMarkdownOptions>
 
--   [Start using UEFI](https://github.com/tianocore/tianocore.github.io/wiki/Start_using_UEFI)
--   [Overview](https://github.com/tianocore/tianocore.github.io/wiki/EDK_II_Overview)
+-   [Start using UEFI]({{wiki}}/Start_using_UEFI)
+-   [Overview]({{wiki}}/EDK_II_Overview)
