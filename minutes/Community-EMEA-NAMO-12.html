@@ -1,19 +1,219 @@
 <html>
-<head>
-  <title>TianoCore Meeting Minutes</title>
-  <basefont face="Segoe UI" size="2" />
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <meta name="exporter-version" content="Evernote Windows/308094 (en-US, MWS); Windows/10.0.0 (Win64);"/>
-  <style>
-    body, td {
-      font-family: Segoe UI;
-      font-size: 10pt;
-    }
-  </style>
-</head>
-<body>
-<a name="733"/>
 
-<div>
-<span><div><div><span style="font-weight: bold;">Community Updates</span></div><div>We have talks submitted to both FOSDEM and the OCP Summit:</div><div><a href="https://fosdem.org/2019/">https://fosdem.org/2019/</a></div><div><a href="https://www.opencompute.org/summit/global-summit">https://www.opencompute.org/summit/global-summit</a></div><div><br/></div><div>FOSDEM Topics</div><div>UEFI Capsule Update</div><div>UEFI Overview - TianoCore &amp; U-Boot</div><div><br/></div><div>OCP Topics</div><div>TianoCore Roadmap</div><div><br/></div><div>At the start of the community meetings, please feel free to introduce yourself if you'd like your attendance to be recorded in the minutes. This can be done on IRC (OFTC - #edk2) or on the zoom chat feature.</div><div><br/></div><div>Please send feedback to me regarding the dates / times of these meetings. If no comments are heard I will assume that these dates and times are good.</div><div><br/></div><div>January and February's meetings will both be held on *the second week* of the month to accommodate holidays.</div><div><br/></div><div><span style="font-weight: bold;">Opens</span></div><ul><li><div>We would like to setup demos of the current patch systems specific companies are using and record those sessions. Nate can do this for Gerrit and the folks at Microsoft can do the same for Github. John from MS volunteered to do a walk-through of the patch review system as well as CI. Stephano will contact potential demo hosts and setup a time that works for them as well as discuss any concerns with recording the session.</div></li><li><div>There were questions about the release process, specifically the differences between the UDK release and Stable Tag releases.</div></li><ul><li><div>For details on Stable Tags, please see the following links:</div></li><ul><li><div><a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags</a></div></li><li><div><a href="https://github.com/tianocore/tianocore.github.io/wiki/HardFeatureFreeze">https://github.com/tianocore/tianocore.github.io/wiki/HardFeatureFreeze</a></div></li><li><div><a href="https://github.com/tianocore/tianocore.github.io/wiki/SoftFeatureFreeze">https://github.com/tianocore/tianocore.github.io/wiki/SoftFeatureFreeze</a></div></li></ul><li><div>A Stable Tag is more frequent than the UDK release. It is a demand based branch rather than a cadence.</div></li><li><div>If a branch is created by the community, is that branch maintained, curated, and allowed to have future versions?</div></li><ul><li><div>The community we will discuss how this is addressed.</div></li><li><div>For now, much like the UDK, only critical fixes would be maintained.</div></li><li><div>Please feel free to send additional questions / comments on a new thread.</div></li></ul></ul><li><div>Build system changes, optimizations of the build system, possibly moving to the make files:</div></li><ul><li><div>There are some Bugzilla entries for this concept:</div></li><ul><li><div>https://bugzilla.tianocore.org/show_bug.cgi?id=1378</div></li><li><div>https://bugzilla.tianocore.org/show_bug.cgi?id=1302</div></li><li><div>https://bugzilla.tianocore.org/show_bug.cgi?id=1301</div></li><li><div>https://bugzilla.tianocore.org/show_bug.cgi?id=1288</div></li><li><div>https://bugzilla.tianocore.org/show_bug.cgi?id=972</div></li></ul><li><div>In the upcoming design meetings (TBD) we can discuss those bugs and review possible changes.</div></li><li><div>Community members should feel free to comment on those bugs directly.</div></li></ul></ul><div><br/></div><div><span style="font-weight: bold;">License Change</span></div><div>Mark Doran has made it clear that we'll be moving to an Apache 2.0 license. There is an RFC with a detailed proposal here:</div><div><a href="https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html">https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html</a></div><div><br/></div><div>If you are a copyright holder, please look at the RFC, give comments, and if there is a legal process for approval on your end, please start that process. Let us know if there are any concerns from your legal department. There is also a Bugzilla entry for details on code changes:</div><div><a href="https://bugzilla.tianocore.org/show_bug.cgi?id=1373">https://bugzilla.tianocore.org/show_bug.cgi?id=1373</a></div><div><br/></div><div>There will be a branch that Mike Kinney will create soon so that folks can review the changes to ensure that nothing is incorrect or might cause a build break. There is a script making this change, so the manual review of all these files will be difficult. Community assistance in reviewing those changes is appreciated.</div><div><br/></div><div><span style="font-weight: bold;">Public Design and Bug Scrub Meetings</span></div><div>Stephano will send out an RFC to find a frequency and dates/times so that we can setup public design and bug scrub meetings. These are not meetings that everyone needs to join each occurance, however there will be required reviewers identified for specific features and bugs. There will be two meetings held, much like the Community Meeting format, to accommodate different time zones. Current thoughts are that Thursday AM (PST) for EMEA and PM (PST Friday AM Asia) would work, but please comment when the RFC is sent out if you have questions or comments. Making the design and bug scrub meeting agendas clear ahead of time is ideal. Stephano will head up that effort. Also, in each meeting we will collect the next week's possible topics.</div><div><br/></div><div>//COMMENT</div><div>We need to have a process for the best way to begin a new design idea. We do have a &quot;feature request&quot; in Bugzilla. We also need a way to share documentation in terms of design. Stephano will send out an RFC regarding options for ways of sharing these documents. The design meeting can act as a clarification to possible new feature questions.</div><div><br/></div><div><span style="font-weight: bold;">Patch Review Update</span></div><div><span style="font-weight: bold;">GitHub</span></div><div>Laszlo has been reviewing GitHub with the help of several folks at Microsoft. Microsoft currently relies on the Web UI of GitHub to archive all the details of their process. Laszlo did find some places where a &quot;force commit&quot; (as one example, there are others) would be visible only for a period of time, but will eventually be lost. There is a concern that the community may not find this level of logging acceptable. </div><div><br/></div><div>Offline use has also been brought up as an issue for those traveling regularly or with intermittent internet connections in their location. We want the TianoCore community to remain open for all to contribute regardless of their location or access to reliable internet. </div><div><br/></div><div>Stephano will send out a RFC, regarding both these issues. Please look at Laszlo's emails (they will be linked) and comment as to how these issues might effect your workflows. Details on any workarounds to these issues that folks have used or have researched are also appreciated.</div><div><br/></div><div><span style="font-weight: bold;">GitLab</span></div><div>Philippe Mathieu-Daudé has volunteered to facilitate a review of GitLab and has invited Laszlo to participate. We do not want to overload Laszlo with review tasks so we ask that any community members who have time to work on reviewing this system to please contact Stephano. Ideally this person should be very familiar with our patch review process so that they can give detailed, objective insight into the functionality of the system.</div><div><br/></div><div><span style="font-weight: bold;">Phabricator</span></div><div>Laszlo is currently working with Rebecca Cran to evaluate the features of Phabricator and there will be more info on this in upcoming emails.</div><div><br/></div><div>//COMMENT</div><div>CI will be included in our discussion eventually, however we are focusing on patch review for now.</div><div><br/></div><div>//COMMENT</div><div>There are future features in both GitLab and Phabricator that will be coming out in the near future. Also, if we could summarize the GitHub issues we could post them to their respective sites as feature requests. In the end, it is important to note which systems have features on the road map and which need feature request submitted. This will be called out in future summary emails / shared documents.</div><div><br/></div><div><span style="font-weight: bold;">Collaboration Software</span></div><div>We will be assessing several collaboration software possibilities. We will proceed with testing these options on specific discussion topics, and those discussions will be logged and summarized for the mailing list so as not to lose any information.</div><div><br/></div><div>Stephano will start discussions shortly on GitHub &quot;Team Discussions&quot;. This discussions will cover our use of line endings as well as the possible use of standard C types. More of these tests will be forthcoming.</div><div><br/></div><div>Thank you all for joining. As always, please feel free to email the list or contact me directly with any questions or comments.</div><div><br/></div><div>Kind Regards,</div><div>Stephano Cetola</div><div>TianoCore Community Manager</div><div><br/></div><div><br/></div><div><br/></div></div><div><br/></div></span>
-</div></body></html> 
+<head>
+    <title>TianoCore Meeting Minutes</title>
+    <basefont face="Segoe UI" size="2" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="exporter-version" content="Evernote Windows/308094 (en-US, MWS); Windows/10.0.0 (Win64);" />
+    <style>
+        body,
+        td {
+            font-family: Segoe UI;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="733" />
+
+    <div>
+        <span><div><div><span style="font-weight: bold;">Community Updates</span></div>
+    <div>We have talks submitted to both FOSDEM and the OCP Summit:</div>
+    <div><a href="https://fosdem.org/2019/">https://fosdem.org/2019/</a></div>
+    <div><a href="https://www.opencompute.org/summit/global-summit">https://www.opencompute.org/summit/global-summit</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>FOSDEM Topics</div>
+    <div>UEFI Capsule Update</div>
+    <div>UEFI Overview - TianoCore &amp; U-Boot</div>
+    <div>
+        <br/>
+    </div>
+    <div>OCP Topics</div>
+    <div>TianoCore Roadmap</div>
+    <div>
+        <br/>
+    </div>
+    <div>At the start of the community meetings, please feel free to introduce yourself if you'd like your attendance to be recorded in the minutes. This can be done on IRC (OFTC - #edk2) or on the zoom chat feature.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Please send feedback to me regarding the dates / times of these meetings. If no comments are heard I will assume that these dates and times are good.</div>
+    <div>
+        <br/>
+    </div>
+    <div>January and February's meetings will both be held on *the second week* of the month to accommodate holidays.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Opens</span></div>
+    <ul>
+        <li>
+            <div>We would like to setup demos of the current patch systems specific companies are using and record those sessions. Nate can do this for Gerrit and the folks at Microsoft can do the same for Github. John from MS volunteered to do a walk-through of the patch review system as well as CI. Stephano will contact potential demo hosts and setup a time that works for them as well as discuss any concerns with recording the session.</div>
+        </li>
+        <li>
+            <div>There were questions about the release process, specifically the differences between the UDK release and Stable Tag releases.</div>
+        </li>
+        <ul>
+            <li>
+                <div>For details on Stable Tags, please see the following links:</div>
+            </li>
+            <ul>
+                <li>
+                    <div><a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags</a></div>
+                </li>
+                <li>
+                    <div><a href="https://github.com/tianocore/tianocore.github.io/wiki/HardFeatureFreeze">https://github.com/tianocore/tianocore.github.io/wiki/HardFeatureFreeze</a></div>
+                </li>
+                <li>
+                    <div><a href="https://github.com/tianocore/tianocore.github.io/wiki/SoftFeatureFreeze">https://github.com/tianocore/tianocore.github.io/wiki/SoftFeatureFreeze</a></div>
+                </li>
+            </ul>
+            <li>
+                <div>A Stable Tag is more frequent than the UDK release. It is a demand based branch rather than a cadence.</div>
+            </li>
+            <li>
+                <div>If a branch is created by the community, is that branch maintained, curated, and allowed to have future versions?</div>
+            </li>
+            <ul>
+                <li>
+                    <div>The community we will discuss how this is addressed.</div>
+                </li>
+                <li>
+                    <div>For now, much like the UDK, only critical fixes would be maintained.</div>
+                </li>
+                <li>
+                    <div>Please feel free to send additional questions / comments on a new thread.</div>
+                </li>
+            </ul>
+        </ul>
+        <li>
+            <div>Build system changes, optimizations of the build system, possibly moving to the make files:</div>
+        </li>
+        <ul>
+            <li>
+                <div>There are some Bugzilla entries for this concept:</div>
+            </li>
+            <ul>
+                <li>
+                    <div>https://bugzilla.tianocore.org/show_bug.cgi?id=1378</div>
+                </li>
+                <li>
+                    <div>https://bugzilla.tianocore.org/show_bug.cgi?id=1302</div>
+                </li>
+                <li>
+                    <div>https://bugzilla.tianocore.org/show_bug.cgi?id=1301</div>
+                </li>
+                <li>
+                    <div>https://bugzilla.tianocore.org/show_bug.cgi?id=1288</div>
+                </li>
+                <li>
+                    <div>https://bugzilla.tianocore.org/show_bug.cgi?id=972</div>
+                </li>
+            </ul>
+            <li>
+                <div>In the upcoming design meetings (TBD) we can discuss those bugs and review possible changes.</div>
+            </li>
+            <li>
+                <div>Community members should feel free to comment on those bugs directly.</div>
+            </li>
+        </ul>
+    </ul>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">License Change</span></div>
+    <div>Mark Doran has made it clear that we'll be moving to an Apache 2.0 license. There is an RFC with a detailed proposal here:</div>
+    <div><a href="https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html">https://lists.01.org/pipermail/edk2-devel/2018-October/030385.html</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>If you are a copyright holder, please look at the RFC, give comments, and if there is a legal process for approval on your end, please start that process. Let us know if there are any concerns from your legal department. There is also a Bugzilla entry for details on code changes:</div>
+    <div><a href="https://bugzilla.tianocore.org/show_bug.cgi?id=1373">https://bugzilla.tianocore.org/show_bug.cgi?id=1373</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>There will be a branch that Mike Kinney will create soon so that folks can review the changes to ensure that nothing is incorrect or might cause a build break. There is a script making this change, so the manual review of all these files will be difficult. Community assistance in reviewing those changes is appreciated.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Public Design and Bug Scrub Meetings</span></div>
+    <div>Stephano will send out an RFC to find a frequency and dates/times so that we can setup public design and bug scrub meetings. These are not meetings that everyone needs to join each occurance, however there will be required reviewers identified for specific features and bugs. There will be two meetings held, much like the Community Meeting format, to accommodate different time zones. Current thoughts are that Thursday AM (PST) for EMEA and PM (PST Friday AM Asia) would work, but please comment when the RFC is sent out if you have questions or comments. Making the design and bug scrub meeting agendas clear ahead of time is ideal. Stephano will head up that effort. Also, in each meeting we will collect the next week's possible topics.</div>
+    <div>
+        <br/>
+    </div>
+    <div>//COMMENT</div>
+    <div>We need to have a process for the best way to begin a new design idea. We do have a &quot;feature request&quot; in Bugzilla. We also need a way to share documentation in terms of design. Stephano will send out an RFC regarding options for ways of sharing these documents. The design meeting can act as a clarification to possible new feature questions.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Patch Review Update</span></div>
+    <div><span style="font-weight: bold;">GitHub</span></div>
+    <div>Laszlo has been reviewing GitHub with the help of several folks at Microsoft. Microsoft currently relies on the Web UI of GitHub to archive all the details of their process. Laszlo did find some places where a &quot;force commit&quot; (as one example, there are others) would be visible only for a period of time, but will eventually be lost. There is a concern that the community may not find this level of logging acceptable. </div>
+    <div>
+        <br/>
+    </div>
+    <div>Offline use has also been brought up as an issue for those traveling regularly or with intermittent internet connections in their location. We want the TianoCore community to remain open for all to contribute regardless of their location or access to reliable internet. </div>
+    <div>
+        <br/>
+    </div>
+    <div>Stephano will send out a RFC, regarding both these issues. Please look at Laszlo's emails (they will be linked) and comment as to how these issues might effect your workflows. Details on any workarounds to these issues that folks have used or have researched are also appreciated.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">GitLab</span></div>
+    <div>Philippe Mathieu-Daudé has volunteered to facilitate a review of GitLab and has invited Laszlo to participate. We do not want to overload Laszlo with review tasks so we ask that any community members who have time to work on reviewing this system to please contact Stephano. Ideally this person should be very familiar with our patch review process so that they can give detailed, objective insight into the functionality of the system.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Phabricator</span></div>
+    <div>Laszlo is currently working with Rebecca Cran to evaluate the features of Phabricator and there will be more info on this in upcoming emails.</div>
+    <div>
+        <br/>
+    </div>
+    <div>//COMMENT</div>
+    <div>CI will be included in our discussion eventually, however we are focusing on patch review for now.</div>
+    <div>
+        <br/>
+    </div>
+    <div>//COMMENT</div>
+    <div>There are future features in both GitLab and Phabricator that will be coming out in the near future. Also, if we could summarize the GitHub issues we could post them to their respective sites as feature requests. In the end, it is important to note which systems have features on the road map and which need feature request submitted. This will be called out in future summary emails / shared documents.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Collaboration Software</span></div>
+    <div>We will be assessing several collaboration software possibilities. We will proceed with testing these options on specific discussion topics, and those discussions will be logged and summarized for the mailing list so as not to lose any information.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Stephano will start discussions shortly on GitHub &quot;Team Discussions&quot;. This discussions will cover our use of line endings as well as the possible use of standard C types. More of these tests will be forthcoming.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Thank you all for joining. As always, please feel free to email the list or contact me directly with any questions or comments.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Kind Regards,</div>
+    <div>Stephano Cetola</div>
+    <div>TianoCore Community Manager</div>
+    <div>
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    </div>
+    <div>
+        <br/>
+    </div>
+    </span>
+    </div>
+</body>
+
+</html>
