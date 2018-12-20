@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN='stephano.cetola@linux.intel.com';RSVP=FALSE:mailto:stephano.ce
+	tola@linux.intel.com
+CLASS:PUBLIC
+CREATED:20181220T155212Z
+DESCRIPTION:Stephano Cetola is inviting you to a scheduled Zoom meeting.\n\
+	nJoin Zoom Meeting\nhttps://zoom.us/j/940666665\n\nOne tap mobile\n+172070
+	72699\,\,940666665# US\n+16465588656\,\,940666665# US (New York)\n\nDial b
+	y your location\n        +1 720 707 2699 US\n        +1 646 558 8656 US (N
+	ew York)\nMeeting ID: 940 666 665\nFind your local number: https://zoom.us
+	/u/adCCDzz5GD\n\n
+DTEND;TZID="Pacific Standard Time":20190110T100000
+DTSTAMP:20181220T152518Z
+DTSTART;TZID="Pacific Standard Time":20190110T090000
+LAST-MODIFIED:20181220T155212Z
+LOCATION:https://zoom.us/j/940666665
+ORGANIZER;CN="Cetola, Stephano":mailto:stephano.cetola@intel.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:TianoCore Community Meeting NAMO / EMEA
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000203F8BC73498D401000000000000000
+	010000000B84562E07125D24B946968C40C990BEA
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P><FONT FACE="Calibri">Stephano Cetola is inv
+	iting you to a scheduled Zoom meeting.</FONT>\n</P>\n\n<P><FONT FACE="Cali
+	bri">Join Zoom Meeting</FONT>\n\n<BR><FONT FACE="Calibri"><A HREF="https:/
+	/zoom.us/j/940666665">https://zoom.us/j/940666665</A></FONT>\n</P>\n\n<P><
+	FONT FACE="Calibri">One tap mobile</FONT>\n\n<BR><FONT FACE="Calibri">+172
+	07072699\,\,940666665# US</FONT>\n\n<BR><FONT FACE="Calibri">+16465588656\
+	,\,940666665# US (New York)</FONT>\n</P>\n\n<P><FONT FACE="Calibri">Dial b
+	y your location</FONT>\n\n<BR><FONT FACE="Calibri">&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\; +1 720 707 2699 US</FONT>\n\n<BR><FONT FACE="Ca
+	libri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 646 558 8656 U
+	S (New York)</FONT>\n\n<BR><FONT FACE="Calibri">Meeting ID: 940 666 665</F
+	ONT>\n\n<BR><FONT FACE="Calibri">Find your local number: <A HREF="https://
+	zoom.us/u/adCCDzz5GD">https://zoom.us/u/adCCDzz5GD</A></FONT>\n</P>\n\n</B
+	ODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTSEQTIME:20181220T152518Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
