@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>TianoCore Meeting Minutes</title>
+    <basefont face="Segoe UI" size="2" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="exporter-version" content="Evernote Windows/308094 (en-US, MWS); Windows/10.0.0 (Win64);" />
+    <style>
+        body,
+        td {
+            font-family: Segoe UI;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="747" />
+
+    <div>
+        <span><div><span style="font-weight: bold;">Community Updates</span></div>
+    <div>Several conferences are coming up that we will be attending.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">FOSDEM 2019</span></div>
+    <div>Stephano will be giving a talk with Alexander Graf (SUSE) on UEFI usage on the UP Squared board and Beagle Bone Black.</div>
+    <div>
+        <br/>
+    </div>
+    <div>More info on FOSDEM here: </div>
+    <div><a href="https://fosdem.org/2019/">https://fosdem.org/2019/</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>Info on the talk here:</div>
+    <div><a href="https://fosdem.org/2019/schedule/event/uefi_boot_for_mere_mortals/">https://fosdem.org/2019/schedule/event/uefi_boot_for_mere_mortals/</a></div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Open Compute Project Global Summit</span></div>
+    <div><a href="https://www.opencompute.org/summit/global-summit">https://www.opencompute.org/summit/global-summit</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>No TianoCore talks were accepted for this event, however Stephano will be talking about CHIPSEC.</div>
+    <div><a href="https://sched.co/JinT">https://sched.co/JinT</a></div>
+    <div><b><br/></b></div>
+    <div><b>Other Upcoming Conferences</b></div>
+    <div><a href="https://linuxfestnorthwest.org/conferences/2019">Linuxfest NW</a></div>
+    <div><a href="https://us.pycon.org/2019/about/">PyCon</a></div>
+    <div><a href="https://www.redhat.com/en/summit/2019">Redhat Summit</a></div>
+    <div><a href="https://rustconf.com/">RustConf</a></div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Rust</b></div>
+    <div>Stephano is working with some folks from the Open Source Technology Center at Intel regarding their desire to get Rust ported to EDK2. While there are many proof of concepts out there, the first step for adoption would be to integrate the Rust infrastructure into our build system, and create a simple &quot;hello world&quot; app. The goal would be to provide a modern language with better memory safety for writing modules and drivers. Our hope is that the availability of this language would encourage outside contribution and support from a vibrant and well established open source community.</div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Github Discussions Evaluation, Groups.io, Microsoft Teams</b></div>
+    <div>During our December community meeting, we talked about trying out &quot;GitHub Discussions&quot; as a basis for communication that might be better than our current mailing list situation. The main issues with the mailing list today are:</div>
+    <div>
+        <br/>
+    </div>
+    <div>1. Attachments are not allowed.</div>
+    <div>2. Email addresses cannot be &quot;white listed&quot; (If you are not subscribed your emails are simply discarded by the server).</div>
+    <div>
+        <br/>
+    </div>
+    <div>In order to save us some time, Stephano reviewed GitHub discussions using 3 GitHub user accounts, and found the following shortcomings:</div>
+    <div>
+        <br/>
+    </div>
+    <div>1. No support for uploading documents, only images</div>
+    <div>2. No way to archive discussions outside GitHub[1]</div>
+    <div>3. Any comment can be edited by any member</div>
+    <div>4. Discussions are not threaded</div>
+    <div>
+        <br/>
+    </div>
+    <div>[1] Email notification archiving is possible, but this means we'd have to keep a mailing list log of our conversations. At that point, why not just use email?</div>
+    <div>
+        <br/>
+    </div>
+    <div>That last one is particularly difficult to work around. Every comment is added to the bottom of the list. If some small group of developers (out of many) start having a “sub discussion”, their replies will not be separate from the main thread. There’s no way to distinguish and visually “collapse” a sub thread, so one is forced to view the discussion as a whole. It would seem that the &quot;discussion feature&quot; was intended for small, single threaded discussions. This will not work for larger complex system design discussions.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Also, the ability to edit comments is perplexing. Any member can edit <b>any</b> comment, and delete any of their comments or edits. No email notifications are provided for these actions, so there may be no document trail for parts of the conversation. This system seems quite inadequate for serious development discussions and is clearly meant for a more &quot;chat&quot; style of communication on smaller teams. Comments and questions regarding &quot;GitHub Discussions&quot; are still welcomed, but Stephano recommends we move forward with trying out different systems with more robust feature sets.</div>
+    <div>
+        <br/>
+    </div>
+    <div>It was agreed that we will evaluate Groups.io next to see if that is a better fit for our needs. Stephano will setup accounts as needed and do some preliminary testing. If that goes well he will initiate discussions on &quot;Line Endings&quot; as well as &quot;Use of C Standard Types&quot;.</div>
+    <div>
+        <br/>
+    </div>
+    <div>Microsoft Teams was also brought up as a possible solution. If Groups.io fails to provide a good platform for us, we will look into Teams. The main barrier to entry there may be the cost. We have found that many of the software options we have been evaluating have this cost barrier to entry. We need to decide if this is truly a &quot;no-go&quot; issue for using software as a community. If TianoCore was an organization that had non-profit status, it might be easier for us to get non-profit discounts on software like this. Stephano will bring this up at the Steward's Meeting next week.</div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Patch Review System Evaluation</b></div>
+    <div>After evaluating Github, Gitlab, and Phabricator, we will be remaining with the mailing list for now. Github did prove a possible &quot;2nd runner up&quot; (albeit distant), and Stephano / Nate from Intel will be reviewing Gerrit use with a report being sent back to the community sometime next week.</div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Community CI Environment</b></div>
+    <div><i>Azure DevOps, Cirrus CI, Jenkins, Avacado</i></div>
+    <div>We will begin evaluation of possible community test frameworks. This again brings up the question of how we would fund such an effort, and Stephano will bring this up at the Steward's meeting. It is important to remember that our supported environments are Linux, Windows, and macOS. We have compilers that are considered &quot;supported&quot; and those combinations should have proper coverage. Also, we do not want to use multiple CI environments, so the solution we choose should support all use cases. There are several CI options that are &quot;Free for open source&quot; but they limit the size / number of CI agents, with pricing tiers for larger sized builds. The cost of a CI infrastructure will be dependent on the number of patches we need to send through the service, and what kind of response is required. Stephano will work with Philippe on Avacado, the folks at MS will evaluate possible use of Azure DevOps (again, possibly limited by the fact that we are not a non-profit), and volunteers are still required to test Cirrus and Jenkins.</div>
+    <div><b><br/></b></div>
+    <div><b>Public Design / Bug Scrub Meetings</b></div>
+    <div>We'd like to get public meetings started in February for design overviews and bug scrubs. Stephano will be working with Ray to set these up. The hope is that we will have 1 meeting per month to start for bug scrubs. Design meetings will be dependent on how many design ideas have been submitted. The design meetings could also be used to discuss RFC's from the mailing list.
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    </span>
+    </div>
+</body>
+
+</html>
