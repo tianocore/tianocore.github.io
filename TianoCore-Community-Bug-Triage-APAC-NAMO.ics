@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Zhu, Yonghong";RSVP=FALSE:mailto:yonghong.zhu@intel.com
+ATTENDEE;CN="Gu, Alex";RSVP=FALSE:mailto:alex.gu@intel.com
+ATTENDEE;CN="Kinney, Michael D";RSVP=FALSE:mailto:michael.d.kinney@intel.co
+	m
+ATTENDEE;CN="Rothman, Michael A";RSVP=FALSE:mailto:michael.a.rothman@intel.
+	com
+ATTENDEE;CN="Krau, Michael P";RSVP=FALSE:mailto:michael.p.krau@intel.com
+ATTENDEE;CN="Hsiung, Harry L";RSVP=FALSE:mailto:harry.l.hsiung@intel.com
+ATTENDEE;CN="Li, Ruth";RSVP=FALSE:mailto:ruth.li@intel.com
+ATTENDEE;CN="Tian, Hot";RSVP=FALSE:mailto:hot.tian@intel.com
+ATTENDEE;CN="Zimmer, Vincent";RSVP=FALSE:mailto:vincent.zimmer@intel.com
+ATTENDEE;CN="Carsey, Jaben";RSVP=FALSE:mailto:jaben.carsey@intel.com
+ATTENDEE;CN="Wu, Mike";RSVP=FALSE:mailto:mike.wu@intel.com
+ATTENDEE;CN="Decker, Brian J";RSVP=FALSE:mailto:brian.j.decker@intel.com
+ATTENDEE;CN="Yao, Jiewen";RSVP=FALSE:mailto:jiewen.yao@intel.com
+ATTENDEE;CN="Ware, Ryan R";RSVP=FALSE:mailto:ryan.r.ware@intel.com
+ATTENDEE;CN="Desimone, Ashley E";RSVP=FALSE:mailto:ashley.e.desimone@intel.
+	com
+ATTENDEE;CN="FID FIE CPF";RSVP=FALSE:mailto:fid.fie.cpf@intel.com
+ATTENDEE;CN="FID FIV SIV";RSVP=FALSE:mailto:fid.fiv.siv@intel.com
+ATTENDEE;CN="Vidal, Neil N";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:neil.n.v
+	idal@intel.com
+ATTENDEE;CN="Delgado, Brian";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:brian.d
+	elgado@intel.com
+ATTENDEE;CN="Wolman, Ayellet";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:ayelle
+	t.wolman@intel.com
+ATTENDEE;CN="Muduganti, Narender";ROLE=OPT-PARTICIPANT;RSVP=FALSE:mailto:na
+	render.muduganti@intel.com
+CLASS:PUBLIC
+CREATED:20190131T051509Z
+DESCRIPTION:Please join us for the TianoCore Community Bug Scrub!\n\nWe wil
+	l be holding these every 2 weeks. Please feel free to send me any question
+	s or comments.\n\nKind Regards\,\nStephano\n\nStephano Cetola\nTianoCore C
+	ommunity Manager\n\nJoin Zoom Meeting\nhttps://zoom.us/j/251103409\n\nOne 
+	tap mobile\n+17207072699\,\,251103409# US\n+16465588656\,\,251103409# US (
+	New York)\n\nDial by your location\n        +1 720 707 2699 US\n        +1
+	 646 558 8656 US (New York)\nMeeting ID: 251 103 409\nFind your local numb
+	er: https://zoom.us/u/acEIbOAUyA\n\n
+DTEND;TZID="Pacific Standard Time":20190207T170000
+DTSTAMP:20190131T044958Z
+DTSTART;TZID="Pacific Standard Time":20190207T160000
+LAST-MODIFIED:20190131T051509Z
+LOCATION:https://zoom.us/j/251103409
+ORGANIZER;CN="Cetola, Stephano":mailto:stephano.cetola@intel.com
+PRIORITY:5
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;WKST=SU
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:TianoCore Bug Triage - APAC/NAMO
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000070511805DDB8D401000000000000000
+	010000000BBA3B1DA87AE064E96DEBC535320C2B5
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"><FONT FACE="Calibri">Please join us for the TianoCore Community 
+	Bug Scrub!</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN
+	 LANG="en-us"><FONT FACE="Calibri">We will be holding these every 2 weeks.
+	</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><FONT FACE="Cal
+	ibri"> Please feel free to send me any questions or comments.</FONT></SPAN
+	></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Kind Regards\,
+	</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">S
+	tephano</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Cal
+	ibri">Stephano Cetola</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><
+	FONT FACE="Calibri">TianoCore Community Manager</FONT></SPAN><SPAN LANG="e
+	n-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-u
+	s"><FONT FACE="Calibri">Join Zoom Meeting</FONT></SPAN></P>\n\n<P DIR=LTR>
+	<SPAN LANG="en-us"></SPAN><A HREF="https://zoom.us/j/251103409"><SPAN LANG
+	="en-us"></SPAN><SPAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri"
+	>https://zoom.us/j/251103409</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></
+	A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><
+	SPAN LANG="en-us"><FONT FACE="Calibri">One tap mobile</FONT></SPAN></P>\n\
+	n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">+17207072699\,\,251103
+	409# US</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Cal
+	ibri">+16465588656\,\,251103409# US (New York)</FONT></SPAN></P>\n\n<P DIR
+	=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Dial by your location</FONT><
+	/SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 720 707 2699 US</FONT></SPAN><
+	/P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 646 558 8656 US (New York)</FONT></SP
+	AN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Meeting ID: 
+	251 103 409</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE=
+	"Calibri">Find your local number:</FONT></SPAN><SPAN LANG="en-us"> </SPAN>
+	<A HREF="https://zoom.us/u/acEIbOAUyA"><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri">https://zoom.us/u/acEIbO
+	AUyA</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTSEQTIME:20190131T044958Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

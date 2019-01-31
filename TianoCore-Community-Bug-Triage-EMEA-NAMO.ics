@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN='stephano.cetola@linux.intel.com';RSVP=FALSE:mailto:stephano.ce
+	tola@linux.intel.com
+CLASS:PUBLIC
+CREATED:20190131T051430Z
+DESCRIPTION:Join Zoom Meeting\nhttps://zoom.us/j/670172897\n\nOne tap mobil
+	e\n+17207072699\,\,670172897# US\n+16465588656\,\,670172897# US (New York)
+	\n\nDial by your location\n        +1 720 707 2699 US\n        +1 646 558 
+	8656 US (New York)\nMeeting ID: 670 172 897\nFind your local number: https
+	://zoom.us/u/adoVHelw9Z\n\n
+DTEND;TZID="Pacific Standard Time":20190208T080000
+DTSTAMP:20190131T051413Z
+DTSTART;TZID="Pacific Standard Time":20190208T070000
+LAST-MODIFIED:20190131T051430Z
+LOCATION:https://zoom.us/j/670172897
+ORGANIZER;CN="Cetola, Stephano":mailto:stephano.cetola@intel.com
+PRIORITY:5
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=FR;WKST=SU
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:TianoCore Bug Triage - EMEA/NAMO
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000070047580DEB8D401000000000000000
+	010000000F805BAA0EE26364AA258D4BC91037654
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"><FONT FACE="Calibri">Join Zoom Meeting</FONT></SPAN></P>\n\n<P D
+	IR=LTR><SPAN LANG="en-us"></SPAN><A HREF="https://zoom.us/j/670172897"><SP
+	AN LANG="en-us"></SPAN><SPAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="C
+	alibri">https://zoom.us/j/670172897</FONT></U></SPAN><SPAN LANG="en-us"></
+	SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DI
+	R=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">One tap mobile</FONT></SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">+17207072699\,\
+	,670172897# US</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FA
+	CE="Calibri">+16465588656\,\,670172897# US (New York)</FONT></SPAN></P>\n\
+	n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Dial by your location<
+	/FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 720 707 2699 US</FONT><
+	/SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">&nbsp\;&n
+	bsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 646 558 8656 US (New York)</FO
+	NT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Meeti
+	ng ID: 670 172 897</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FON
+	T FACE="Calibri">Find your local number:</FONT></SPAN><SPAN LANG="en-us"> 
+	</SPAN><A HREF="https://zoom.us/u/adoVHelw9Z"><SPAN LANG="en-us"></SPAN><S
+	PAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri">https://zoom.us/u
+	/adoVHelw9Z</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-
+	us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20190131T051413Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
