@@ -1,0 +1,97 @@
+<html>
+
+<head>
+  <title>TianoCore Meeting Minutes</title>
+    <basefont face="Segoe UI" size="2" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="exporter-version" content="Evernote Windows/308292 (en-US, MWS); Windows/10.0.0 (Win64);" />
+    <style>
+        body,
+        td {
+            font-family: Segoe UI;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="777" />
+
+    <div>
+        <span><div><div><b>Github Pull Requests</b></div><div>We are still considering Github as a possible platform for patch review. There are two issues we'd like to overcome:</div><div><br/></div><ol><li><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">comprehensive email notifications or backup/archival functionality</div></li><li><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">workflow for users that do not have a consistent internet connection</div></li></ol><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;"><br/></div><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">The notification issue degrades our current ability to archive the history of a patch review. Github notifications do not provide:<br/></div><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;"><br/></div><ol><li><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">the subject line of the patch</div></li><li><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">trailing code context of the comment (code that comes AFTER the comment)</div></li><li><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">the commit message<br/></div></li></ol><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;"><br/></div><div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;">In this way, it is hard to avoid losing the meaning of the pull request conversation if we were to move to a different system some day. The <span style="white-space: pre-wrap; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">longevity of PR branches is also a concern, and a workaround would need to be found and maintained. We need to be sure that PR branches can be easily archived so that if a Github user deletes their account, even if their PR was rejected, the code would be available.</span></div>
+    <div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;"><span style="white-space: pre-wrap; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><br/></span></div>
+    <div style="orphans: 2; widows: 2;"><span style="white-space: pre-wrap;">Jeremiah and I are both looking for work around to these issues, hopefully without having to maintain more code.</span> <span style="color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; white-space: pre-wrap; word-spacing: 0px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px;">See here for details on Laszlo's thorough Github evaluation:</span></div>
+    <div style="orphans: 2; widows: 2;"><span style="color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; white-space: pre-wrap; word-spacing: 0px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px;"><br/></span></div>
+    <div style="orphans: 2; widows: 2;"><a href="https://lists.01.org/pipermail/edk2-devel/2018-December/033509.html">https://lists.01.org/pipermail/edk2-devel/2018-December/033509.html</a><span style="color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; white-space: pre-wrap; word-spacing: 0px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px;"><br/></span></div>
+    <div style="color:rgb(0, 0, 0);font-variant-caps:normal;font-variant-ligatures:normal;letter-spacing:normal;orphans:2;white-space:pre-wrap;widows:2;word-spacing:0px;"><span style="white-space: pre-wrap; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;"><br/></span></div>
+    <div style="orphans: 2; widows: 2;"><span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;">To be clear, these hurtles do not *have to be* overcome. They were brought up by several maintainers and community members. They are simply barriers that we want to discuss fully before committing to a transition. It is impossible to &quot;change our mind&quot; on this transition without some loss of data</span></span>, so best we be sure before we switch<span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;">.</span></span>
+    </div>
+    <div style="orphans: 2; widows: 2;"><span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;"><br/></span></span>
+    </div>
+    <div style="orphans: 2; widows: 2;"><span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;">Working in a c</span></span>ommunity means providing consistent messaging, clear expectations, and the understanding that each member is valuable. Working in the open means moderating, evaluating, and distilling input from community members and companies without bias or prejudice. I take this transition seriously and do not plan to rush it.</div>
+    <div>
+        <br/>
+    </div>
+    <div style="orphans: 2; widows: 2;"><span style="font-weight: bold;">Gerrit Code Review</span><span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;"><br/></span></span>
+    </div>
+    <div style="orphans: 2; widows: 2;"><span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;">Gerrit code review is viable platform, but Intel's implementation of the 'repo' tool is still working on being open sourced. Also, there would be a lot of work that would go into</span></span> implementing <span style="orphans: 2; text-indent: 0px; widows: 2;"><span style="white-space: pre-wrap;">a proper Gerrit solution. If someone would like to volunteer to carry this out, please feel free to contact me, but I'm going to postpone this for the moment as my schedule is rather full.</span></span>
+    </div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Groups.io</b></div>
+    <div>Laszlo and I will evaluate Groups.io, however initial impressions is that this will work as a communication platform going forward. We'd like to use this for design discussions and as a replacement for our current mailing list as <a href="http://01.org/">01.org</a> does not allow attachments or whistling. Also, Groups.io allows for online search of the list, chats, and uploads which is much easier for some than searching through emails. Assuming this is successful, I will work with <a href="http://01.org/">01.org</a> to archive all (if possible) of the edk2-devel mailing list into groups.io for a (mostly) seamless transition. I will see how long <a href="http://01.org/">01.org</a> is willing to store archives, and will notify the community of how long that archive will be available.</div>
+    <div>
+        <br/>
+    </div>
+    <div><b>Community Bug Triage</b></div>
+    <div>Community bug triage meetings will occur every two weeks, and we will have 2 meetings to accommodate both sets of timezones. See here for details:</div>
+    <div>
+        <br/>
+    </div>
+    <div><a href="https://www.tianocore.org/bug-triage/">https://www.tianocore.org/bug-triage/</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>I will be working to develop bugzilla reports and researching possible platforms that we could add to a community CI. Maintaining these platforms would be a great way to add to the list of community bugs and encourage open development.</div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-weight: bold;">Community Design</span></div>
+    <div>We will be starting the community design meetings in March and holding them every 2 weeks. If we find that there are enough submissions we can meet every week. I will hold two meetings, much like the community meetings. Any submission will be discussed in both meeting and notes sent out in the meeting minutes. Discussion can then continue on the mailing list. I will send out an RFC for folks to submit possible topics the day before each meeting.</div>
+    <div><b><br/></b></div>
+    <div><b>Rust in EDK II Exploration Notes</b></div>
+    <div>I have been working with the Rust community, as well as members of Intel's Firmware Security teams, to explore the benefits of using Rust in EDK II. For those of you who have never heard of Rust, please take some time to look into it: <a href="https://en.wikipedia.org/wiki/Rust_(programming_language">https://en.wikipedia.org/wiki/Rust_(programming_language</a>)</div>
+    <div>
+        <br/>
+    </div>
+    <div>Here is a brief overview of the pros/cons:</div>
+    <div>
+        <br/>
+    </div>
+    <div><i>Benefits of Rust</i></div>
+    <div>Rust is a modern language with features like counted buffers and strings. It can call C code and be called by C code. It requires no calls to &quot;free&quot;, and does so without garbage collection by statically inserting calls to &quot;free&quot; for you. Rust types keep track of which structs own which memory chunks so that developers do not have to keep track of ownership of struct memory. Rust includes a lot of functionality not found in C. These features include Unicode support, an ecosystem library, structural types, and matching (it is very easy to wrap types as a &quot;SUCCESS&quot; or &quot;FAILURE WITH ERROR CODE&quot;). Rust has no NULL pointers as that concept has its own type, which makes for cleaner semantics. It has a robust built in macro system. For example, when you get a compilation error in code calling a macro, the compiler will be able to show you where in the macro the failure occurred.</div>
+    <div>
+        <br/>
+    </div>
+    <div><i>Drawbacks of Rust</i></div>
+    <div>Rust is a younger language, though there are many examples of where it has been used in production. As such, many features one might take for granted in C still do not exist in Rust, or are newly added. For example, variadic functions (varargs) were just recently added. There are other corner cases of &quot;things you can do in C&quot; that still need to be added. Rust does have a great package management system (called cargo - crates are packages), but in a system like EDK2, we will want to limit those outside dependencies. Sub-command cargo-vendor is a tool where you can pin package versions and update them only as needed.</div>
+    <div>
+        <br/>
+    </div>
+    <div><b>TianoCore in the News</b></div>
+    <div>Here's my presentation from FOSDEM:</div>
+    <div>
+        <br/>
+    </div>
+    <div><a href="https://fosdem.org/2019/schedule/event/uefi_boot_for_mere_mortals/">https://fosdem.org/2019/schedule/event/uefi_boot_for_mere_mortals/</a></div>
+    <div>
+        <br/>
+    </div>
+    <div>I collaborated with Alexander Graf from SUSE. I'll be giving this talk again at LinuxFest Northwest (<a href="http://linuxfestnorthwest.org/">http://linuxfestnorthwest.org</a>).</div>
+    </div>
+    </span>
+    </div>
+</body>
+
+</html>
