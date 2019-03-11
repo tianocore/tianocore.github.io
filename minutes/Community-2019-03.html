@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>TianoCore Meeting Minutes</title>
+    <basefont face="Segoe UI" size="2" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="exporter-version" content="Evernote Windows/308292 (en-US, MWS); Windows/10.0.0 (Win64);" />
+    <style>
+        body,
+        td {
+            font-family: Segoe UI;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="801" />
+
+    <div>
+        <span><div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri; font-weight: bold;">License Review</span></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">The draft of the RFC is out, comments welcome. See details here:</span></div>
+    <div style="min-height: 13pt; text-align: left;"><a href="https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html" style="min-height: 13pt; font-size: 11pt; color: rgb(5, 99, 193); font-family: Calibri; text-decoration: underline;">https://lists.01.org/pipermail/edk2-devel/2019-March/037500.html</a></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt;">And V2 is here:</span></div>
+    <div style="min-height: 13pt; text-align: left;"><a href="https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html" style="min-height: 13pt;">https://lists.01.org/pipermail/edk2-devel/2019-March/037669.html</a></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt;">Please contact Stephano or the stewards directly if you have questions or comments you would not like shared on the list.</span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri; font-weight: bold;">GitHub Pull Requests</span></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt;">Stephano has taken an action item to work with </span><span style="min-height: 13pt; font-family: Calibri; color: rgb(1, 1, 1); font-size: 11pt;">the Kubernetes community to see what trade-offs and</span> <span style="min-height: 13pt; font-family: Calibri; color: rgb(1, 1, 1); font-size: 14.6667px;">benefits</span><span style="min-height: 13pt; font-family: Calibri; color: rgb(1, 1, 1); font-size: 11pt;"> they experience using GitHub.</span> <span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">Kubernetes is one of the largest open source projects currently using GitHub for patch reviews. </span><span style="min-height: 13pt; font-family: Calibri; color: rgb(1, 1, 1); font-size: 11pt;">It is notable that a </span><span style="min-height: 13pt; color: rgb(1, 1, 1); font-family: Calibri; font-size: 11pt;">git module &quot;request-pull&quot; exists, and the kernel gives directions on how to use these &quot;git style&quot; of pull requests:</span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><a href="https://www.kernel.org/doc/html/v5.0/maintainer/pull-requests.html" style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">https://www.kernel.org/doc/html/v5.0/maintainer/pull-requests.html</a></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt;">However, it has been noted by the community that GitHub is a much more modern way of doing patch review, hence the continued exploration of this topic. The main blockers are still the inadequate archive of information in email as well as a limited offline workflow. These blockers have been brought up by multiple community members, and Stephano is currently looking for a work around.</span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><b>EDK II Repo Updates</b></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">We would like to take a cue from Project Mu and improve the structure of the EDK II repository. In the coming weeks, Ray will be leading a lot of the work in terms of retiring packages or moving them to more suitable locations. The stewards have had these conversations over the past few years, and we now have the bandwidth to start moving forward on many of these efforts. We have already introduced edk2-platforms that has platform specific code. Now we need to start moving all platform specific code to that repo. We will also be working on retiring the edk-compatibility package, as well as removing support for EDK1-style capabilities from the BaseTools. There are other work areas around the emulator package regarding running edk2-firmware as an application under Windows, Linux, or macOS, which would let us retire the NT32 package. Adding platform initialization specifications was intended to replace the Intel Framework content. We'd like to see all the platforms move off of those and use the PI defined interfaces so we can remove them. The goal is that in the end the edk2 repository should be platform agnostic, and only keep a few emulation environments to support future integrations. OVMF and the emulator package will still be integral so that any future CI can check for backwards compatibility against those platforms.</span>
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri; font-weight: bold;">Bug Triage</span></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">Bug triages began in February. See here for details:</span></div>
+    <div style="min-height: 13pt; text-align: left;"><a href="https://www.tianocore.org/bug-triage/" style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">https://www.tianocore.org/bug-triage/</a></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt;">Please join us as we explore bugs and features every 2 weeks.</span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri; font-weight: bold;">Groups.io</span></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri;">Progress is continuing as Laszlo and Stephano have almost finished their review. Things look promising. We should be able to move to Groups.io for our mailing list solving the attachment and white-listing problems. We can also use Groups.io for document storage and design review discussions / doc storage.</span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-size: 11pt; color: rgb(1, 1, 1); font-family: Calibri; font-weight: bold;">Design Meetings</span></div>
+    <div style="min-height: 13pt; text-align: left;"><span style="min-height: 13pt; font-family: Calibri; color: rgb(1, 1, 1); font-size: 14.6667px;">Design meetings are schedule to begin in March. An announcement will go out sometime in the coming week or so. </span></div>
+    <div style="min-height: 13pt; text-align: left;">
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    </span>
+    </div>
+</body>
+
+</html>
