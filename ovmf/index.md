@@ -9,7 +9,7 @@ OVMF is an [EDK II] based project to enable UEFI support for Virtual
 Machines.  OVMF contains a sample UEFI firmware for [QEMU] and [KVM].
 
 License information:
- [BSD](http://www.opensource.org/licenses/bsd-license.php)
+  [BSD+Patent]((https://opensource.org/licenses/BSDplusPatent)
 
 More information:
   [OVMF FAQ]({{wiki}}/OVMF FAQ),

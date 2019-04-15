@@ -7,7 +7,7 @@ title: TianoCore web site
 Our website is open source. Let us know if you have site content or
 other website improvements!
 
-License information: [BSD](http://www.opensource.org/licenses/bsd-license.php){:target="_blank"}
+License information: [BSD+Patent]((https://opensource.org/licenses/BSDplusPatent){:target="_blank"}
 
 Source repository: <https://github.com/tianocore/tianocore.github.io>{:target="_blank"}
 

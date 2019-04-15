@@ -6,7 +6,8 @@ title: Legal
 
 ## Licenses for TianoCore Contributions
 
-The preferred license for TianoCore is [BSD-2-Clause]({{wiki}}/BSD-License){:target="_blank"}. The [TianoCore contributors agreement](https://raw.githubusercontent.com/tianocore/edk2/master/Contributions.txt){:target="_blank"} describes acceptable licenses for community contributions.
+The preferred license for TianoCore is [BSD+Patent]({{wiki}}/BSD-Plus-Patent-License){:target="_blank"}. When that is not possible, then contributions using
+the following licenses can be accepted:
 * BSD (2-clause): [http://opensource.org/licenses/BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause){:target="_blank"}
 * BSD (3-clause): [http://opensource.org/licenses/BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause){:target="_blank"}
 * MIT: [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT){:target="_blank"}
