@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>TianoCore Meeting Minutes</title>
+    <basefont face="Segoe UI" size="2" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="exporter-version" content="Evernote Windows/308292 (en-US, MWS); Windows/10.0.0 (Win64);" />
+    <style>
+        body,
+        td {
+            font-family: Segoe UI;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="853" />
+
+    <div>
+        <span><div>Community Updates</div><div>-----------------------</div><div>April was a busy month for presentations on UEFI, TianoCore, and open source firmware in general. Brian Richardson gave a talk on <a href="https://events.opensuse.org/conferences/oSSN19/program/proposals/2312">HTTPS Boot</a> at the openSUSE Summit in Nashville.</div><div><br/></div><div>Also, both Brian and Stephano worked a booth at SUSEcon extolling the virtues of HTTPS Boot and explaining how UDP and TFTP are probably not the best idea for network booting.</div><div><br/></div><div>Mark Doran and Stephano gave a talk about building communities around open source firmware at the UEFI Plugfest in Seattle WA. The event itself happens yearly and only costs $100 so I would highly recommend folks attend if they can. Videos will be posted soon, and the slides from this years talks are already <a href="https://uefi.org/learning_center/presentationsandvideos">posted</a>.</div><div><br/></div><div>There was a firmware track at this years <a href="http://linuxfestnorthwest.org/">LinuxFest Northwest</a>. All of the presentations can be found <a href="https://www.youtube.com/playlist?list=PLjDc7gDlIASS-sQu73PlQhvGBKMNlOEZN">online</a>. Here are the firmware sessions:</div><div>Stephano Cetola - <a href="https://linuxfestnorthwest.org/conferences/2019/program/proposals/298">UEFI Boot for Mere Mortals</a> (<a href="https://youtu.be/Nwp9SkF_kho">video</a>)</div><div>Paul English -  <a href="https://linuxfestnorthwest.org/conferences/2019/program/proposals/342">Why Open Source is Critical For Platform Firmware</a> (<a href="https://youtu.be/xChTFR1vGF4">video</a>)</div><div>Lee Fisher -  <a href="https://www.linuxfestnorthwest.org/conferences/2019/program/proposals/343">Defending Out-of-Band Management Attack</a> (<a href="https://youtu.be/C6Q0_N54GcA">video</a>)</div><div>Harry Hsiung - <a href="https://linuxfestnorthwest.org/conferences/2019/program/proposals/297">Network Boot in a Zero-Trust Environment</a></div><div>Vincent Zimmer - <a href="https://linuxfestnorthwest.org/conferences/2019/program/proposals/286">Open-Source Host Firmware Directions</a></div><div><br/></div><div>Let There Be Continuous Integration</div><div>----------------------------------------</div><div><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, Symbola, EmojiSymbols;">We have begun planning on a CI system, starting small, and building as with a focus on modularity and simplicity. We are starting by building out python scripts, with inspiration from work done my Microsoft, that would allow us to easily spin up a build on a given platform, using a specific toolchain, for a specific target. Once that is completed we will begin to look at different unit/functional tests and how we can best keep them platform agnostic. We'd like our system to be portable, such that folks wishing to use various CI systems (jenkins, travis, teamcity, buildbot, etc) can all take advantage of our tooling. The tests likewise should be portable rather than tied to a specific framework.</span></div>
+    <div>
+        <br/>
+    </div>
+    <div><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, Symbola, EmojiSymbols;">In effect, we are beginning by considering what our user interface will look like, then considering how that interface can be plugged into existing systems that community members are currently using to build and test internally. Mike Kinney will be leading this effort, and he will reach out to community members who have shown interest and experience with CI systems for advice and perhaps some help. We will also be sending out an RFC to determine what sorts of tests people would like to see initially.</span></div>
+    <div>
+        <br/>
+    </div>
+    <div>LTS Stable Tags: How and When</div>
+    <div>-----------------------------------</div>
+    <div>Since we have moved from UDK branches to stable tags, there has been consideration around supporting these tags long term, and how to best back-port fixes. The main questions are &quot;how&quot; and &quot;when&quot;. The when can perhaps be simple, and can exist organically as groups within the community find tags they need to support long-term, and hence do the back-porting that they need.</div>
+    <div>
+        <br/>
+    </div>
+    <div>For the &quot;how&quot;, we would like to make it easier to determine which patches have been submitted specifically to fix bugs. One way this could be done is with groups.io &quot;hashtags&quot;. This would make it easy to filter patches, further filter those patches by bug fixes, and perhaps even specify which stable tag the patch is relating to. By using groups.io &quot;hashtags&quot;, we allow both simple web filtering using the groups.io GUI, as well as possible filtering by custom scripts (e.g. in a continuous integration system). An example of these hashtags in an email patch     might be:</div>
+    <div>
+        <br/>
+    </div>
+    <div>---</div>
+    <div>[edk2-devel] [PATCH] AwesomePkg/CoolFixPei: fix PEI to be more cool</div>
+    <div>
+        <br/>
+    </div>
+    <div>Detailed description of patch such that folks in 6 years will understand what</div>
+    <div>I am changing despite my bewildering code.</div>
+    <div>
+        <br/>
+    </div>
+    <div>#patch [#bug 1432] #edk2-stable201811</div>
+    <div>---</div>
+    <div>
+        <br/>
+    </div>
+    <div>The use of hashtags could be extended to flag bug fixes that are #critical or are related to specific #products or #platforms. We will do some testing on this concept to see if it indeed could be a viable solution, however suggestions for other solutions are welcomed.</div>
+    <div>
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    <div>EDK II repo rework</div>
+    <div>---------------------</div>
+    <div>-libc has been <a href="https://github.com/tianocore/edk2-libc">moved out</a>, along with AppPkg</div>
+    <div>-Quark, MinnowMax / Turbot, and BeagleBoard are being moved out to edk2-platforms</div>
+    <div>-OptionRomPkg, seeing as how it is an example, will be moved out to edk2-platforms</div>
+    <div>-coreboot packages are being replaced by UefiPayloadPkg</div>
+    <div>-Nt32Pkg will be replaced by the EmulatorPkg, which supports running EDK2 under any OS (Linux, macOS, or Windows)</div>
+    <div>
+        <br/>
+    </div>
+    <div>MicroPython</div>
+    <div>---------------</div>
+    <div><span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, Symbola, EmojiSymbols;">Current version of Python available in EDK II are 2.7.2 and 2.7.10 which will all be unsupported at the end of 2019. We don't have a Python 3 port nor any plans to move it forward. Stephano will be sending out an RFC to determine if MicroPython is, as we assume it to be, the best way to move forward. Since we already have a proof of concept port of MicroPython in the <a href="https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework">MicroPythonTestFramework</a>, we (Stephano) will be drawing up a set of tasks needed to extract the MP port and successfully upstream the parts that make sense.</span></div>
+    <div>
+        <br/>
+    </div>
+    <div>
+        <br/>
+    </div>
+    </span>
+    </div>
+</body>
+
+</html>
