@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html>
+
+        <head>
+            <title>TianoCore Meeting Minutes</title>
+            <basefont face="Segoe UI" size="2" />
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+            <meta name="exporter-version" content="Evernote Windows/308292 (en-US, MWS); Windows/10.0.0 (Win64);" />
+            <style>
+                body,
+                td {
+                    font-family: Segoe UI;
+                    font-size: 10pt;
+                }
+            </style>
+        </head>
+
+    <body>
+        <div><b>General Updates</b></div>
+        <div>This month there is a hobbyist / maker event, "Teardown" happening in Portland. </div>
+        <div>
+            <br/>
+        </div>
+        <div><a href="https://www.crowdsupply.com/teardown/portland-2019">https://www.crowdsupply.com/teardown/portland-2019</a></div>
+        <div>
+            <br/>
+        </div>
+        <div>Teardown is about the practice of hardware prototyping, manufacturing, testing, and disassembling. Stephano will be giving a firmware presentation. Our hope is that we can find some maker boards that would be appropriate to support for our future CI efforts. These boards should be affordable and cover multiple architectures (ARM, x86).</div>
+        <div>
+            <br/>
+        </div>
+        <div><span style="font-weight: bold;">Continuous Integration</span></div>
+        <div>Azure pipelines supports all our needs so that is our first candidate for CI. Azure does not have a caching capability, so each build is essentially from scratch, but they are looking to improve this and code is in the works. We're starting with "cloud" CI services so that we can get a good setup before we worry about buying hardware, spinning up our own infra, keeping things maintained, etc.</div>
+        <div>
+            <br/>
+        </div>
+        <div>We recognize that creating a complete CI environment, unit test infrastructure, functional tests, and regression test is a very large task. Instead of working on all of this all at once we are breaking out pieces so as to do this one step at a time. Basic build services are first.</div>
+        <div>
+            <br/>
+        </div>
+        <div>Andrew Fish recommended that we find a way to easily evaluate development branches. He suggested a command line tool (probably python) that a maintainer could invoke to generate builds against a branch. However, if we open it up to the world we would crush our CI server, so we need to restrict it to maintainers. This will also force us to think about how we do builds and how we can standardize across platforms, rather than having each platform “roll their own” build process.</div>
+        <div>
+            <br/>
+        </div>
+        <div>If you're aware of other CI services, please let us know. (Cirrus CI does not cover all 3 OSs)</div>
+        <div>
+            <br/>
+        </div>
+        <div><span style="font-weight: bold;">Hard Freeze / Stable Tag</span></div>
+        <div>In an effort to avoid policing the maintainers, we will be creating a release meeting before each soft freeze to assure that everyone is aligned. The stewards and maintainers will meet to discuss what is in scope and we can discuss any patches that are currently under review. Our goal is to achieve clear communications and avoid revert commits as much as possible. See the release planning page for upcoming details:</div>
+        <div>
+            <br/>
+        </div>
+        <div><a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning">https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning</a></div>
+        <div>
+            <br/>
+        </div>
+        <div>Also, it has been noted that many contributions have been coming in that do not meet our standards. It is easy to forget what correct contributions should look like. Please review our code contribution guidelines:</div>
+        <div>
+            <br/>
+        </div>
+        <div><a href="https://github.com/tianocore/tianocore.github.io/wiki/Code-Contributions">https://github.com/tianocore/tianocore.github.io/wiki/Code-Contributions</a></div>
+        <div>
+            <br/>
+        </div>
+        <div>As developers, it’s important to refresh our memory from time to time on these formalities in order to assure our workflow is as seamless as possible.</div>
+        <div>
+            <br/>
+        </div>
+        <div><b>TianoCore Mailling Lists</b></div>
+        <div>We have added two new mailing lists: discuss &amp; rfc. The goal is to keep the `devel` list as close as possible to pure patch review and developer discussion. Please post your RFCs to the new `rfc` list, and CC the devel list so that those who have not joined the new list will see your discussion. We encourage folks new to the group, or those with questions that may not be of an engineering / development nature, to post to the `discuss` list.</div>
+        <div>
+            <br/>
+        </div>
+        <div>We realize that for those of you who simply use MUAs to read the list, this change is not a big win. However, for those using the web interface (Groups.io), keeping these topics separate will make for a cleaner user experience.</div>
+        <div>
+            <br/>
+        </div>
+        <div><span style="font-weight: bold;">EDK2 Core Cleanup</span></div>
+        <div>We continue to move non-essential items out of the edk2 tree and into edk2-platforms as appropriate. June will be the majority of the movement so that things can stabilize for the august release. Some of those are out for discussion (FSP, Silicon). Any comments are welcome, in terms of the general goal: EDK2 is common to all platforms and emulation, as well as QEMU OVMF. The rest of the platform code will live in edk2-platforms. The end goal will be to CI EDK2 only, so as to validate the core. Then the physical platform code can be CI'd separately.</div>
+        <div>
+            <br/>
+        </div>
+        <div><span style="font-weight: bold;">Documentation</span></div>
+        <div>Rebecca is hosting the Doxygen docs from packages on her server, and it is probably better if we use a cloud service to host these, or better yet, our current gitbooks system. However, there is a small issue with the way Doxygen changes folder structures between builds. Since we would be checking this into git (see: gitbook/TianoCore-Docs), it would cause a lot of git history thrashing. Mike has found ways around this, however we want to be sure that searching (particularly across packages) would be possible before we go down this road.</div>
+        <div>
+            <br/>
+        </div>
+        <div><b>Action Items</b></div>
+        <div>Rebecca: Look into adding BSD as a supported platform. Ping Stephano if documentation changes are needed.</div>
+        <div>Stephano: Update the “about” branch as it is out of date</div>
+        <div>Stephano: Send out an invite to maintainers for the next “soft freeze” release meeting</div>
+    </body>
+
+    </html>
