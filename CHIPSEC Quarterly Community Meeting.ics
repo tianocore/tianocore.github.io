@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=chipsec@lists.01.org;RSVP=TRUE:mailto:chipsec@lists.01.org
+ATTENDEE;CN=chipsec-users@googlegroups.com;RSVP=TRUE:mailto:chipsec-users@g
+	ooglegroups.com
+CLASS:PUBLIC
+CREATED:20190626T224517Z
+DESCRIPTION:Hello All!\n\nWe want to start holding regular (quarterly) comm
+	unity meetings so that folks have a chance to ask questions\, and get a ge
+	neral update on the status of CHIPSEC.\n\nQuestions & Comments are welcome
+	: stephano.cetola@intel.com <mailto:stephano.cetola@intel.com> \n\nCheers\
+	,\nStephano\n\nMeeting Doc (from last time):\nhttps://docs.google.com/docu
+	ment/d/1vQLnvHTfoh2Z8__9mC_D0k3beb9NWnyR9c_AEXxPmNE/edit?ts=5bec7afe\n\nJo
+	in Zoom Meeting\nhttps://zoom.us/j/234475582\n\nOne tap mobile\n+164655886
+	56\,\,234475582# US (New York)\n+17207072699\,\,234475582# US\n\nDial by y
+	our location\n        +1 646 558 8656 US (New York)\n        +1 720 707 26
+	99 US\nMeeting ID: 234 475 582\nFind your local number: https://zoom.us/u/
+	abOtdJckxL\n\n
+DTEND;TZID="Pacific Standard Time":20190710T100000
+DTSTAMP:20190626T224314Z
+DTSTART;TZID="Pacific Standard Time":20190710T090000
+LAST-MODIFIED:20190626T224517Z
+LOCATION:https://zoom.us/j/234475582
+ORGANIZER;CN="Cetola, Stephano":mailto:stephano.cetola@intel.com
+PRIORITY:5
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=WE;BYSETPOS=2
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:CHIPSEC Quarterly Community Meeting
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0BA7583342CD501000000000000000
+	01000000086F400749F43294AA845CA299997B9B8
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"><FONT FACE="Calibri">Hello All!</FONT></SPAN></P>\n\n<P DIR=LTR>
+	<SPAN LANG="en-us"><FONT FACE="Calibri">We want to start holding regular (
+	quarterly) community meetings so that folks have a chance to ask questions
+	\, and get a general update on the status of CHIPSEC.</FONT></SPAN></P>\n\
+	n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Questions</FONT></SPAN
+	><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"> <FONT FACE="Calibri">&amp\;
+	</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><FONT FACE="Cal
+	ibri"> Comments</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us">
+	 <FONT FACE="Calibri">are</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"> <FONT FACE="Calibri">welcome:</FONT></SPAN><SPAN LANG="en-us"> 
+	</SPAN><A HREF="mailto:stephano.cetola@intel.com"><SPAN LANG="en-us"></SPA
+	N><SPAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri">stephano.ceto
+	la@intel.com</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en
+	-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us
+	"><FONT FACE="Calibri">Cheers\,</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG
+	="en-us"><FONT FACE="Calibri">Stephano</FONT></SPAN><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT 
+	FACE="Calibri">Meeting Doc</FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LA
+	NG="en-us"><FONT FACE="Calibri"> (from last time)</FONT></SPAN><SPAN LANG=
+	"en-us"></SPAN><SPAN LANG="en-us"><FONT FACE="Calibri">:</FONT></SPAN></P>
+	\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><A HREF="https://docs.google.com/
+	document/d/1vQLnvHTfoh2Z8__9mC_D0k3beb9NWnyR9c_AEXxPmNE/edit?ts=5bec7afe">
+	<SPAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri">https://docs.go
+	ogle.com/document/d/1vQLnvHTfoh2Z8__9mC_D0k3beb9NWnyR9c_AEXxPmNE/edit?ts=5
+	bec7afe</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us">
+	</SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN
+	><SPAN LANG="en-us"><FONT FACE="Calibri">Join Zoom Meeting</FONT></SPAN></
+	P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><A HREF="https://zoom.us/j/2344
+	75582"><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><U><FONT COLOR="#0563C
+	1" FACE="Calibri">https://zoom.us/j/234475582</FONT></U></SPAN><SPAN LANG=
+	"en-us"></SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P
+	>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">One tap mobile</FO
+	NT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">+1646
+	5588656\,\,234475582# US (New York)</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN 
+	LANG="en-us"><FONT FACE="Calibri">+17207072699\,\,234475582# US</FONT></SP
+	AN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Dial by your
+	 location</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="C
+	alibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 646 558 8656 
+	US (New York)</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FAC
+	E="Calibri">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\; +1 720 707 2
+	699 US</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Cali
+	bri">Meeting ID: 234 475 582</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="e
+	n-us"><FONT FACE="Calibri">Find your local number:</FONT></SPAN><SPAN LANG
+	="en-us"> </SPAN><A HREF="https://zoom.us/u/abOtdJckxL"><SPAN LANG="en-us"
+	></SPAN><SPAN LANG="en-us"><U><FONT COLOR="#0563C1" FACE="Calibri">https:/
+	/zoom.us/u/abOtdJckxL</FONT></U></SPAN><SPAN LANG="en-us"></SPAN></A><SPAN
+	 LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20190626T224314Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
