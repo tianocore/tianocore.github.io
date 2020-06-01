@@ -120,7 +120,10 @@ function _showMenu( bShow )
 }
 
 //var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/docs/member-faq.html", "/coc.html" ];
-var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/faq.html", "/coc.html" ];
+//var g_aPages = [ "/", "/getting-started.html", "/downloads.html", "/docs", "/contrib", "/news", "/about.html", "/legalese.html", "/faq.html", "/coc.html" ];
+var g_aPages = [ "/", "/getting-started.html", "/docs", "/contrib", "/community-meetings", "/news", "/about.html", "/legalese.html", "/faq.html", "/coc.html" ];
+//var g_aPages = [ "/", "/getting-started.html", "/docs", "https://github.com/tianocore/tianocore.github.io/wiki/Reporting-Issues", "/contrib", "https://github.com/tianocore/tianocore.github.io/wiki/Acknowledgements", "/community-meetings", "/news" ];
+
 
 function _getCurrentPage()
 {
