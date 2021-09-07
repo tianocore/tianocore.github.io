@@ -3,6 +3,38 @@
 
 -->
 
+<system.webServer>
+  <httpProtocol>
+    <customHeaders>
+      <add name="Strict-Transport-Security" value="max-age=31536000"/>
+    </customHeaders>
+  </httpProtocol>
+</system.webServer>
+
+<rewrite>
+
+ <rules>
+    <rule name="HTTP to HTTPS redirect" stopProcessing="true">
+      <match url="(.*)" />
+      <conditions>
+        <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+      </conditions>
+      <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
+    </rule>
+  </rules>
+
+  <outboundRules>
+    <rule name="Add Strict-Transport-Security when HTTPS" enabled="true">
+      <match serverVariable="RESPONSE_Strict_Transport_Security" pattern=".*" />
+      <conditions>
+        <add input="{HTTPS}" pattern="on" ignoreCase="true" />
+      </conditions>
+      <action type="Rewrite" value="max-age=31536000" />
+    </rule>
+  </outboundRules>
+
+</rewrite>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
