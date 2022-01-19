@@ -1,6 +1,6 @@
 ---
 layout: default
-title: News
+title: Latest News
 ---
 {% include site-links.md %}
 
