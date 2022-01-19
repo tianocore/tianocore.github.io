@@ -9,7 +9,7 @@ title: Latest News
 
 <a href="{{baseurl}}/news/archive">News Archive</a>
 
-{% for post in site.archived-news %}
+{% for post in site.posts %}
 <div class="news-page news-item"></div>
 
 ### [{{ post.date | date: "%B %-d, %Y" }}]({{baseurl}}{{ post.url }})
