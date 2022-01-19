@@ -9,3 +9,7 @@ highlighter: rouge
 
 gems:
   - jekyll-redirect-from
+
+collections:
+  archived-news:
+    output: true
