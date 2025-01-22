@@ -18,4 +18,4 @@ There are multiple [hardware platforms]({{wiki}}/EDK-II-Platforms){:target="_bla
 If you would like to contribute code or fix issues, please see [How To Contribute]({{baseurl}}/contrib). The [Tasks]({{wiki}}/Tasks){:target="_blank"} page has a list of priority work items.
 
 ## Reporting Issues
-TianoCore uses Bugzilla to track issues and feature requests. Please review [Reporting Issues]({{wiki}}/Reporting-Issues){:target="_blank"} and [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues){:target="_blank"} for more information.
+TianoCore uses github issues to track issues and feature requests. Please review [Reporting Issues]({{wiki}}/Reporting-Issues){:target="_blank"} and [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues){:target="_blank"} for more information.

@@ -22,7 +22,7 @@ environment for the UEFI and PI specifications.
 * irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
 
 #### Bug/feature tracking:  
-Bug/feature tracking: [TianoCore Bugzilla](https://bugzilla.tianocore.org/)
+Bug/feature tracking: [Edk2 GitHub Issues](https://github.com/tianocore/edk2/issues/)
 
 #### Stable releases: 
 [UDK2010]({{wiki}}/UDK2010), [UDK2014]({{wiki}}/UDK2014), [UDK2015]({{wiki}}/UDK2015)

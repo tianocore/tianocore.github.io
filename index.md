@@ -10,7 +10,7 @@ redirect_from:
 Welcome to TianoCore, the community supporting an open source implementation of the Unified Extensible Firmware Interface ([UEFI]({{wiki}}/UEFI){:target="_blank"}). [EDK II]({{wiki}}/EDK-II){:target="_blank"} is a modern, feature-rich, cross-platform firmware development environment for the UEFI and UEFI Platform Initialization ([PI]({{wiki}}/PI){:target="_blank"}) specifications. We hope that you’ll review our [wiki]({{wiki}}){:target="_blank"} documentation, use TianoCore for platform firmware, [report any issues]({{wiki}}/Reporting-Issues){:target="_blank"} you find, and contribute to the community.
 
 ## Projects and Downloads
-If you want to compile firmware or utilities, we recommend the [Getting Started]({{baseurl}}/getting-started.html) page. This provides an overview of how to download [EDK II from github]({{wiki}}/Getting-Started-with-EDK-II){:target="_blank"}, and [reporting issues in Bugzilla]({{wiki}}/Reporting-Issues){:target="_blank"}.
+If you want to compile firmware or utilities, we recommend the [Getting Started]({{baseurl}}/getting-started.html) page. This provides an overview of how to download [EDK II from github]({{wiki}}/Getting-Started-with-EDK-II){:target="_blank"}, and [reporting issues in github]({{wiki}}/Reporting-Issues){:target="_blank"}.
 
 ## Background
 In June of 2004, Intel announced that it would release the “Foundation Code” of its Extensible Firmware Interface (EFI), a successor to the 16-bit x86 “legacy” PC BIOS, under an open source license. This Foundation Code, developed by Intel as part of a project code named Tiano, was Intel’s “preferred implementation” of EFI. This evolved into EDK, EDK II, and other open source projects under the TianoCore community.
