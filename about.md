@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: By default
 title: About
 id: about
 redirect_from:
