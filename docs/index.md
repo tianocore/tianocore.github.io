@@ -9,4 +9,4 @@ The [TianoCore wiki on github]({{wiki}}){:target="_blank"} is the central reposi
 
 Please see the wiki page for a complete list of EDK II related documents
 
-* [EDK II Documents wiki page]({{wiki}}/EDK-II-Documents){:target="_blank"}
+* [EDK II Documents wiki page]({{wiki}}/reference/external-resources/edk_ii_documents.html){:target="_blank"}

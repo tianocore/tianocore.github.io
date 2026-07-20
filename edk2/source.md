@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/reference/external-resources/edk_ii.html
 title: EDK II Source Code
 ---
 {% include site-links.md %}
@@ -18,7 +18,7 @@ Backup repositories:
 
 #### Staging repository:
  [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
- 
+
    `$`**`git clone https://github.com/tianocore/edk2-staging`**
 
 ### Subversion (deprecated)

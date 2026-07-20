@@ -7,19 +7,19 @@ title: Member FAQs
 We have a lot of information accumulated over the years. It is now
 organized by topic.
 
-[Terms and Acronyms]({{wiki}}/Acronyms and Glossary){:target="_blank"}
+[Terms and Acronyms]({{wiki}}/reference/faqs-glossaries/acronyms_and_glossary.html){:target="_blank"}
 
 [Documents]({{baseurl}}/docs/) are for downloadable files (such as
 specs).
 
 ## FAQs
 
-* [FAQ]({{wiki}}/EFI and Framework Open Source Community FAQ){:target="_blank"} General
+* [FAQ]({{wiki}}/reference/faqs-glossaries/efi_and_framework_open_source_community_faq.html){:target="_blank"} General
   community and EFI questions
-* [EDK II FAQ]({{wiki}}/EDK II FAQ){:target="_blank"} Frequently Asked Questions about
+* [EDK II FAQ]({{wiki}}/reference/faqs-glossaries/edk_ii_faq.html){:target="_blank"} Frequently Asked Questions about
   EDK II
-* [UEFI/PI FAQ]({{wiki}}/UEFI PI_FAQ){:target="_blank"} Frequently Asked Questions about UEFI/PI
-* [Shell FAQ]({{wiki}}/Shell FAQ){:target="_blank"} Frequently Asked Questions about
+* [UEFI/PI FAQ]({{wiki}}/reference/faqs-glossaries/uefi_pi_faq.html){:target="_blank"} Frequently Asked Questions about UEFI/PI
+* [Shell FAQ]({{wiki}}/reference/faqs-glossaries/shell_faq.html){:target="_blank"} Frequently Asked Questions about
   Shell
 
 ## Your Question Not Found?

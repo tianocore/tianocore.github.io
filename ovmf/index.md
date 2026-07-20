@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/OVMF
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/platforms-packages/platform-ports/ovmf.html
 title: OVMF
 ---
 {% include site-links.md %}
@@ -12,16 +12,16 @@ License information:
   [BSD+Patent]((https://opensource.org/licenses/BSDplusPatent)
 
 More information:
-  [OVMF FAQ]({{wiki}}/OVMF FAQ),
-  [How to build]({{wiki}}/How to build OVMF),
-  [Boot Overview]({{wiki}}/OVMF-Boot Overview),
+  [OVMF FAQ]({{wiki}}/reference/faqs-glossaries/ovmf_faq.html),
+  [How to build]({{wiki}}/development/tutorials-howto/how_to_build_ovmf.html),
+  [Boot Overview]({{wiki}}/platforms-packages/platform-ports/ovmf_boot_overview.html),
   [edk2-devel]
 
 Source repositories: git
 {[github](https://github.com/tianocore/edk2/tree/master/OvmfPkg),
  [bitbucket](https://bitbucket.org/tianocore/edk2/src/master/OvmfPkg),
  [sourceforge](https://sourceforge.net/p/tianocore/edk2/ci/master/tree/OvmfPkg),
- [more info]({{wiki}}/EDK2_git)},
+ [more info]({{wiki}}/development/tutorials-howto/edk2_git.html)},
 svn
 {[sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg)}
 

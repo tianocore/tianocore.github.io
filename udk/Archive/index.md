@@ -1,4 +1,4 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/UDK
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/releases-history/archives/udk.html
 ---

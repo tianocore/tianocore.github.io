@@ -50,7 +50,7 @@ github username.
 
 8. Reload the forked website at <http://your_username.github.io/tianocore>
 
-9. Let us know about your changes on [edk2-devel]({{wiki}}/Edk2-devel){:target="_blank"}
+9. Let us know about your changes on [edk2-devel]({{wiki}}/community/communications/mailing_lists.html){:target="_blank"}
    and we'll take a look to see if we can use them on the main site
 
 ### Local testing of website changes

@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/Training
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/community/support-onboarding/training.html
 title: Training
 redirect_from: "/Training.html"
 ---

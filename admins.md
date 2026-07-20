@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/Community-Admins
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/governance/membership-roles/community_admins.html
 title: Community Admins
 ---
 {% include site-links.md %}
@@ -11,7 +11,7 @@ on the tianocore.org web pages and site:
 * [{{adminemail}}](mailto:{{adminemail}}?Subject=Site%20Question)
 
 To become a community contributor (please see the [How to
-Contribute]({{wiki}}/How_To_Contribute){:target="_blank"} page) or contact the community
+Contribute]({{wiki}}/community/support-onboarding/community_support.html){:target="_blank"} page) or contact the community
 admins.
 
 If you do not get a response from the community admins, then feel feel

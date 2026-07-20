@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/reference/external-resources/edk_ii.html
 title: EDK II
 # redirect_from: "/edk2.html"
 ---
@@ -9,33 +9,32 @@ title: EDK II
 EDK II is a modern, feature-rich, cross-platform firmware development
 environment for the UEFI and PI specifications.
 
-#### License information:  
+#### License information:
 [BSD+Patent]((https://opensource.org/licenses/BSDplusPatent)
 
-#### Source repositories:  
+#### Source repositories:
 * edk2 main repository - [https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 * staging repository - [https://github.com/tianocore/edk2-staging](https://github.com/tianocore/edk2-staging)
-* [more » ](source.html)  
+* [more » ](source.html)
 
-#### Community:    
-* email {[edk2-devel]({{wiki}}/Edk2-devel)}
+#### Community:
+* email {[edk2-devel]({{wiki}}/community/communications/mailing_lists.html)}
 * irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
 
-#### Bug/feature tracking:  
+#### Bug/feature tracking:
 Bug/feature tracking: [Edk2 GitHub Issues](https://github.com/tianocore/edk2/issues/)
 
-#### Stable releases: 
-[UDK2010]({{wiki}}/UDK2010), [UDK2014]({{wiki}}/UDK2014), [UDK2015]({{wiki}}/UDK2015)
-
+#### Stable releases:
+[UDK2010]({{wiki}}/releases-history/archives/udk2010.html), [UDK2014]({{wiki}}/releases-history/archives/udk2014.html), [UDK2015]({{wiki}}/releases-history/archives/udk2015.html)
 #### Important Information
 
-* [Getting Started for Developers]({{wiki}}/Getting Started with EDK II)
-* [Packages]({{wiki}}/EDKII-Packages)
-* [Open Tasks]({{wiki}}/Tasks)
-* [Code Style]({{wiki}}/Code-Style)
+* [Getting Started for Developers]({{wiki}}/development/tutorials-howto/getting_started_with_edk_ii.html)
+* [Packages]({{wiki}}/platforms-packages/core-packages/edkii_packages.html)
+* [Open Tasks]({{wiki}}/governance/project-management/tasks.html)
+* [Code Style]({{wiki}}/development/coding-standards/code_style.html)
 * [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
 
 #### Related Information
 
-* [Start using UEFI]({{wiki}}/Start-using-UEFI)
-* [Overview]({{wiki}}/EDK-II-Overview)
+* [Start using UEFI]({{wiki}}/development/tutorials-howto/start_using_uefi.html)
+* [Overview]({{wiki}}/reference/external-resources/edk_ii_overview.html)

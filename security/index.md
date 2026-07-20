@@ -1,13 +1,13 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/Reporting-Security-Issues
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/security/processes/reporting_security_issues.html
 title: Security
 ---
 {% include site-links.md %}
 Security advisory page:
 =======================
 
-If you wish to report a security issue to the community, please refer to the process on the <b> [Reporting Security Issues]({{wiki}}/Reporting-Security-Issues) </b> page.
+If you wish to report a security issue to the community, please refer to the process on the <b> [Reporting Security Issues]({{wiki}}/security/processes/reporting_security_issues.html) </b> page.
 
 ----
 

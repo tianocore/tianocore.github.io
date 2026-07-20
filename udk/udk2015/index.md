@@ -1,6 +1,6 @@
 ---
 layout: acgRedirect
-acgRedirectUrl: https://github.com/tianocore/tianocore.github.io/wiki/UDK2015
+acgRedirectUrl: https://www.tianocore.org/tianocore-wiki.github.io/releases-history/archives/udk2015.html
 title: UDK2015
 ---
 
@@ -8,9 +8,9 @@ title: UDK2015
 
 UDK2015 is a stable release of portions of the [EDK II] project.
 <br>
-Link for  UDK2014 previous releases <a href="{{wiki}}/udk2014-Releases">UDK2014 releases -Archive</a>  
+Link for  UDK2014 previous releases <a href="{{wiki}}/releases-history/archives/udk2014_releases.html">UDK2014 releases -Archive</a>
 
-If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk2-devel">edk2-devel</a> email list.
+If you have questions please email the  <a href="{{wiki}}/community/communications/mailing_lists.html" title="edk2-devel">edk2-devel</a> email list.
 
 
 
@@ -19,21 +19,21 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
 <table width="100%" class="t_projects">
   <tr>
   <MTMarkdownOptions output='html4'>
-    <th colspan="3" style="background-color:#a9c6dd"> 
-     
+    <th colspan="3" style="background-color:#a9c6dd">
+
       <font color="#0066FF" size="4" > UDK2015 Releases </font>
-     
+
      </th>
        </MTMarkdownOptions>
   </tr>
 
   <tr>
     <th>
-    
+
     <a href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Complete.MyWorkSpace.zip">
       <img src="{{baseurl}}/images/Download-button2.gif"  /></a>
-       
-        
+
+
     </th>
     <th> What is it? </th>
     <th> What’s in the package? </th>
@@ -44,7 +44,7 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
       w/ WorkSpace Expanded .zip<br/>
       Release <b>Sept 29, 2015</b><br/>
       <a href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-ReleaseNotes-MyWorkSpace.txt">Release Notes</a> <br/>
-      
+
     </td>
     <td>
       <p>UEFI development Kit (UDK) 2015 (UDK2015) Release (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>
@@ -52,29 +52,29 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
       <p><a class="externallink" href="https://svn.code.sf.net/p/edk2/code/branches/UDK2015" rel="nofollow" title="https://svn.code.sf.net/p/edk2/code/branches/UDK2015">https://svn.code.sf.net/p/edk2/code/branches/UDK2015</a> : r18552<br/>
       <a class="externallink" href="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg" rel="nofollow" title="https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg">https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg</a>: r96<br/></p>
       <p><b>How to Build</b><br/>
-      <a href="{{wiki}}/UDK2014_How-to-Build" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
+      <a href="{{wiki}}/archives/build-tooling/build-workflows/udk2014_how_to_build.html" title="UDK2014_How-to-Build">How to Build</a> UDK2014 Release<br/></p>
       <p><b>Features Summary:</b><br/>
       See <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-features.txt" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-features.txt">Release Notes Features</a><br/></p>
       <p><b>Supported OS and Build Environments</b></p>
 
       <ul>
-        <li><a href="{{wiki}}/Using-EDK-II-with-Native-GCC" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
-        <li><a href="{{wiki}}/Windows-systems" title="Windows systems">Windows systems</a></li>
-        <li><a href="{{wiki}}/Xcode" title="Xcode">Xcode Mac OS X</a></li>
-        <li><a href="{{wiki}}/Unix-like-systems" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
+        <li><a href="{{wiki}}/build-tooling/environment-setup/using_edk_ii_with_native_gcc.html" title="Using EDK II with Native GCC">Using newer versions of Linux</a> with Native GCC 4.x </li>
+        <li><a href="{{wiki}}/build-tooling/environment-setup/windows_systems.html" title="Windows systems">Windows systems</a></li>
+        <li><a href="{{wiki}}/build-tooling/environment-setup/xcode.html" title="Xcode">Xcode Mac OS X</a></li>
+        <li><a href="{{wiki}}/build-tooling/environment-setup/unix_like_systems.html" title="Unix-like systems">Unix-like systems</a> (For older Linux distributions, or using Cygwin or Mac OS X)</li></ul>
     </td>
     <td>
       <p>(UDK2015)<br/></p>
-      
+
       <p><a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-Fileslist.txt" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015-Fileslist.txt">File List</a>
       Of Entire Release .zip </p><hr/>
       <p>Notes UDK2015 <br/>
       Feature details : <br/>
       <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Notes.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Notes.zip">Download All</a></p><hr/>
       <p>Documents<br/>
-      
+
       <a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip">Download All</a><br/></p>
-      
+
     </td>
   </tr>
 
@@ -92,13 +92,13 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
     <td><p>Version 1.24 and 1.25 </p>
        </td>
     <td>
-      <p><a href="{{wiki}}/EDK-II-Specifications" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications </a></p>
-      Link to EDK II Specifications page 
+      <p><a href="{{wiki}}/reference/specs-standards/edk_ii_specifications.html" title="EDK-II-Specifications">UDK2015 EDK II v1.24-1.25 specifications </a></p>
+      Link to EDK II Specifications page
       <p>
       These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.24 and 1.25) that are available with the UDK2015 release.  See details in the Revision History in each of the individual documents for more details.</p>
       <ul>
         <li>Update July-Aug, 2015 V 1.24 & 1.25 </li>
-        
+
       </ul>
     </td>
     <td></td>
@@ -109,7 +109,7 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
     <MTMarkdownOptions output='html4'>
       <font color="#0066FF">Documents</font>
       </MTMarkdownOptions>
-      
+
     </th>
     <th width="220"> What is it? </th>
     <th width="220"> What’s in the Download? </th>
@@ -119,7 +119,7 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
     <td>
    BRANCH
       <p><a class="externallink" href="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip" rel="nofollow" title="https://github.com/tianocore/udk/releases/download/UDK2015/UDK2015.Documents.zip">Download All CHM/HTMLs</a></p>
-      
+
     </td>
     <td>
       <p>This download contains all .chm and .html documents for UDK2015.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  </p>
@@ -136,7 +136,7 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/CryptoPkg%20Document.zip">CryptoPkg .zip</a></p>
     </td>
     <td>
-      <p>The <a href="{{wiki}}/CryptoPkg" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
+      <p>The <a href="{{wiki}}/platforms-packages/core-packages/crypto_pkg.html" title="CryptoPkg">CryptoPkg</a> Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.</p>
     </td>
     <td>
       <p>.chm file<br/>
@@ -152,7 +152,7 @@ If you have questions please email the  <a href="{{wiki}}/edk2-devel" title="edk
       <p></p>
     </td>
     <td>
-      <p>The <a href="{{wiki}}/IntelFrameworkModulePkg" title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document Package Helper file. This Package contains the definitions and module implementation
+      <p>The <a href="{{wiki}}/archives/platforms-packages/intel_framework_module_pkg.html" title="IntelFrameworkModulePkg">IntelFrameworkModulePkg</a> Document Package Helper file. This Package contains the definitions and module implementation
 which follows Intel EFI Framework Specification.</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/>  </p></td>
@@ -162,10 +162,10 @@ which follows Intel EFI Framework Specification.</p>
     <td>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.chm">IntelFrameworkPkg .chm </a></p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/IntelFrameworkPkg%20Document.zip">IntelFrameworkPkg .zip</a></p>
-    
+
     </td>
     <td>
-      The <a href="{{wiki}}/IntelFrameworkPkg" title="IntelFrameworkPkg">IntelFrameworkPkg</a> Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
+      The <a href="{{wiki}}/archives/platforms-packages/intel_framework_pkg.html" title="IntelFrameworkPkg">IntelFrameworkPkg</a> Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
     </td>
     <td> <p>.chm file<br/> .html file<br/> </p></td>
   </tr>
@@ -174,10 +174,10 @@ which follows Intel EFI Framework Specification.</p>
     <td>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.chm">MdeModulePkg .chm </a></p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdeModulePkg%20Document.zip">MdeModulePkg .zip</a></p>
-      
+
     </td>
     <td>
-      <p>The <a href="{{wiki}}/MdeModulePkg" title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
+      <p>The <a href="{{wiki}}/platforms-packages/core-packages/mde_module_pkg.html" title="MdeModulePkg">MdeModulePkg</a> Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
       It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
       and libraries instances, which are used for those modules</p>
     </td>
@@ -188,12 +188,12 @@ which follows Intel EFI Framework Specification.</p>
     <td>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.chm">MdePkg w/ Libraries .chm </a></p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document%20With%20Libraries.zip">MdePkg w/ Libraries .zip</a></p>
-      
+
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.chm" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.chm">MdePkg .chm</a></p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/MdePkg%20Document.zip">MdePkg  .zip</a></p>
          </td>
     <td>
-      <p>The <a href="{{wiki}}/MdePkg" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
+      <p>The <a href="{{wiki}}/platforms-packages/core-packages/mde_pkg.html" title="MdePkg">MdePkg</a> Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
       and libraries instances, which are defined in MdePkg's .chm files.
       It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
       EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.</p>
@@ -207,7 +207,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/NetworkPkg%20Document%20With%20Modules.zip">NetworkPkg.zip</a></p>
        </td>
     <td>
-      <p>The <a href="{{wiki}}/NetworkPkg" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
+      <p>The <a href="{{wiki}}/platforms-packages/core-packages/network_pkg.html" title="NetworkPkg">NetworkPkg</a> Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/></p></td>
   </tr>
@@ -218,7 +218,7 @@ which follows Intel EFI Framework Specification.</p>
       <p><a class="externallink" href="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip" rel="nofollow" title="https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2015/SecurityiPkg%20Document%20With%20Modules.zip">SecurityPkg.zip</a></p>
           </td>
     <td>
-      <p>The <a href="{{wiki}}/SecurityPkg" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
+      <p>The <a href="{{wiki}}/platforms-packages/core-packages/security_pkg.html" title="SecurityPkg">SecurityPkg</a> Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
       and library classes) and libraries instances</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> </p></td>
@@ -233,8 +233,8 @@ which follows Intel EFI Framework Specification.</p>
   </tr>
 
   <tr>
-    <td> 
-      <p><a href="{{wiki}}/UDK2014-Releases" title="UDK2014 Releases">UDK2014 Archive</a></p>
+    <td>
+      <p><a href="{{wiki}}/releases-history/archives/udk2014_releases.html" title="UDK2014 Releases">UDK2014 Archive</a></p>
      </td>
     <td> <p>Menu for downloading Previous UDK2014 releases </p></td>
     <td> <p>N/A </p></td>
@@ -242,7 +242,7 @@ which follows Intel EFI Framework Specification.</p>
 
   <tr>
     <td>
-      <p><a href="{{wiki}}/UDK2010-Releases" title="UDK2010 Releases">UDK2010 Archive</a></p>
+      <p><a href="{{wiki}}/releases-history/archives/udk2010_releases.html" title="UDK2010 Releases">UDK2010 Archive</a></p>
     </td>
     <td>
       <p>Menu for downloading Previous UDK2010 releases </p>
@@ -267,16 +267,16 @@ which follows Intel EFI Framework Specification.</p>
 
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
-<a href="{{wiki}}/Driver-Developer" title="Go to Driver Dev Page">Go to Driver Dev Page</a>
+<a href="{{wiki}}/development/tutorials-howto/driver_developer.html" title="Go to Driver Dev Page">Go to Driver Dev Page</a>
 </p>
 
 
 </td>
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
-UEFI Driver Writer's Wizard and the 
-UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the 
-<a href="{{wiki}}/Driver-Developer" title="Driver Developer">Driver Developer</a> page for more resources for UEFI Driver Writers Resources
+UEFI Driver Writer's Wizard and the
+UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the
+<a href="{{wiki}}/development/tutorials-howto/driver_developer.html" title="Driver Developer">Driver Developer</a> page for more resources for UEFI Driver Writers Resources
 </p>
 
 
@@ -307,7 +307,7 @@ UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
 Intel® UEFI Packaging Tool is used to create, install or remove a UEFI Distribution Package.
-The .Zip includes bin UPT.exe from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32 
+The .Zip includes bin UPT.exe from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32
 and Manual Documentation from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals plus the Quick Start Guide
 
 </p>
@@ -332,9 +332,9 @@ User PDF Guide only
 
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
-<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download">EADK Release 1.02.zip</a> 
+<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download">EADK Release 1.02.zip</a>
 
-<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download">Release Notes</a> 
+<a href="{{edk2files}}/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download">Release Notes</a>
 
 </p>
 
@@ -343,7 +343,7 @@ User PDF Guide only
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
 
-EDK II Application Development Kit <a href="{{wiki}}/EDKII-EADK" title="EDKII-EADK">EADK</a>
+EDK II Application Development Kit <a href="{{wiki}}/platforms-packages/core-packages/edkii_eadk.html" title="EDKII-EADK">EADK</a>
  Release 1.02 Package incorporates the Standard C Library, BSD Sockets Library, and other standards-based components. Include these into standard "C" applications. See the AppPkg for examples using the Standard Library components.  Further information is available in the ReadMe.txt files.
 <br/>
 * Based on  SVN  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
@@ -356,12 +356,12 @@ EDK II Application Development Kit <a href="{{wiki}}/EDKII-EADK" title="EDKII-EA
 
 <P style="margin-top: 0; margin-bottom: 0">
 Packages Included in zip<br/>
-<a href="{{wiki}}/AppPkg" title="AppPkg"> AppPkg</a>
+<a href="{{wiki}}/platforms-packages/core-packages/app_pkg.html" title="AppPkg"> AppPkg</a>
 <br/>
-<a href="{{wiki}}/StdLib" title="StdLib"> StdLib</a>
+<a href="{{wiki}}/platforms-packages/core-packages/std_lib.html" title="StdLib"> StdLib</a>
 <br/>
 
-<a href="{{wiki}}/StdLibPrivateInternalFiles" title="StdLibPrivateInternalFiles"> StdLibPrivateInternalFiles</a>
+<a href="{{wiki}}/platforms-packages/core-packages/std_lib.html#stdlibprivateinternalfiles" title="StdLibPrivateInternalFiles"> StdLibPrivateInternalFiles</a>
 
 </p>
 
@@ -375,10 +375,10 @@ Packages Included in zip<br/>
 <P style="margin-top: 0; margin-bottom: 0">
 
 
-<a href="{{edk2files}}/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download">UEFI Shell 2.0 .zip</a> 
+<a href="{{edk2files}}/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download">UEFI Shell 2.0 .zip</a>
 
 <br/>
-<a href="{{wiki}}/ShellPkg#Shell_2.0_Engineering_Resource" title="Shell 2.0 Documentation"> Shell 2.0 Documentation</a>
+<a href="{{wiki}}/platforms-packages/core-packages/shell_pkg.html#uefi-shell-2x-engineering-resources" title="Shell 2.0 Documentation"> Shell 2.0 Documentation</a>
 
 </p>
 
@@ -387,13 +387,13 @@ Packages Included in zip<br/>
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
 
-EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested SVN Rersion: 
+EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested SVN Rersion:
 https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellPkg r11566
 <br/>
 This release is the implmentation sources for the UEFI Shell Specification 2.0. Please see http://www.uefi.org to download this specification
 <br/>
 See
-<a href="{{wiki}}/Shell_FAQ" title="Shell_FAQ"> Shell_FAQ</a> How to include UEFI Shell 2.0 into .DSC file
+<a href="{{wiki}}/reference/faqs-glossaries/shell_faq.html" title="Shell_FAQ"> Shell_FAQ</a> How to include UEFI Shell 2.0 into .DSC file
 
 </p>
 
@@ -401,7 +401,7 @@ See
 </td>
 <td>
 <P style="margin-top: 0; margin-bottom: 0">
-<a href="{{wiki}}/ShellPkg" title="ShellPkg"> ShellPkg</a> .zip Package
+<a href="{{wiki}}/platforms-packages/core-packages/shell_pkg.html" title="ShellPkg"> ShellPkg</a> .zip Package
 </p>
 
 </td>
@@ -434,7 +434,7 @@ blank
 <!-- Row End -->
 
 
-  
+
 </table>
 <Br>
 <BR>
@@ -445,9 +445,9 @@ More Info
 </MTMarkdownOptions>
 
 
-EDK II More info: 
-<a href="{{wiki}}/Getting_Started_with_EDK_II" title="Getting Started with EDK II">Getting Started for Developers</a>,
-<a href="{{wiki}}/EDK_II_Overview" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/EDKII_Packages" title="EDKII Packages">EDKII Packages</a>
+EDK II More info:
+<a href="{{wiki}}/development/tutorials-howto/getting_started_with_edk_ii.html" title="Getting Started with EDK II">Getting Started for Developers</a>,
+<a href="{{wiki}}/reference/external-resources/edk_ii_overview.html" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/platforms-packages/core-packages/edkii_packages.html" title="EDKII Packages">EDKII Packages</a>
 
 UEFI Developers Kit 2015 (UDK2015).  The UDK2015 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2015 currently supports UEFI 2.5 and PI 1.4 level of specifications.
 

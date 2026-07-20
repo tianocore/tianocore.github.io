@@ -12,4 +12,4 @@ firmware below the firmware/OS interface. These specifications can be
 found at <http://www.uefi.org>{:target="_blank"}. Our community supports these UEFI
 specifications.
 
-[Start using UEFI]({{wiki}}/start-using-UEFI){:target="_blank"}
+[Start using UEFI]({{wiki}}/development/tutorials-howto/start_using_uefi.html){:target="_blank"}
