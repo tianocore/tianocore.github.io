@@ -12,13 +12,13 @@ If you believe someone is violating the code of conduct, we ask that you report 
 If you are unsure whether the incident is a violation, or whether the space where it happened is covered by this Code of Conduct, we encourage you to still report it. We would much rather have a few extra reports where we decide to take no action, rather than miss a report of an actual violation. We do not look negatively on you if we find the incident is not a violation. And knowing about incidents that are not violations, or happen outside our spaces, can also help us to improve the Code of Conduct or the processes surrounding it.
 
 In your report please include:
-* Your contact info (so we can get in touch with you if we need to follow up)
-* Names (real, nicknames, or pseudonyms) of any individuals involved. If there were other witnesses besides you, please try to include them as well.
-* When and where the incident occurred. Please be as specific as possible.
-* Your account of what occurred. If there is a publicly available record (e.g. a mailing list archive or a public IRC logger) please include a link.
-* Any extra context you believe existed for the incident.
-* If you believe this incident is ongoing.
-* Any other information you believe we should have.
+1. Your contact info (so we can get in touch with you if we need to follow up.)
+2. Names (real, nicknames, or pseudonyms) of any individuals involved. If there were other witnesses besides you, please try to include them as well.
+3. When and where the incident occurred. Please be as specific as possible.
+4. Your account of what occurred. If there is a publicly available record (e.g. a mailing list archive or a public IRC logger) please include a link.
+5. Any extra context you believe existed for the incident.
+6. If you believe this incident is ongoing.
+7. Any other information you believe we should have.
 
 ## What happens after you file a report?
 
