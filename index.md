@@ -21,3 +21,5 @@ The EFI Specifications were contributed to the United EFI Forum as part of the o
 <a href="https://youtu.be/NAJ5Iwxzx_Y" target="_blank"><div class="tcButton">Watch Video</div></a>
 <a href="{{baseurl}}/getting-started.html"><div class="tcButton">Getting Started</div></a>
 </div>
+
+<link rel="alternate" type="application/rss+xml" title="EDK II News" href="news/feed.xml" />
