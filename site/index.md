@@ -40,15 +40,15 @@ github username.
 
    `$`**`git push origin gh-pages`**
 
-   Test the website at <http://your_username.github.io/tianocore>
+   Test the website at <https://your_username.github.io/tianocore>
 
 6. Make your changes, and then push the gh-pages branch
 
    `$`**`git push origin gh-pages`**
 
-7. Test the forked website at <http://your_username.github.io/tianocore>
+7. Test the forked website at <https://your_username.github.io/tianocore>
 
-8. Reload the forked website at <http://your_username.github.io/tianocore>
+8. Reload the forked website at <https://your_username.github.io/tianocore>
 
 9. Let us know about your changes on [edk2-devel]({{wiki}}/community/communications/mailing_lists.html){:target="_blank"}
    and we'll take a look to see if we can use them on the main site

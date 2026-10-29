@@ -26,8 +26,8 @@ svn
 {[sourceforge](https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg)}
 
 ### See Also
-* [http://www.linux-kvm.org/page/OVMF](http://www.linux-kvm.org/page/OVMF)
-* [http://wiki.xen.org/wiki/OVMF](http://wiki.xen.org/wiki/OVMF)
+* [https://www.linux-kvm.org/page/OVMF](https://www.linux-kvm.org/page/OVMF)
+* [https://wiki.xenproject.org/wiki/OVMF](https://wiki.xenproject.org/wiki/OVMF)
 * Gerd Hoffmann's OVMF builds: [https://www.kraxel.org/repos/](https://www.kraxel.org/repos/)
   * These images are automatically built and track the latest OVMF code in the
     EDK II tree.

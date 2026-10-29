@@ -9,7 +9,7 @@ layer between an operating system and the platform firmware.
 
 UEFI related specifications also cover various other aspects of
 firmware below the firmware/OS interface. These specifications can be
-found at <http://www.uefi.org>{:target="_blank"}. Our community supports these UEFI
+found at <https://uefi.org>{:target="_blank"}. Our community supports these UEFI
 specifications.
 
 [Start using UEFI]({{wiki}}/development/tutorials-howto/start_using_uefi.html){:target="_blank"}
