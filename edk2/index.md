@@ -19,7 +19,7 @@ environment for the UEFI and PI specifications.
 
 #### Community:
 * email {[edk2-devel]({{wiki}}/community/communications/mailing_lists.html)}
-* irc {\#edk2 on [www.oftc.net](http://www.oftc.net/), [setup](http://www.oftc.net/NickServ/CertFP/), [web client](http://webchat.oftc.net/?channels=edk2)}
+* irc {\#edk2 on [www.oftc.net](https://www.oftc.net/), [setup](https://www.oftc.net/NickServ/CertFP/), [web client](https://webchat.oftc.net/?channels=edk2)}
 
 #### Bug/feature tracking:
 Bug/feature tracking: [Edk2 GitHub Issues](https://github.com/tianocore/edk2/issues/)

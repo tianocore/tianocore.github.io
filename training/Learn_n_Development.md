@@ -14,7 +14,7 @@ courtesy of Intel Corporation. </p>
 
 
 <p>To view the online courses, you'll need
-<a class="external text" title="https://github.com/tianocore-docs/Training/raw/master/Online/Flash_Instructions.pdf" rel="nofollow" href="https://github.com/tianocore-docs/Training/raw/master/Online/Flash_Instructions.pdf"> Adobe* Flash Player 10</a> or higher. (Also works with <a href="http://www.adobe.com/products/flashplayer.html">Adobe Flash Player 13</a>).  Before you begin a course, review the course objectives and intended audience to determine if the course is right for you. </p>
+<a class="external text" title="https://github.com/tianocore-docs/Training/raw/master/Online/Flash_Instructions.pdf" rel="nofollow" href="https://github.com/tianocore-docs/Training/raw/master/Online/Flash_Instructions.pdf"> Adobe* Flash Player 10</a> or higher. (Also works with <a href="https://www.adobe.com/products/flashplayer.html">Adobe Flash Player 13</a>).  Before you begin a course, review the course objectives and intended audience to determine if the course is right for you. </p>
 <br>
 How to download: Download each lesson’s <b>Zip file**</b>  into your local directory.  Then unzip each one and run each of  the .htm files locally. The Flash Player is still required.
 <br>

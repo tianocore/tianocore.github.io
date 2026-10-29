@@ -250,7 +250,7 @@ which follows Intel EFI Framework Specification.</p>
       <a href="{{edk2files}}/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download">Release Notes</a> <br/>
 
       <b>Nov 13, 2014</b><br/>
-      Make sure to <font color="#FF0000">INCLUDE </font>fatal crash fix : <a href="http://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>
+      Make sure to <font color="#FF0000">INCLUDE </font>fatal crash fix : <a href="https://sourceforge.net/p/edk2/code/16337"> DHCP Fix Dhcp6Utility.c</a>
     </td>
     <td>
       <p>UEFI development Kit 2014 SP1 Specification Release #1 (UDK2014.SP1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)<br/></p>

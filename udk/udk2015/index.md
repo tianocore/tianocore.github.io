@@ -390,7 +390,7 @@ Packages Included in zip<br/>
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested SVN Rersion:
 https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellPkg r11566
 <br/>
-This release is the implmentation sources for the UEFI Shell Specification 2.0. Please see http://www.uefi.org to download this specification
+This release is the implmentation sources for the UEFI Shell Specification 2.0. Please see https://uefi.org to download this specification
 <br/>
 See
 <a href="{{wiki}}/reference/faqs-glossaries/shell_faq.html" title="Shell_FAQ"> Shell_FAQ</a> How to include UEFI Shell 2.0 into .DSC file
@@ -449,6 +449,6 @@ EDK II More info:
 <a href="{{wiki}}/development/tutorials-howto/getting_started_with_edk_ii.html" title="Getting Started with EDK II">Getting Started for Developers</a>,
 <a href="{{wiki}}/reference/external-resources/edk_ii_overview.html" title="EDK II Overview">EDK II Overview</a>, <a href="{{wiki}}/platforms-packages/core-packages/edkii_packages.html" title="EDKII Packages">EDKII Packages</a>
 
-UEFI Developers Kit 2015 (UDK2015).  The UDK2015 is the EDKII support for all currently published <a class="externallink" href="http://www.uefi.org" rel="nofollow" title="http://www.uefi.org">UEFI specifications</a> UDK2015 currently supports UEFI 2.5 and PI 1.4 level of specifications.
+UEFI Developers Kit 2015 (UDK2015).  The UDK2015 is the EDKII support for all currently published <a class="externallink" href="https://uefi.org" rel="nofollow" title="https://uefi.org">UEFI specifications</a> UDK2015 currently supports UEFI 2.5 and PI 1.4 level of specifications.
 
 The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from <a class="externallink" href="http://firmware.intel.com" rel="nofollow" title="http://firmware.intel.com">http://firmware.intel.com</a>
